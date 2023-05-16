@@ -1,0 +1,3 @@
+****
+## Usage
+`docker logs containernameorid
