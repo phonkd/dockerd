@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "a4/Docker build.md",
+                "file": "a3/Port mapping (docker run).md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "a4/Docker build.md",
+                "file": "a3/Port mapping (docker run).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "a4/Docker build.md",
+                "file": "a3/Port mapping (docker run).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "a4/Docker build.md"
+                "file": "a3/Port mapping (docker run).md"
               }
             }
           }
@@ -174,15 +174,20 @@
   },
   "active": "598335f766ed07b6",
   "lastOpenFiles": [
-    "a4/Dockerfile.md",
+    "a2/Basic Docker Commands/Docker run.md",
+    "a4/Environement Variables.md",
+    "Pasted image 20230516154448.png",
+    "Pasted image 20230516153752.png",
+    "a4/docker push.md",
     "a4/Find base OS of an image.md",
+    "a4/Dockerfile.md",
     "a4/Docker build.md",
+    "a2/Basic Docker Commands/Docker images.md",
     "a3/Port mapping (docker run).md",
     "a3/docker logs.md",
     "a3/docker inspect.md",
     "a2/Basic Docker Commands/Docker Stop.md",
     "a2/Basic Docker Commands/Docker version.md",
-    "a2/Basic Docker Commands/Docker run.md",
     "a2/Basic Docker Commands/Docker pull.md",
     "a2/Basic Docker Commands/Docker Rm.md",
     "Pasted image 20230516141638.png",
@@ -199,14 +204,10 @@
     "Basic Docker Commands/Docker ps.md",
     "Basic Docker Commands/Docker images.md",
     "Basic Docker Commands/Docker container.md",
-    "Basic Docker Commands/Docker version.md",
     "Docker labs",
-    "Basic Docker Commands/Docker pull.md",
     "ressources/Pasted image 20230516124221.png",
     "ressources/Docker+for+Beginners-Mumshad+Mannambeth.pdf",
     "ressources",
-    "Demo/Untitled.md",
-    "Demo/Docker hub.md",
     "Demo",
     "Basic Docker Commands"
   ]
