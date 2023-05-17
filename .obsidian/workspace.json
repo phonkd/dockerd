@@ -20,31 +20,55 @@
             }
           },
           {
-            "id": "598335f766ed07b6",
+            "id": "228ab22429b8ea1b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "a3/Port mapping (docker run).md",
+                "file": "a5/docker compose build.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "183e5555b2bccd8e",
+            "id": "043c8cd7192fb716",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "a3/Port mapping (docker run).md",
+                "file": "a5/docker compose versions.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b03c31fa726bbcbf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Docker networks.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5fe1b14c81d192b0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "a2/Basic Docker Commands/Docker run.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -110,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "a3/Port mapping (docker run).md",
+                "file": "a2/Basic Docker Commands/Docker run.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "a3/Port mapping (docker run).md",
+                "file": "a2/Basic Docker Commands/Docker run.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,16 +174,24 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "a3/Port mapping (docker run).md"
+                "file": "a2/Basic Docker Commands/Docker run.md"
               }
             }
+          },
+          {
+            "id": "391cdc5f2e86b702",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -172,18 +204,29 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "598335f766ed07b6",
+  "active": "5fe1b14c81d192b0",
   "lastOpenFiles": [
+    "a5/Docker-Compose.md",
+    "Docker networks.md",
+    "a5/docker compose versions.md",
+    "a5/docker compose build.md",
     "a2/Basic Docker Commands/Docker run.md",
-    "a4/Environement Variables.md",
+    "a4/CMD & Entrypoint.md",
+    "a3/Port mapping (docker run).md",
+    "a5/Ports in compose.yml.md",
     "Pasted image 20230516154448.png",
+    "a5/Untitled.md",
+    "a5/Links in compose.yml.md",
+    "a5/docker run --links.md",
+    "Pasted image 20230517085130.png",
+    "a5",
+    "a4/Environement Variables.md",
     "Pasted image 20230516153752.png",
     "a4/docker push.md",
     "a4/Find base OS of an image.md",
     "a4/Dockerfile.md",
     "a4/Docker build.md",
     "a2/Basic Docker Commands/Docker images.md",
-    "a3/Port mapping (docker run).md",
     "a3/docker logs.md",
     "a3/docker inspect.md",
     "a2/Basic Docker Commands/Docker Stop.md",
@@ -194,16 +237,8 @@
     "a3/Volume Mapping.md",
     "a3/Access docker container.md",
     "a2/Basic Docker Commands/Docker ps.md",
-    "a3/Docker attach.md",
     "a4",
     "a3",
-    "Basic Docker Commands/Docker run.md",
-    "Basic Docker Commands/Docker Stop.md",
-    "Basic Docker Commands/Docker Rm.md",
-    "ntitledU.md",
-    "Basic Docker Commands/Docker ps.md",
-    "Basic Docker Commands/Docker images.md",
-    "Basic Docker Commands/Docker container.md",
     "Docker labs",
     "ressources/Pasted image 20230516124221.png",
     "ressources/Docker+for+Beginners-Mumshad+Mannambeth.pdf",

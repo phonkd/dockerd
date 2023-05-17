@@ -16,12 +16,14 @@
 `docker run -d image sleep 20s
 
 ## Flags:
-| Flag   | does                |
-| ------ | ------------------- |
-| -i     | interactive (input) |
-| -t     | Attach terminal     |
-| --name | name the container  |
-| -v     | [[Volume Mapping]]  |
-| -e     | [[Environement Variables]]                    |
+| Flag         | does                                                        |
+| ------------ | ----------------------------------------------------------- |
+| -i           | interactive (input)                                         |
+| -t           | Attach terminal                                             |
+| --name       | name the container                                          |
+| -v           | [[Volume Mapping]]                                          |
+| -e           | [[Environement Variables]]                                  |
+| --entrypoint | Set the entrypoint from the docker run [[CMD & Entrypoint]] |
+| --link       |                                                             |
 
 **Port mapping see:** [[Port mapping (docker run)| Port mapping]]
