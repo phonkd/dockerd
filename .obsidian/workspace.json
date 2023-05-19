@@ -8,39 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f8c6fe03845a9cc4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "a5/docker run --links.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "f82b4eb00dcd8cb0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "f29d6205e0c9ef11",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
-                "file": "a9/Kubernetes high level.md",
+                "file": "kubernetes/A2/Basic Terms.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -90,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "a0b3aa6824b84aab",
@@ -107,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "kubernetes/A2/Basic Terms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "kubernetes/A2/Basic Terms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "kubernetes/A2/Basic Terms.md"
+              }
             }
           },
           {
@@ -176,51 +158,50 @@
   },
   "active": "f82b4eb00dcd8cb0",
   "lastOpenFiles": [
-    "a9/Kubernetes high level.md",
-    "Docker networking >--network.md",
-    "a9/Docker Swarm.md",
-    "a9/Container Orchestration.md",
-    "a7/Docker networking.md",
-    "a4/Environement Variables.md",
-    "a9",
-    "a8(useless)",
+    "kubernetes/A2/Container Orchestration.md",
+    "kubernetes/A2/Kubectl.md",
+    "kubernetes/A2/Basic Terms.md",
+    "kubernetes/Untitled/Pasted image 20230519113137.png",
+    "kubernetes/Untitled",
+    "kubernetes/Untitled/Pasted image 20230519115125.png",
+    "kubernetes/A2",
+    "docker/a7/docker volumes.md",
+    "kubernetes",
+    "docker/a7/Docker namespaces.md",
+    "docker/a7/docker engine.md",
+    "docker/a7/cgroups (control groups).md",
+    "docker/a9/Container Orchestration.md",
+    "docker/a9/Docker Swarm.md",
+    "docker/a9/Kubernetes high level.md",
+    "resources/Pasted image 20230519092211.png",
     "a5/docker run --links.md",
-    "a2/Basic Docker Commands/Docker run.md",
-    "a4/Dockerfile.md",
-    "a3/Port mapping (docker run).md",
-    "a3/Access docker container.md",
-    "Pasted image 20230519092211.png",
-    "Pasted image 20230519091901.png",
-    "a5/docker compose build.md",
-    "a7/--mount.md",
-    "a7/Storage Drivers.md",
-    "Pasted image 20230519083004.png",
-    "Pasted image 20230519082618.png",
-    "a7/Docker File system.md",
-    "a5/docker compose versions.md",
-    "a2/Basic Docker Commands/Docker info.md",
-    "a7/docker volumes.md",
-    "a7/Untitled",
-    "a7/Layered architecture.md",
-    "a7/cgroups (control groups).md",
-    "Pasted image 20230517085130.png",
-    "Pasted image 20230517140029.png",
-    "Pasted image 20230517140005.png",
-    "a7/docker engine.md",
-    "Pasted image 20230517135426.png",
-    "a6/Docker Registry.md",
-    "a7/Docker namespaces.md",
-    "Pasted image 20230517133206.png",
-    "a5/Docker networks.md",
-    "Pasted image 20230517125559.png",
-    "a7",
-    "a2/Basic Docker Commands/Docker images.md",
-    "a2/Basic Docker Commands/Docker Rm.md",
-    "a6",
-    "a5",
-    "a4",
-    "a3",
-    "Docker labs",
-    "ressources/Docker+for+Beginners-Mumshad+Mannambeth.pdf"
+    "docker/resources/Pasted image 20230519092211.png",
+    "docker/resources/Pasted image 20230519091901.png",
+    "docker/resources/Pasted image 20230519083004.png",
+    "docker/resources/Pasted image 20230519082618.png",
+    "docker/resources/Pasted image 20230517140029.png",
+    "docker/resources/Pasted image 20230517140005.png",
+    "docker/resources/Pasted image 20230517135426.png",
+    "docker/resources",
+    "docker/dockerinst.sh",
+    "docker/a9",
+    "docker/a8(useless)",
+    "docker/a7/Storage Drivers.md",
+    "docker/a7/Layered architecture.md",
+    "docker/a7/Docker networking.md",
+    "docker/a7/Docker File system.md",
+    "docker/a7/--mount.md",
+    "docker/a7",
+    "docker/a6/Docker Registry.md",
+    "docker/a6",
+    "docker/a5/docker run --links.md",
+    "docker/a5/docker compose versions.md",
+    "docker/a5/docker compose build.md",
+    "docker/a5/Untitled.md",
+    "docker/a5/Ports in compose.yml.md",
+    "docker/a5/Links in compose.yml.md",
+    "docker/a5/Docker-Compose.md",
+    "docker/a5/Docker networks.md",
+    "docker/a5"
   ]
 }
