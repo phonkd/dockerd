@@ -21,13 +21,15 @@
 | -i           | interactive (input)                                         |
 | -t           | Attach terminal                                             |
 | --name       | name the container                                          |
-| -v           | [[Volume Mapping]]   [[docker volumes]]                                     |
+| -v           | [[Volume Mapping]]   [[docker volumes]]                     |
 | -e           | [[Environement Variables]]                                  |
 | --entrypoint | Set the entrypoint from the docker run [[CMD & Entrypoint]] |
-| --link       |                                                             |
+| --link       |  [docker run --links](docker%20run%20--links.md)                                                           |
 | --restart    | set restart police e.g (always, unless stopped,...)         |
 | -H=          | Set host where to execute docker command[[docker engine]]   |
 | --cpus=      | limit cpu usage [[cgroups (control groups)]]                |
-| --memory=    | limit memory usage [[cgroups (control groups)]]                                                            |
+| --memory=    | limit memory usage [[cgroups (control groups)]]             |
+| [[--mount]]  | newer version of -v                                         |
+| [--network](Docker%20networking.md)       |             set one of the 3 networks docker uses (default=bridge)                                                |
 
 **Port mapping see:** [[Port mapping (docker run)| Port mapping]]
