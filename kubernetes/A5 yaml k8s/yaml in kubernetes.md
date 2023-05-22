@@ -1,4 +1,6 @@
 ***
+>[!tip] Best practice
+>Its smart to name and label all pods in kubernetes in order to later monitor them.
 ## Basic properties
 **Example `pod-definition.yml`**
 ```yml
@@ -23,11 +25,11 @@ spec:
 **Example `pod-definition.yml`:**
 1. Create yml file:
 ```yml
-apiVersion:
+apiVersion: v1
 kind:
 metadata:
-	- name: myapp
-	  labels:
+	name: myapp
+	labels:
 		  app: mini
 		  isch: frontend
 spec:
