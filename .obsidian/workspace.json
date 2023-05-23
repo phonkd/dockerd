@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "kubernetes/A6 Controllers/example replica set yaml.md",
+                "file": "kubernetes/A5 yaml k8s/A5 Networking/101.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,14 +25,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "kubernetes/A6 Controllers/replica sets.md",
+                "file": "kubernetes/A5 yaml k8s/A5 Controllers/example replication yaml.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "kubectl run",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "kubernetes/A6 Controllers/replica sets.md",
+                "file": "kubernetes/A5 yaml k8s/A5 Networking/101.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "kubernetes/A6 Controllers/replica sets.md",
+                "file": "kubernetes/A5 yaml k8s/A5 Networking/101.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "kubernetes/A6 Controllers/replica sets.md"
+                "file": "kubernetes/A5 yaml k8s/A5 Networking/101.md"
               }
             }
           },
@@ -170,53 +169,53 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "54822ae7e220381b",
+  "active": "d368b196544fd9a6",
   "lastOpenFiles": [
-    "kubernetes/A6 Controllers/Replication controller.md",
-    "kubernetes/A6 Controllers/example replica set yaml.md",
-    "kubernetes/A6 Controllers/example replication yaml.md",
-    "kubernetes/A6 Controllers/replace yml file.md",
-    "kubernetes/A6 Controllers/delete replicaset and pods.md",
+    "Pasted image 20230523230216.png",
+    "Pasted image 20230523225509.png",
+    "kubernetes/A5 yaml k8s/Rollout.md",
+    "kubernetes/A5 yaml k8s/A5 Networking/101.md",
+    "kubernetes/A5 yaml k8s/A5 Networking",
+    "Pasted image 20230523224144.png",
+    "Pasted image 20230523224141.png",
+    "kubernetes/A5 yaml k8s/Rollback.md",
+    "kubernetes/A5 yaml k8s/A5 Controllers/Replication controller.md",
+    "kubernetes/A5 yaml k8s/Rolling update (Deployment).md",
+    "Pasted image 20230523222339.png",
+    "Pasted image 20230523221512.png",
+    "Pasted image 20230523220316.png",
+    "Pasted image 20230523215417.png",
+    "kubernetes/A5 yaml k8s/A5 Controllers/example replication yaml.md",
+    "kubernetes/A5 yaml k8s/A5 Controllers/replace yml file.md",
+    "kubernetes/A5 yaml k8s/A5 Controllers/replica sets.md",
+    "kubernetes/A3 pods/Kubectl edit.md",
+    "kubernetes/A5 yaml k8s/A5 Controllers/example replica set yaml.md",
+    "kubernetes/A3 pods/Pods.md",
+    "kubernetes/A5 yaml k8s/A5 Controllers/delete replicaset and pods.md",
     "kubernetes/A5 yaml k8s/yaml in kubernetes.md",
-    "kubernetes/A6 Controllers/replica sets.md",
     "kubernetes/A5 yaml k8s/Environement variable in yaml.md",
     "kubernetes/A5 yaml k8s/Vs code ext.md",
-    "kubernetes/A3 pods/Edit pod.md",
-    "kubernetes/A6 Controllers",
+    "kubernetes/A5 yaml k8s/A5 Controllers",
     "kubernetes/A3 pods/Delete pods.md",
-    "kubernetes/A5 yaml k8s/Untitled.md",
-    "kubernetes/A3 pods/Pods.md",
     "kubernetes/A2 basics&kubectl/Kubectl.md",
     "kubernetes/A4 yaml/List vs dictionaries.md",
     "Pasted image 20230522113929.png",
     "kubernetes/code/pod.yaml",
     "Pasted image 20230522113522.png",
     "Pasted image 20230522113355.png",
-    "Pasted image 20230522113237.png",
-    "Pasted image 20230522113017.png",
     "kubernetes/code",
     "kubernetes/A4 yaml/yaml.md",
     "kubernetes/A5 yaml k8s",
     "docker/a3/Docker attach.md",
     "docker/a3/Access docker container.md",
     "docker/a2/ressources/Docker+for+Beginners-Mumshad+Mannambeth.pdf",
-    "docker/a2/ressources/Pasted image 20230516124221.png",
     "docker/a2/Basic Docker Commands/Docker version.md",
     "docker/a2/Basic Docker Commands/Docker Stop.md",
     "docker/a2/Basic Docker Commands/Docker run.md",
     "docker/a2/Basic Docker Commands/Docker Rm.md",
-    "docker/a2/Basic Docker Commands/Docker pull.md",
-    "docker/a2/Basic Docker Commands/Docker ps.md",
-    "docker/a2/Basic Docker Commands/Docker info.md",
-    "docker/a2/Basic Docker Commands/Docker images.md",
     "kubernetes/A4 yaml",
-    "kubernetes/Untitled/Pasted image 20230519115125.png",
     "kubernetes/A3 pods",
-    "kubernetes/Untitled/Pasted image 20230519113137.png",
     "kubernetes/Untitled",
-    "kubernetes/A2 basics&kubectl",
-    "kubernetes",
-    "resources/Pasted image 20230519092211.png",
-    "docker/resources/Pasted image 20230519092211.png"
+    "kubernetes/A2 basics&kubectl"
   ]
 }
