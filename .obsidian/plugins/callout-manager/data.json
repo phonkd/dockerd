@@ -1,7 +1,8 @@
 {
   "callouts": {
     "custom": [
-      "code"
+      "code",
+      "answer"
     ],
     "settings": {
       "code": [
@@ -24,6 +25,14 @@
           },
           "changes": {
             "color": "137, 12, 182"
+          }
+        }
+      ],
+      "answer": [
+        {
+          "changes": {
+            "icon": "lucide-check",
+            "color": "47, 141, 7"
           }
         }
       ]
