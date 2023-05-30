@@ -11,9 +11,11 @@
             "id": "d368b196544fd9a6",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "docker/a2/ressources/Pasted image 20230519113137.png"
+                "file": "kubernetes/A11 Kubeadm/Kubeadm.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -52,9 +54,28 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "de4abbe38417ba57",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "6bb4fd0e3d9b885b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -120,7 +141,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "kubernetes/A5 yaml k8s/yaml in kubernetes.md",
+                "file": "kubernetes/A11 Kubeadm/Kubeadm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +158,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "kubernetes/A5 yaml k8s/yaml in kubernetes.md",
+                "file": "kubernetes/A11 Kubeadm/Kubeadm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +181,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "kubernetes/A5 yaml k8s/yaml in kubernetes.md"
+                "file": "kubernetes/A11 Kubeadm/Kubeadm.md"
               }
             }
           },
@@ -192,8 +213,18 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "70369a9a6a8c9314",
+  "active": "d368b196544fd9a6",
   "lastOpenFiles": [
+    "kubernetes/A7 Networking/Kubernetes on cloud.md",
+    "kubernetes/A11 Kubeadm/Kubeadm.md",
+    "kubernetes/A11 Kubeadm",
+    "kubernetes/A7 Networking/A5 Networking/Services.md",
+    "kubernetes/A7 Networking/A5 Networking/Node Port Kubernetes service.md",
+    "kubernetes/A7 Networking/A5 Networking/Load Balancer.md",
+    "kubernetes/A7 Networking/A5 Networking/ClusterIP.md",
+    "docker/a2/ressources/Pasted image 20230519113137.png",
+    "Untitled Diagram.svg",
+    "Untitled.md",
     "kubernetes/A5 yaml k8s/yaml in kubernetes.md",
     "kubernetes/A7 Networking/A5 Networking/101.md",
     "kubernetes/A5 yaml k8s/A5 Controllers/Replication controller.md",
@@ -211,34 +242,24 @@
     "kubernetes/A2 basics&kubectl/Basic Terms.md",
     "kubernetes/A3 pods/Pods.md",
     "kubernetes/A3 pods/Kubectl edit.md",
-    "kubernetes/A7 Networking/A5 Networking/ClusterIP.md",
     "kubernetes/code/examplevote",
     "kubernetes/A8 Microservices architecture/Example Voting application.md",
     "docker/resources/Pasted image 20230524105927.png",
     "docker/resources/Pasted image 20230524104928.png",
     "docker/a2/ressources/Pasted image 20230519115125.png",
-    "docker/a2/ressources/Pasted image 20230519113137.png",
     "kubernetes/Untitled/Untitled",
     "kubernetes/A5 yaml k8s/A5 Controllers/example replica set yaml.md",
-    "kubernetes/A5 yaml k8s/A5 Controllers/delete replicaset and pods.md",
-    "kubernetes/A4 yaml/List vs dictionaries.md",
     "docker/resources/Pasted image 20230524084042.png",
     "docker/resources/Pasted image 20230522113017.png",
-    "kubernetes/A7 Networking/A5 Networking/Node Port Kubernetes service.md",
     "kubernetes/A7 Networking",
     "kubernetes/A6 fasch nüt",
-    "kubernetes/A7 Networking/A5 Networking/Services.md",
-    "kubernetes/A5 yaml k8s/A5 Networking/LoadBalancer.md",
-    "kubernetes/A7 Networking/A5 Networking/Load Balancer.md",
     "docker/resources/Pasted image 20230524083250.png",
     "docker/resources/Pasted image 20230523230216.png",
     "docker/resources/Pasted image 20230523225509.png",
     "kubernetes/A7 Networking/A5 Networking",
-    "docker/resources/Pasted image 20230523224144.png",
     "kubernetes/A5 yaml k8s/A5 Controllers",
     "kubernetes/code/pod.yaml",
     "kubernetes/code",
-    "kubernetes/A5 yaml k8s",
-    "docker/a2/ressources/Docker+for+Beginners-Mumshad+Mannambeth.pdf"
+    "kubernetes/A5 yaml k8s"
   ]
 }
