@@ -26,7 +26,7 @@ spec:
 1. Create yml file:
 ```yml
 apiVersion: v1
-kind:
+kind: Pod
 metadata:
 	name: myapp
 	labels:
