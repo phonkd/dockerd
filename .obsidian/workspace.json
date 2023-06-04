@@ -4,31 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "826bae39cd30ec80",
+        "id": "6f58261f285aae44",
         "type": "tabs",
         "children": [
           {
-            "id": "d368b196544fd9a6",
+            "id": "b82b1a69228aa577",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "kubernetes/A5 yaml k8s/A5 Networking/101.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "54822ae7e220381b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "kubernetes/A5 yaml k8s/A5 Controllers/example replication yaml.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -60,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "chsh",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -97,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "kubernetes/A5 yaml k8s/A5 Networking/101.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "kubernetes/A5 yaml k8s/A5 Networking/101.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "kubernetes/A5 yaml k8s/A5 Networking/101.md"
-              }
+              "state": {}
             }
           },
           {
@@ -169,12 +149,14 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "d368b196544fd9a6",
+  "active": "b82b1a69228aa577",
   "lastOpenFiles": [
+    "Rsync.md",
+    "Hardlinks.md",
+    "kubernetes/A5 yaml k8s/A5 Networking/101.md",
     "Pasted image 20230523230216.png",
     "Pasted image 20230523225509.png",
     "kubernetes/A5 yaml k8s/Rollout.md",
-    "kubernetes/A5 yaml k8s/A5 Networking/101.md",
     "kubernetes/A5 yaml k8s/A5 Networking",
     "Pasted image 20230523224144.png",
     "Pasted image 20230523224141.png",
@@ -202,7 +184,6 @@
     "Pasted image 20230522113929.png",
     "kubernetes/code/pod.yaml",
     "Pasted image 20230522113522.png",
-    "Pasted image 20230522113355.png",
     "kubernetes/code",
     "kubernetes/A4 yaml/yaml.md",
     "kubernetes/A5 yaml k8s",
@@ -212,7 +193,6 @@
     "docker/a2/Basic Docker Commands/Docker version.md",
     "docker/a2/Basic Docker Commands/Docker Stop.md",
     "docker/a2/Basic Docker Commands/Docker run.md",
-    "docker/a2/Basic Docker Commands/Docker Rm.md",
     "kubernetes/A4 yaml",
     "kubernetes/A3 pods",
     "kubernetes/Untitled",

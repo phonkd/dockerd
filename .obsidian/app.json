@@ -1,4 +1,5 @@
 {
   "attachmentFolderPath": "kubernetes/A2",
-  "useMarkdownLinks": true
+  "useMarkdownLinks": true,
+  "spellcheck": false
 }
