@@ -32,3 +32,8 @@
 >kubectl describe pod name
 >```
 
+>[!warning] Dont increase the amount of containers  while scaling
+>To increase the amount of instances of an application, you don't put in more containers in an image but create more pods.
+>
+>The only situation to use multiple containers in one pod:
+>[[Multi-Container POD's]]
