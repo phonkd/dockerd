@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CKAD/A3/Docker stuff.md",
+                "file": "setup mkdocs & pages.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CKAD/A3/Docker stuff.md",
+                "file": "setup mkdocs & pages.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CKAD/A3/Docker stuff.md",
+                "file": "setup mkdocs & pages.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CKAD/A3/Docker stuff.md"
+                "file": "setup mkdocs & pages.md"
               }
             }
           }
@@ -172,40 +172,51 @@
   },
   "active": "99c8363790b820f4",
   "lastOpenFiles": [
-    "CKAD/A2/Replica sets (recap).md",
-    "CKAD/A3/Docker stuff.md",
-    "CKAD/A3",
-    "CKAD/Tips/Imperative Commands.md",
-    "CKAD/A2/Resource Quota.md",
-    "CKAD/Tips",
-    "CKAD/A2/Namespaces.md",
-    "Pasted image 20230606160501.png",
-    "CKAD/Tips/Formatting output kubectl.md",
-    "kubernetes/A5 yaml k8s/A5 Controllers/Replication controller.md",
-    "kubernetes/A5 yaml k8s/Rolling update (Deployment).md",
-    "CKAD/A2/Deployment (recap).md",
-    "CKAD/A2/Pod (recap).md",
-    "kubernetes/A3 pods/Pods.md",
-    "Temp.md",
-    "kubernetes/A5 yaml k8s/A5 Controllers/replica sets.md",
-    "kubernetes/A5 yaml k8s/A5 Controllers/replace yml file.md",
-    "kubernetes/A5 yaml k8s/A5 Controllers/example replica set yaml.md",
-    "CKAD/A2/Multi-Container POD's.md",
-    "Pasted image 20230605161022.png",
-    "CKAD/A2/Crictl.md",
-    "CKAD/A2/Containerd vs Docker.md",
-    "Pasted image 20230605160245.png",
-    "CKAD/A2/Containerd (nerdctl).md",
-    "Pasted image 20230605155926.png",
-    "CKAD/A2",
-    "Untitled Diagram.svg",
-    "CKAD",
-    "Untitled 1.md",
-    "kubernetes/pdf/Replicaset.pdf",
-    "kubernetes/pdf/Updates+2021.pdf",
-    "kubernetes/pdf/Kubernetes-CKA-taints-tolerations.pdf",
-    "kubernetes/pdf/Networking.pdf",
-    "kubernetes/pdf/Services.pdf",
-    "kubernetes/pdf/KodeKloud-Kubernetes+-CKAD.pdf"
+    "mkdocs-material/typings/mermaid/index.d.ts",
+    "mkdocs-material/typings/lunr/index.d.ts",
+    "mkdocs-material/typings/google-fonts/index.d.ts",
+    "mkdocs-material/typings/_/index.d.ts",
+    "mkdocs-material/typings/mermaid",
+    "mkdocs-material/typings/lunr",
+    "mkdocs-material/typings/google-fonts",
+    "mkdocs-material/typings/_",
+    "mkdocs-material/typings",
+    "mkdocs-material/tsconfig.json",
+    "mkdocs-material/tools/build/transform/index.ts",
+    "mkdocs-material/src/assets/images/favicon.png",
+    "mkdocs-material/material/assets/images/favicon.png",
+    "mkdocs-material/docs/upgrade.md",
+    "mkdocs-material/docs/setup/extensions/python-markdown.md",
+    "mkdocs-material/docs/setup/extensions/python-markdown-extensions.md",
+    "mkdocs-material/docs/setup/extensions/index.md",
+    "mkdocs-material/docs/setup/dependencies/image-processing.md",
+    "mkdocs-material/docs/setup/setting-up-versioning.md",
+    "mkdocs-material/docs/setup/setting-up-the-header.md",
+    "mkdocs-material/docs/setup/setting-up-the-footer.md",
+    "mkdocs-material/docs/setup/setting-up-tags.md",
+    "mkdocs-material/docs/setup/setting-up-social-cards.md",
+    "mkdocs-material/docs/setup/setting-up-site-search.md",
+    "mkdocs-material/docs/setup/setting-up-site-analytics.md",
+    "mkdocs-material/docs/setup/setting-up-navigation.md",
+    "mkdocs-material/docs/setup/setting-up-a-blog.md",
+    "mkdocs-material/docs/setup/index.md",
+    "mkdocs-material/docs/setup/ensuring-data-privacy.md",
+    "mkdocs-material/docs/setup/changing-the-logo-and-icons.md",
+    "mkdocs-material/docs/setup/changing-the-language.md",
+    "mkdocs-material/docs/setup/changing-the-fonts.md",
+    "mkdocs-material/docs/setup/changing-the-colors.md",
+    "mkdocs-material/docs/setup/building-for-offline-usage.md",
+    "mkdocs-material/docs/setup/building-an-optimized-site.md",
+    "mkdocs-material/docs/setup/adding-a-git-repository.md",
+    "mkdocs-material/docs/setup/adding-a-comment-system.md",
+    "mkdocs-material/docs/reference/tooltips.md",
+    "mkdocs-material/docs/blog/posts/the-past-present-and-future/mkdocs-material-0.1.0.png",
+    "mkdocs-material/docs/blog/posts/the-past-present-and-future/mkdocs-material-0.1.0-search.png",
+    "mkdocs-material/docs/blog/posts/the-past-present-and-future/funding.png",
+    "mkdocs-material/docs/blog/posts/search-better-faster-smaller/search-preview.png",
+    "mkdocs-material/docs/blog/posts/search-better-faster-smaller/search-preview-now.png",
+    "mkdocs-material/docs/blog/posts/search-better-faster-smaller/search-preview-before.png",
+    "mkdocs-material/docs/blog/posts/blog-support-just-landed/blog.png",
+    "mkdocs-material/docs/assets/screenshots/versioning.png"
   ]
 }
