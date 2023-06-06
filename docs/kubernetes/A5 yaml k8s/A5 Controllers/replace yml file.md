@@ -1,1 +1,0 @@
-`kubectl replace -f definition.yml

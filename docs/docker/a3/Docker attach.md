@@ -1,1 +1,0 @@
-*same as using [[docker run]] without -d flag*
