@@ -21,7 +21,6 @@ metadata:
   app: myapp
   type: front-end
 spec:
- template:
   metadata:
 	name: myapp-pod
 	labels:
@@ -32,7 +31,6 @@ spec:
 		- name: nginx-container
 		  image: nginx
 		
-  replicas: 3
   selector:
    matchLabels:
     type: font-end

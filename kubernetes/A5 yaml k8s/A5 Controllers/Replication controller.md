@@ -11,7 +11,7 @@ Alternatively its possible to run multiple pods of an application for seamless t
 >```sh
 >kubectl get replicationcontroller
 >```
-## Replication controller vs[replica sets](replica%20sets.md)
+## Replication controller vs [replica sets](replica%20sets.md)
 Replication controller is the old way of setting up replications.
 The new and recommended way is replioca sets.
 

@@ -4,16 +4,40 @@
     "type": "split",
     "children": [
       {
-        "id": "eeb0f03baad2e83d",
+        "id": "f7a3376fb281c02b",
         "type": "tabs",
         "children": [
           {
-            "id": "5ef10a839c90abe0",
+            "id": "99c8363790b820f4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "kubernetes/A3 pods/Pods.md",
+                "file": "CKAD/A3/Docker stuff.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "010f88c09d91c1e8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "kubernetes/A5 yaml k8s/A5 Controllers/example replica set yaml.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fe289f2d8b6e3920",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CKAD/A2/Replica sets (recap).md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "kubectl get pods",
+                "query": "kubectl run",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,13 +89,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "ec724a993a89a530",
@@ -87,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "kubernetes/A3 pods/Pods.md",
+                "file": "CKAD/A3/Docker stuff.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "kubernetes/A3 pods/Pods.md",
+                "file": "CKAD/A3/Docker stuff.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "kubernetes/A3 pods/Pods.md"
+                "file": "CKAD/A3/Docker stuff.md"
               }
             }
           }
@@ -148,28 +170,42 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5ef10a839c90abe0",
+  "active": "99c8363790b820f4",
   "lastOpenFiles": [
-    "kubernetes/CKAD/A1/Multi-Container POD's.md",
-    "Pasted image 20230605161022.png",
+    "CKAD/A2/Replica sets (recap).md",
+    "CKAD/A3/Docker stuff.md",
+    "CKAD/A3",
+    "CKAD/Tips/Imperative Commands.md",
+    "CKAD/A2/Resource Quota.md",
+    "CKAD/Tips",
+    "CKAD/A2/Namespaces.md",
+    "Pasted image 20230606160501.png",
+    "CKAD/Tips/Formatting output kubectl.md",
+    "kubernetes/A5 yaml k8s/A5 Controllers/Replication controller.md",
+    "kubernetes/A5 yaml k8s/Rolling update (Deployment).md",
+    "CKAD/A2/Deployment (recap).md",
+    "CKAD/A2/Pod (recap).md",
     "kubernetes/A3 pods/Pods.md",
-    "kubernetes/CKAD/A1/Pod (recap).md",
-    "kubernetes/CKAD/A1/Crictl.md",
-    "kubernetes/CKAD/A1/Containerd vs Docker.md",
+    "Temp.md",
+    "kubernetes/A5 yaml k8s/A5 Controllers/replica sets.md",
+    "kubernetes/A5 yaml k8s/A5 Controllers/replace yml file.md",
+    "kubernetes/A5 yaml k8s/A5 Controllers/example replica set yaml.md",
+    "CKAD/A2/Multi-Container POD's.md",
+    "Pasted image 20230605161022.png",
+    "CKAD/A2/Crictl.md",
+    "CKAD/A2/Containerd vs Docker.md",
     "Pasted image 20230605160245.png",
-    "kubernetes/CKAD/A1/Containerd (nerdctl).md",
+    "CKAD/A2/Containerd (nerdctl).md",
     "Pasted image 20230605155926.png",
-    "kubernetes/CKAD/A1",
+    "CKAD/A2",
     "Untitled Diagram.svg",
-    "kubernetes/CKAD",
+    "CKAD",
     "Untitled 1.md",
-    "Untitled.md",
     "kubernetes/pdf/Replicaset.pdf",
     "kubernetes/pdf/Updates+2021.pdf",
     "kubernetes/pdf/Kubernetes-CKA-taints-tolerations.pdf",
     "kubernetes/pdf/Networking.pdf",
     "kubernetes/pdf/Services.pdf",
-    "kubernetes/pdf/KodeKloud-Kubernetes+-CKAD.pdf",
-    "kubernetes/pdf"
+    "kubernetes/pdf/KodeKloud-Kubernetes+-CKAD.pdf"
   ]
 }

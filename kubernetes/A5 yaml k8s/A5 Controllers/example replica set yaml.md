@@ -20,7 +20,10 @@ spec:
       --image: nginx
   replicas: 3
   selector:
+   matchLabels:
+    type: front-end
 ```
 >[!tip]
->If labels apply, replica sets will also consider pods not created by itself.
+>- If labels apply, replica sets will also consider pods not created by itself.
+>- The template section consists of the pod definition file
 
