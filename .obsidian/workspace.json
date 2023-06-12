@@ -20,42 +20,55 @@
             }
           },
           {
-            "id": "22289edb7ff425bf",
+            "id": "9f49494e57140365",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Praktische Projekte/auftraege/docker/Theorie/Trivy.md",
+                "file": "docs/CKAD/ckad info.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "ce92e5a7f3040c37",
+            "id": "bbec0233872d49b7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Praktische Projekte/auftraege/docker/a2/a2 howto.md",
+                "file": "docs/kubernetes/k8s for beginners Info.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "be4f74e31a5323ac",
+            "id": "a7e1cf368eb7773c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/docker/a4/Docker build.md",
+                "file": "docs/index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d54616994d5ddb6e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/setup mkdocs & pages.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -121,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/index.md",
+                "file": "docs/setup mkdocs & pages.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/index.md",
+                "file": "docs/setup mkdocs & pages.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/index.md"
+                "file": "docs/setup mkdocs & pages.md"
               }
             }
           }
@@ -182,15 +195,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "baeb412865a0e6f6",
+  "active": "d54616994d5ddb6e",
   "lastOpenFiles": [
-    "docs/CKAD/docker-info.md",
+    "docs/docker/docker Info.md",
     "docs/index.md",
-    "docs/CKAD/A2 Core Concepts/Pod (recap).md",
-    "docs/Praktische Projekte/auftraege/docker/a2/a2 howto.md",
-    "docs/Praktische Projekte/Auftrag.md",
+    "docs/CKAD/ckad info.md",
+    "docs/kubernetes/k8s for beginners Info.md",
     "docs/docker/a4/Docker build.md",
+    "docs/Praktische Projekte/auftraege/docker/a2/a2 howto.md",
     "docs/Praktische Projekte/auftraege/docker/Theorie/Trivy.md",
+    "docs/CKAD/A2 Core Concepts/Pod (recap).md",
+    "docs/Praktische Projekte/Auftrag.md",
     "docs/Praktische Projekte/auftraege/docker/a1/a1 howto.md",
     "docs/docker/a6/Docker Registry.md",
     "docs/Praktische Projekte/auftraege/docker/a2/Dockerfile",
@@ -211,8 +226,6 @@
     "docs/Praktische Projekte/auftraege/docker/a2",
     "docs/docker/a7/Docker networking.md",
     "docs/Praktische Projekte/auftraege/docker/Theorie",
-    "docs/Praktische Projekte/Voraussetzungen.md",
-    "docs/docker/a5/docker compose build.md",
     "docs/Praktische Projekte/auftraege/docker/a1/Dockerfile",
     "docs/Praktische Projekte/auftraege/docker/a1",
     "docs/Praktische Projekte/auftraege/docker",
