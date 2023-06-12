@@ -1,4 +1,5 @@
 site_name: CKAD Docs
+docs_dir: ./docs
 theme:
   name: material
   features:
@@ -49,8 +50,12 @@ markdown_extensions:
       generic: true
   - footnotes
   - pymdownx.details
+  - toc:
+    permalink: true
+  - attr_list
   - pymdownx.superfences
   - pymdownx.mark
+  - pymdownx.magiclink
   - attr_list
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
