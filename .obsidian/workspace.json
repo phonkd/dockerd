@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/CKAD/Huan.md.md",
+                "file": "docs/CKAD/A3 Configuration/Config Maps.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ce92e5a7f3040c37",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/kubernetes/A5 yaml k8s/Environement variable in yaml.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/CKAD/Huan.md.md",
+                "file": "docs/kubernetes/A5 yaml k8s/Environement variable in yaml.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/CKAD/Huan.md.md",
+                "file": "docs/kubernetes/A5 yaml k8s/Environement variable in yaml.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/CKAD/Huan.md.md"
+                "file": "docs/kubernetes/A5 yaml k8s/Environement variable in yaml.md"
               }
             }
           }
@@ -146,8 +159,31 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "baeb412865a0e6f6",
+  "active": "ce92e5a7f3040c37",
   "lastOpenFiles": [
+    "docs/CKAD/A3 Configuration/Environment variables k8s.md",
+    "docs/CKAD/A3 Configuration/Config Maps.md",
+    "Pasted image 20230607092149.png",
+    "Untitled.md",
+    "docs/kubernetes/A5 yaml k8s/Environement variable in yaml.md",
+    "docs/docker/a4/Environement Variables.md",
+    "docs/CKAD/A3 Configuration/Docker stuff.md",
+    "docs/CKAD/Tips/Formatting output kubectl.md",
+    "docs/CKAD/Tips/Imperative Commands.md",
+    "docs/CKAD/A3 Configuration/Commands and arguments (k8s).md",
+    "docs/CKAD/A2 Core Concepts/Resource Quota.md",
+    "docs/CKAD/A2 Core Concepts/Replica sets (recap).md",
+    "docs/CKAD/A2 Core Concepts/Pod (recap).md",
+    "docs/CKAD/A2 Core Concepts/Namespaces.md",
+    "docs/CKAD/A2 Core Concepts/Multi-Container POD's.md",
+    "docs/CKAD/A2 Core Concepts/Deployment (recap).md",
+    "docs/CKAD/A2 Core Concepts/Crictl.md",
+    "docs/CKAD/A2 Core Concepts/Containerd vs Docker.md",
+    "docs/CKAD/A2 Core Concepts/Containerd (nerdctl).md",
+    "Extract yaml of pod.md",
+    "docs/kubernetes/A3 pods/Pods.md",
+    "docs/kubernetes/A3 pods/Kubectl edit.md",
+    "docs/kubernetes/A3 pods/Delete pods.md",
     "docs/CKAD/Huan.md.md"
   ]
 }

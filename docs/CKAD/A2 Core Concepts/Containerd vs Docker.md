@@ -7,8 +7,8 @@ Now the support for docker was dropped and peole moved to containerd*
 >[!info] General
 >containerd is only the container runtime while as docker also runs containerd but with additional tools like the Docker CLI.
 >CLI for containerd:
->[[Containerd (nerdctl)]]
->[[Crictl]]
->[[ctr]]
->![[Pasted image 20230605160245.png]]
+>[Containerd (nerdctl)](Containerd%20(nerdctl).md)
+>[Crictl](Crictl.md)
+>[ctr](ctr)]
+>![Pasted image 20230605160245](site/Pasted%20image%2020230605160245.png)
 
