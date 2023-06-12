@@ -1,8 +1,12 @@
 # Dokumentation des Praktikums bei Syx2 und SRE
 ****
 
-[docker Info](docs/docker/docker%20Info.md)
+## Vier Hauptabschnitte:
 
-[k8s for beginners Info](k8s%20for%20beginners%20Info.md)
+[Docker Kurs](docker%20kurs%20Info.md)
 
-[ckad info](ckad%20info.md)
+[Kubernetes for beginners](k8s%20for%20beginners%20Info.md)
+
+[CKAD](ckad%20info.md)
+
+[Praktische Projekte](Praktische%20Projekte.md)
