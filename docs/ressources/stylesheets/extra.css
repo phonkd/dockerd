@@ -1,7 +1,34 @@
-:root {
-  --md-primary-bg-color: #282828;
-  --md-primary-fg-color: #1d2021;
-  --md-typeset-color: var(--md-default-fg-color);
-  --md-primary-bg-color--light: #282828;
-  --md-primary-fg-color--light: #1d2021;
+/* Change the background color */
+body, .md-typeset .codehilite, .md-typeset table {
+    background-color: #282828;
+    color: #ebdbb2;
+}
+
+/* Change the default color of the site's header */
+.md-header {
+    background-color: #504945;
+    color: #ebdbb2;
+}
+
+/* Change the default color of the site's links */
+.md-content a {
+    color: #bdae93;
+}
+
+/* Change table borders color */
+.md-typeset table th, .md-typeset table td {
+    border-color: #32302f;
+}
+
+/* Change code blocks background color */
+.md-typeset .codehilite {
+    background-color: #665c54;
+}
+
+/* Change code blocks text color */
+.md-typeset .codehilite .s2,
+.md-typeset .codehilite .mf,
+.md-typeset .codehilite .s1,
+.md-typeset .codehilite .se {
+    color: #928374;
 }
