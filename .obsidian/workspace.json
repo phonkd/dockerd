@@ -167,8 +167,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d1e2438c75662aad",
+  "active": "bc3cd0113ba9a02d",
   "lastOpenFiles": [
+    "docs/ressources/pfp.png",
+    "docs/pfp.png",
     "docs/index.md",
     "docs/Praktische Projekte/auftraege/exercises with docker/a2/a2 howto.md",
     "docs/docker/docker kurs Info.md",
@@ -195,7 +197,6 @@
     "docs/docker/a3/docker inspect.md",
     "docs/docker/a3/Port mapping (docker run).md",
     "docs/docker/a3/Volume Mapping.md",
-    "docs/docker/a4/CMD & Entrypoint.md",
     "docs/Praktische Projekte/auftraege/exercises with docker/a2",
     "docs/Praktische Projekte/auftraege/exercises with docker/Theorie",
     "docs/Praktische Projekte/auftraege/exercises with docker/a1/Dockerfile",

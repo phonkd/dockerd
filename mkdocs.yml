@@ -2,6 +2,7 @@ site_name: CKAD Docs
 docs_dir: ./docs
 theme:
   name: material
+  logo: ressources/pfp.png
   features:
     - navigation.tabs
     - navigation.sections
