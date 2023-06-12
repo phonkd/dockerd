@@ -90,7 +90,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "cc29d60051e85c22",
@@ -169,6 +170,8 @@
   },
   "active": "bc3cd0113ba9a02d",
   "lastOpenFiles": [
+    "docs/ressources/stylesheets/extra.css",
+    "docs/ressources/stylesheets",
     "docs/ressources/pfp.png",
     "docs/pfp.png",
     "docs/index.md",
@@ -206,7 +209,6 @@
     "docs/ressources/Praktische Projekte_0bcb5eebfbfa46e28aa35fef8605805f-120623-1317-6.pdf",
     "docs/Praktische Projekte",
     "docs/ressources/Pasted image 20230607092149.png",
-    "docs/ressources/Pasted image 20230606182459.png",
-    "docs/ressources"
+    "docs/ressources/Pasted image 20230606182459.png"
   ]
 }
