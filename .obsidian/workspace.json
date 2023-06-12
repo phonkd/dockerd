@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/setup mkdocs & pages.md",
+                "file": "docs/CKAD/A2 Core Concepts/Containerd vs Docker.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/setup mkdocs & pages.md",
+                "file": "docs/CKAD/A2 Core Concepts/Containerd vs Docker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/setup mkdocs & pages.md",
+                "file": "docs/CKAD/A2 Core Concepts/Containerd vs Docker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/setup mkdocs & pages.md"
+                "file": "docs/CKAD/A2 Core Concepts/Containerd vs Docker.md"
               }
             }
           }
@@ -197,9 +197,11 @@
   },
   "active": "d54616994d5ddb6e",
   "lastOpenFiles": [
-    "docs/setup mkdocs & pages.md",
+    "docs/CKAD/A2 Core Concepts/Containerd (nerdctl).md",
+    "docs/docker/a2/Basic Docker Commands/Docker info command.md",
     "docs/index.md",
     "docs/docker/docker Info.md",
+    "docs/setup mkdocs & pages.md",
     "docs/CKAD/ckad info.md",
     "docs/kubernetes/k8s for beginners Info.md",
     "docs/docker/a4/Docker build.md",
@@ -222,8 +224,6 @@
     "docs/docker/a5/Docker networks.md",
     "docs/docker/a5/docker run --links.md",
     "docs/docker/a5/Docker-Compose.md",
-    "docs/docker/a5/Links in compose.yml.md",
-    "docs/docker/a5/Untitled.md",
     "docs/Praktische Projekte/auftraege/docker/a2",
     "docs/Praktische Projekte/auftraege/docker/Theorie",
     "docs/Praktische Projekte/auftraege/docker/a1/Dockerfile",

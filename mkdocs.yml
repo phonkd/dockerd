@@ -31,7 +31,7 @@ plugins:
   - social
   - search
   - roamlinks
-
+  - callouts
 extra:
   social:
     - icon: fontawesome/brands/github-alt
