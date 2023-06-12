@@ -1,6 +1,9 @@
 site_name: CKAD Docs
 docs_dir: ./docs
+repo_name: phonkd/dockerd
 theme:
+  icon:
+    repo: fontawesome/brands/github
   name: material
   logo: ressources/pfp.png
   features:
@@ -64,5 +67,3 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
-extra_css:
-  - ressources/stylesheets/extra.scss
