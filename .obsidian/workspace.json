@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/kubernetes/A5 yaml k8s/Environement variable in yaml.md",
+                "file": "docs/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/kubernetes/A5 yaml k8s/Environement variable in yaml.md",
+                "file": "docs/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/kubernetes/A5 yaml k8s/Environement variable in yaml.md",
+                "file": "docs/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/kubernetes/A5 yaml k8s/Environement variable in yaml.md"
+                "file": "docs/index.md"
               }
             }
           }
@@ -161,11 +161,20 @@
   },
   "active": "ce92e5a7f3040c37",
   "lastOpenFiles": [
+    "docs/CKAD/Info.md",
+    "docs/index.md",
+    "docs/kubernetes/Info.md",
+    "docs/docker/Info.md",
+    "docs/ressources/Pasted image 20230607092149.png",
+    "docs/CKAD/Tips/Extract yaml of pod.md",
+    "docs/setup mkdocs & pages.md",
+    "docs/ressources/Pasted image 20230606182459.png",
+    "docs/ressources",
+    "Untitled.md",
+    "Daily.md",
+    "docs/kubernetes/A5 yaml k8s/Environement variable in yaml.md",
     "docs/CKAD/A3 Configuration/Environment variables k8s.md",
     "docs/CKAD/A3 Configuration/Config Maps.md",
-    "Pasted image 20230607092149.png",
-    "Untitled.md",
-    "docs/kubernetes/A5 yaml k8s/Environement variable in yaml.md",
     "docs/docker/a4/Environement Variables.md",
     "docs/CKAD/A3 Configuration/Docker stuff.md",
     "docs/CKAD/Tips/Formatting output kubectl.md",
@@ -180,10 +189,6 @@
     "docs/CKAD/A2 Core Concepts/Crictl.md",
     "docs/CKAD/A2 Core Concepts/Containerd vs Docker.md",
     "docs/CKAD/A2 Core Concepts/Containerd (nerdctl).md",
-    "Extract yaml of pod.md",
-    "docs/kubernetes/A3 pods/Pods.md",
-    "docs/kubernetes/A3 pods/Kubectl edit.md",
-    "docs/kubernetes/A3 pods/Delete pods.md",
-    "docs/CKAD/Huan.md.md"
+    "docs/kubernetes/A3 pods/Pods.md"
   ]
 }

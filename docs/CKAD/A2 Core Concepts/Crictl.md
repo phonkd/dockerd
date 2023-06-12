@@ -7,4 +7,4 @@ Not a replacement for docker cli but more useful for debugging.
 >crictl pods
 >```
 
-![[Pasted image 20230605155926.png]]
+![[docs/ressources/Pasted image 20230605155926.png]]

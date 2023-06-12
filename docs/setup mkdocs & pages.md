@@ -5,7 +5,7 @@
 1. Navigate to settings
 2. Scroll down to github Pages
 3. Change the branch to the docs folder:
-   ![[Pasted image 20230606182459.png]]
+   ![[docs/ressources/Pasted image 20230606182459.png]]
 
 ## Setup mkdocs
 
