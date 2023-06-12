@@ -12,6 +12,8 @@ theme:
     - content.tabs.link
     - content.code.annotation
     - content.code.copy
+    - navigation.footer
+
   language: en
   palette:
     - scheme: default
@@ -40,6 +42,7 @@ extra:
       link: https://discord.gg/bCTmGrnC
     - icon: fontawesome/brands/reddit
       link: https://www.reddit.com/user/Phonkd
+  generator: false
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
