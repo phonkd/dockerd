@@ -65,4 +65,4 @@ markdown_extensions:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
 extra_css:
-  - ressources/stylesheets/extra.css
+  - ressources/stylesheets/extra.scss
