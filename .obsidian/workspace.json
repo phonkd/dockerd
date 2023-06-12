@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/index.md",
+                "file": "docs/kubernetes/Info.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/index.md",
+                "file": "docs/kubernetes/Info.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/index.md",
+                "file": "docs/kubernetes/Info.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/index.md"
+                "file": "docs/kubernetes/Info.md"
               }
             }
           }
@@ -162,9 +162,9 @@
   "active": "ce92e5a7f3040c37",
   "lastOpenFiles": [
     "docs/CKAD/Info.md",
+    "docs/docker/Info.md",
     "docs/index.md",
     "docs/kubernetes/Info.md",
-    "docs/docker/Info.md",
     "docs/ressources/Pasted image 20230607092149.png",
     "docs/CKAD/Tips/Extract yaml of pod.md",
     "docs/setup mkdocs & pages.md",
