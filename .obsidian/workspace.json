@@ -197,8 +197,9 @@
   },
   "active": "d54616994d5ddb6e",
   "lastOpenFiles": [
-    "docs/docker/docker Info.md",
+    "docs/setup mkdocs & pages.md",
     "docs/index.md",
+    "docs/docker/docker Info.md",
     "docs/CKAD/ckad info.md",
     "docs/kubernetes/k8s for beginners Info.md",
     "docs/docker/a4/Docker build.md",
@@ -224,7 +225,6 @@
     "docs/docker/a5/Links in compose.yml.md",
     "docs/docker/a5/Untitled.md",
     "docs/Praktische Projekte/auftraege/docker/a2",
-    "docs/docker/a7/Docker networking.md",
     "docs/Praktische Projekte/auftraege/docker/Theorie",
     "docs/Praktische Projekte/auftraege/docker/a1/Dockerfile",
     "docs/Praktische Projekte/auftraege/docker/a1",

@@ -20,7 +20,5 @@
    ![[docs/ressources/Pasted image 20230606182459.png]]
 4. Setup Github actions (create .github/workflows/ci.yml)
 5. See my ci.yml (github.com/phonkd/dockerd)
-6. Install dependencies `- run: pip install mkdocs-material pillow cairosvg mkdocs-roamlinks-plugin
-7. 
-
-
+6. Install dependencies `- run: pip install mkdocs-material pillow cairosvg mkdocs-roamlinks-plugin`
+7. Create unambiguous filenames
