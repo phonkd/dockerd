@@ -184,8 +184,9 @@
   },
   "active": "baeb412865a0e6f6",
   "lastOpenFiles": [
-    "docs/CKAD/A2 Core Concepts/Pod (recap).md",
+    "docs/CKAD/docker-info.md",
     "docs/index.md",
+    "docs/CKAD/A2 Core Concepts/Pod (recap).md",
     "docs/Praktische Projekte/auftraege/docker/a2/a2 howto.md",
     "docs/Praktische Projekte/Auftrag.md",
     "docs/docker/a4/Docker build.md",
@@ -212,7 +213,6 @@
     "docs/Praktische Projekte/auftraege/docker/Theorie",
     "docs/Praktische Projekte/Voraussetzungen.md",
     "docs/docker/a5/docker compose build.md",
-    "docs/CKAD/A3 Configuration/Config Maps.md",
     "docs/Praktische Projekte/auftraege/docker/a1/Dockerfile",
     "docs/Praktische Projekte/auftraege/docker/a1",
     "docs/Praktische Projekte/auftraege/docker",
