@@ -13,7 +13,7 @@ docker run -d -e SET_MANUAL=true 176
 docker inspect containerid | grep SET_MANUAL=
 ```
 
-## ENV im image build
+## 3. ENV im image build
 
 1. Im Dockerfile hinzufügen:
 
@@ -28,12 +28,9 @@ docker build -t v5-sel-env --network=host .
 ```
 
 3. Test
+   `docker inspect imageid | grep PRAKTIKUM`
 
-```
-docker inspect imageid | grep PRAKTIKUM
-```
-
-## Env bei start ausgeben
+## 4. Env bei start ausgeben
 
 1. Dockerfile dies hinzufügen:
 

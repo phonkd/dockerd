@@ -1,4 +1,4 @@
-Build image from [[Dockerfile]]
+Build image from [[docs/Praktische Projekte/auftraege/exercises with docker/a1/Dockerfile]]
 ****
 1. Create Dockerfile
 2. `docker build .
