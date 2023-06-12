@@ -1,34 +1,27 @@
-/* Change the background color */
-body, .md-typeset .codehilite, .md-typeset table {
-    background-color: #282828;
-    color: #ebdbb2;
+:root {
+  @extend %root;
+
+  // Primary color shades
+  --md-primary-fg-color:               hsla(45, 27, 92, 1);
+  --md-primary-bg-color:               hsla(24, 20, 19, 1);
+
+  // Accent color shades
+  --md-accent-fg-color:                hsla(33, 22, 70, 1);
+  --md-accent-bg-color:                hsla(43, 12, 33, 1);
 }
 
-/* Change the default color of the site's header */
-.md-header {
-    background-color: #504945;
-    color: #ebdbb2;
+%root {
+
+  // Default color shades
+  --md-default-fg-color:               hsla(45, 27, 92, 1);
+  --md-default-bg-color:               hsla(24, 20, 19, 1);
+
+  // Code color shades
+  --md-code-fg-color:                  hsla(30, 12, 57, 1);
+  --md-code-bg-color:                  hsla(29, 11, 40, 1);
+
+  // Footer color shades
+  --md-footer-fg-color:                hsla(45, 27, 92, 1);
+  --md-footer-bg-color:                hsla(24, 20, 19, 1);
 }
 
-/* Change the default color of the site's links */
-.md-content a {
-    color: #bdae93;
-}
-
-/* Change table borders color */
-.md-typeset table th, .md-typeset table td {
-    border-color: #32302f;
-}
-
-/* Change code blocks background color */
-.md-typeset .codehilite {
-    background-color: #665c54;
-}
-
-/* Change code blocks text color */
-.md-typeset .codehilite .s2,
-.md-typeset .codehilite .mf,
-.md-typeset .codehilite .s1,
-.md-typeset .codehilite .se {
-    color: #928374;
-}
