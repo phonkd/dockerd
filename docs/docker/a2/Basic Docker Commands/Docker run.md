@@ -17,6 +17,7 @@
 `docker run -d image sleep 20s
 
 ## Flags:
+
 | Flag         | does                                                        |
 | ------------ | ----------------------------------------------------------- |
 | -i           | interactive (input)                                         |

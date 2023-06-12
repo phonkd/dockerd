@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/CKAD/A3 Configuration/Config Maps.md",
+                "file": "docs/Praktische Projekte/auftraege/docker/a2/a2 howto.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "22289edb7ff425bf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/Praktische Projekte/auftraege/docker/Theorie/Trivy.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,14 +37,25 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/kubernetes/Info.md",
+                "file": "docs/Praktische Projekte/auftraege/docker/a2/a2 howto.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "be4f74e31a5323ac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/docker/a4/Docker build.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,7 +84,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "enviro",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -98,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/kubernetes/Info.md",
+                "file": "docs/Praktische Projekte/auftraege/docker/a2/a2 howto.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/kubernetes/Info.md",
+                "file": "docs/Praktische Projekte/auftraege/docker/a2/a2 howto.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/kubernetes/Info.md"
+                "file": "docs/Praktische Projekte/auftraege/docker/a2/a2 howto.md"
               }
             }
           }
@@ -159,36 +182,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ce92e5a7f3040c37",
+  "active": "baeb412865a0e6f6",
   "lastOpenFiles": [
-    "docs/CKAD/Info.md",
-    "docs/docker/Info.md",
-    "docs/index.md",
-    "docs/kubernetes/Info.md",
-    "docs/ressources/Pasted image 20230607092149.png",
-    "docs/CKAD/Tips/Extract yaml of pod.md",
-    "docs/setup mkdocs & pages.md",
-    "docs/ressources/Pasted image 20230606182459.png",
-    "docs/ressources",
-    "Untitled.md",
-    "Daily.md",
-    "docs/kubernetes/A5 yaml k8s/Environement variable in yaml.md",
-    "docs/CKAD/A3 Configuration/Environment variables k8s.md",
-    "docs/CKAD/A3 Configuration/Config Maps.md",
+    "docs/Praktische Projekte/Auftrag.md",
+    "docs/docker/a4/Docker build.md",
+    "docs/Praktische Projekte/auftraege/docker/a2/a2 howto.md",
+    "docs/Praktische Projekte/auftraege/docker/Theorie/Trivy.md",
+    "docs/Praktische Projekte/auftraege/docker/a1/a1 howto.md",
+    "docs/docker/a6/Docker Registry.md",
+    "docs/Praktische Projekte/auftraege/docker/a2/Dockerfile",
     "docs/docker/a4/Environement Variables.md",
-    "docs/CKAD/A3 Configuration/Docker stuff.md",
-    "docs/CKAD/Tips/Formatting output kubectl.md",
-    "docs/CKAD/Tips/Imperative Commands.md",
-    "docs/CKAD/A3 Configuration/Commands and arguments (k8s).md",
-    "docs/CKAD/A2 Core Concepts/Resource Quota.md",
-    "docs/CKAD/A2 Core Concepts/Replica sets (recap).md",
-    "docs/CKAD/A2 Core Concepts/Pod (recap).md",
-    "docs/CKAD/A2 Core Concepts/Namespaces.md",
-    "docs/CKAD/A2 Core Concepts/Multi-Container POD's.md",
-    "docs/CKAD/A2 Core Concepts/Deployment (recap).md",
-    "docs/CKAD/A2 Core Concepts/Crictl.md",
-    "docs/CKAD/A2 Core Concepts/Containerd vs Docker.md",
-    "docs/CKAD/A2 Core Concepts/Containerd (nerdctl).md",
-    "docs/kubernetes/A3 pods/Pods.md"
+    "docs/docker/a2/Basic Docker Commands/Docker run.md",
+    "docs/docker/a3/Access docker container.md",
+    "docs/docker/a3/Docker attach.md",
+    "docs/docker/a3/docker logs.md",
+    "docs/docker/a3/docker inspect.md",
+    "docs/docker/a3/Port mapping (docker run).md",
+    "docs/docker/a3/Volume Mapping.md",
+    "docs/docker/a4/CMD & Entrypoint.md",
+    "docs/docker/a5/Docker networks.md",
+    "docs/docker/a5/docker run --links.md",
+    "docs/docker/a5/Docker-Compose.md",
+    "docs/docker/a5/Links in compose.yml.md",
+    "docs/docker/a5/Untitled.md",
+    "docs/Praktische Projekte/auftraege/docker/a2",
+    "docs/docker/a7/Docker networking.md",
+    "docs/Praktische Projekte/auftraege/docker/Theorie",
+    "docs/Praktische Projekte/Voraussetzungen.md",
+    "docs/docker/a5/docker compose build.md",
+    "docs/CKAD/A3 Configuration/Config Maps.md",
+    "docs/docker/a7/docker engine.md",
+    "docs/Praktische Projekte/auftraege/docker/a1/Dockerfile",
+    "docs/Praktische Projekte/auftraege/docker/a1",
+    "docs/Praktische Projekte/auftraege/docker",
+    "docs/Praktische Projekte/auftraege",
+    "docs/ressources/Praktische Projekte_0bcb5eebfbfa46e28aa35fef8605805f-120623-1317-6.pdf",
+    "docs/Praktische Projekte",
+    "docs/ressources/Pasted image 20230607092149.png",
+    "docs/ressources/Pasted image 20230606182459.png",
+    "docs/ressources"
   ]
 }
