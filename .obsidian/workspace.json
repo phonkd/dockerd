@@ -197,6 +197,7 @@
   },
   "active": "d54616994d5ddb6e",
   "lastOpenFiles": [
+    "README.md",
     "docs/CKAD/A2 Core Concepts/Containerd (nerdctl).md",
     "docs/docker/a2/Basic Docker Commands/Docker info command.md",
     "docs/index.md",
@@ -223,7 +224,6 @@
     "docs/docker/a4/CMD & Entrypoint.md",
     "docs/docker/a5/Docker networks.md",
     "docs/docker/a5/docker run --links.md",
-    "docs/docker/a5/Docker-Compose.md",
     "docs/Praktische Projekte/auftraege/docker/a2",
     "docs/Praktische Projekte/auftraege/docker/Theorie",
     "docs/Praktische Projekte/auftraege/docker/a1/Dockerfile",
