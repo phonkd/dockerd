@@ -15,3 +15,9 @@
 `docker run -v /path/to/your/folder/locally:incontainerfolder
 
 
+## in compose
+
+```
+volumes:
+ - ./index.html:/var/www/html/index.html
+```

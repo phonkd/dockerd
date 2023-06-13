@@ -6,5 +6,20 @@
 >Siehe `./docker-compose.yml`
 >Eigenes image kam aus eigener registry [a4 howto](a4%20howto.md)
 
+2. Sorge dafür das das gb-frontend im browser aufgerufen werden kann:
 
-    
+>[!answer]
+>Siehe `./docker-compose.yml`
+>(`ports:`)
+   
+
+
+## Bonus
+
+1. verifiziere auch, dass redis aus deinem gb-frontend heraus ansprechbar ist.
+   >[!answer]
+   >Siehe `./docker-compose.yml`
+   >(`links: ...`)
+   
+
+   
