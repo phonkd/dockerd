@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Praktische Projekte/auftraege/exercises with docker/a7 Netzwerke/a7 howto.md",
+                "file": "docs/Praktische Projekte/auftraege/exercises with docker/a4 Docker Registry/a4 howto.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "cc29d60051e85c22",
@@ -110,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Praktische Projekte/auftraege/exercises with docker/a7 Netzwerke/a7 howto.md",
+                "file": "docs/Praktische Projekte/auftraege/exercises with docker/a4 Docker Registry/a4 howto.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/Praktische Projekte/auftraege/exercises with docker/a7 Netzwerke/a7 howto.md",
+                "file": "docs/Praktische Projekte/auftraege/exercises with docker/a4 Docker Registry/a4 howto.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Praktische Projekte/auftraege/exercises with docker/a7 Netzwerke/a7 howto.md"
+                "file": "docs/Praktische Projekte/auftraege/exercises with docker/a4 Docker Registry/a4 howto.md"
               }
             }
           }
@@ -173,6 +174,8 @@
   },
   "active": "9c3ea495d8ce420c",
   "lastOpenFiles": [
+    "docs/Praktische Projekte/auftraege/exercises with docker/a3 CMD vs Entrypoint/a3 howto.md",
+    "docs/Praktische Projekte/auftraege/exercises with docker/a7 Netzwerke/a7 howto.md",
     "docs/Praktische Projekte/auftraege/exercises with docker/a6 storage/redis-persistent/temp-1.rdb",
     "docs/docker/a5/Links in compose.yml.md",
     "docs/Praktische Projekte/auftraege/exercises with docker/a6 storage/redis-persistent/temp-18.rdb",
@@ -180,7 +183,6 @@
     "docs/docker/a7/Docker networking.md",
     "docs/kubernetes/A7 Networking/A5 Networking/101.md",
     "docs/docker/a5/Docker networks.md",
-    "docs/Praktische Projekte/auftraege/exercises with docker/a7 Netzwerke/a7 howto.md",
     "docs/Praktische Projekte/auftraege/exercises with docker/a5 Docker compose/redis-persistent/temp-1.rdb",
     "docs/Praktische Projekte/auftraege/exercises with docker/a6 storage/redis-persistent/temp-20.rdb",
     "docs/Praktische Projekte/auftraege/exercises with docker/a6 storage/index.html",
@@ -191,7 +193,6 @@
     "docs/Praktische Projekte/auftraege/exercises with docker/a7 Netzwerke",
     "docs/Praktische Projekte/auftraege/exercises with docker/a5 Docker compose/redis-persistent/dump.rdb",
     "docs/docker/a7/--mount.md",
-    "docs/Praktische Projekte/auftraege/exercises with docker/a3 CMD vs Entrypoint/a3 howto.md",
     "docs/docker/a2/Basic Docker Commands/Docker run.md",
     "docs/docker/a7/docker volumes.md",
     "docs/docker/a7/Storage Drivers.md",
