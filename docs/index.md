@@ -1,4 +1,4 @@
-# Dokumentation des Praktikums bei Syx2 und SRE
+# Index 
 ****
 
 ## Vier Hauptabschnitte:
