@@ -20,6 +20,7 @@ services:
 ```
 `docker-compose up -d 
 ## options:
+
 | option          | does                                                                           | example value |
 | --------------- | ------------------------------------------------------------------------------ | ------------- |
 | image:          | specify docker image                                                           |  phonkd/ubuntu             |

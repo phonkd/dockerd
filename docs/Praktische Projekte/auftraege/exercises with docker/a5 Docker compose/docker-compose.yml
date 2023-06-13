@@ -1,0 +1,8 @@
+version: "2"
+services:
+  myimage:
+    image: localhost:5000/sleeper
+  redis-master:
+    image: redis:6.0.5
+  redis-follower:
+    image: gcr.io/google_samples/gb-redis-follower:v2

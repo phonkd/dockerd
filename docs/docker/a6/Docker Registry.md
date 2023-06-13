@@ -17,9 +17,11 @@
 
 **Host own private registry**:
 *Docker provides an image for hosting your own registry: [[https://hub.docker.com/_/registry | registry]]
-`docker run -d -p 5000:5000 --name registry myownregistry registry:2
+
+`docker run -d -p 5000:5000 --name ownreg registry
+
 **Push to own docker registry:**
-`docker image tag my-image localhost:5000/my-image
+` mage tag my-image localhost:5000/my-image
 `docker push localhost:5000/my-image
 
 **Pull image from own registry:**

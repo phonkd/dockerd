@@ -8,39 +8,54 @@
         "type": "tabs",
         "children": [
           {
-            "id": "baeb412865a0e6f6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/index.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "44409be5f1b5b8d9",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
             "id": "bc3cd0113ba9a02d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Praktische Projekte/auftraege/exercises with docker/a2/a2 howto.md",
+                "file": "docs/Praktische Projekte/auftraege/exercises with docker/a5 Docker compose/a5 howto.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ded64f90e52670d3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/Praktische Projekte/auftraege/exercises with docker/a2 Docker run and Env variables/a2 howto.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "21afb795aac4dd21",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/docker/a5/Ports in compose.yml.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1aed03981c86c554",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/Praktische Projekte/auftraege/exercises with docker/a5 Docker compose/a5 howto.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -90,8 +105,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "cc29d60051e85c22",
@@ -107,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Praktische Projekte/auftraege/exercises with docker/a2/a2 howto.md",
+                "file": "docs/Praktische Projekte/auftraege/exercises with docker/a5 Docker compose/a5 howto.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/Praktische Projekte/auftraege/exercises with docker/a2/a2 howto.md",
+                "file": "docs/Praktische Projekte/auftraege/exercises with docker/a5 Docker compose/a5 howto.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Praktische Projekte/auftraege/exercises with docker/a2/a2 howto.md"
+                "file": "docs/Praktische Projekte/auftraege/exercises with docker/a5 Docker compose/a5 howto.md"
               }
             }
           }
@@ -170,16 +184,33 @@
   },
   "active": "bc3cd0113ba9a02d",
   "lastOpenFiles": [
+    "docs/Praktische Projekte/auftraege/exercises with docker/a4 Docker Registry/a4 howto.md",
+    "docs/Praktische Projekte/auftraege/exercises with docker/a2 Docker run and Env variables/a2 howto.md",
+    "docs/Praktische Projekte/auftraege/exercises with docker/a5 Docker compose/a5 howto.md",
+    "docs/docker/a6/Docker Registry.md",
+    "docs/docker/a5/Ports in compose.yml.md",
+    "docs/Praktische Projekte/auftraege/exercises with docker/a5 Docker compose/docker-compose.yml",
+    "docs/Praktische Projekte/auftraege/exercises with docker/a5 Docker compose",
+    "docs/Praktische Projekte/auftraege/exercises with docker/a4 Docker Registry/docker-compose.yml",
+    "docs/docker/a5/Docker-Compose.md",
+    "site/assets/images/social/docker/a5/Ports in compose.yml.png",
+    "docs/Praktische Projekte/auftraege/exercises with docker/a4 Docker Registry/Dockerfile",
+    "docs/Praktische Projekte/auftraege/exercises with docker/a3 CMD vs Entrypoint/a3 howto.md",
+    "docs/docker/a4/CMD & Entrypoint.md",
+    "docs/Praktische Projekte/auftraege/exercises with docker/a4 Docker Registry",
+    "docs/Praktische Projekte/auftraege/exercises with docker/a3 CMD vs Entrypoint/newimage/Dockerfile",
+    "docs/Praktische Projekte/auftraege/exercises with docker/a3 CMD vs Entrypoint/newimage",
+    "docs/Praktische Projekte/auftraege/exercises with docker/a3 CMD vs Entrypoint/Dockerfile",
+    "docs/Praktische Projekte/Praktische Projekte.md",
+    "docs/Praktische Projekte/auftraege/exercises with docker/a3 CMD vs Entrypoint",
+    "docs/index.md",
+    "docs/Praktische Projekte/Voraussetzungen.md",
+    "docs/Praktische Projekte/auftraege/exercises with docker/a1 Creating a new docker image/a1 howto.md",
+    "docs/Praktische Projekte/auftraege/exercises with docker/Theorie/Trivy.md",
     "docs/ressources/stylesheets/extra.scss",
-    "docs/ressources/stylesheets/extra.css",
-    "docs/ressources/stylesheets",
     "docs/ressources/pfp.png",
     "docs/pfp.png",
-    "docs/index.md",
-    "docs/Praktische Projekte/auftraege/exercises with docker/a2/a2 howto.md",
     "docs/docker/docker kurs Info.md",
-    "docs/Praktische Projekte/auftraege/exercises with docker/a1/a1 howto.md",
-    "docs/Praktische Projekte/Praktische Projekte.md",
     "docs/Praktische Projekte/Auftrag.md",
     "docs/CKAD/ckad info.md",
     "docs/kubernetes/k8s for beginners Info.md",
@@ -189,25 +220,8 @@
     "docs/docker/a2/Basic Docker Commands/Docker info command.md",
     "docs/setup mkdocs & pages.md",
     "docs/docker/a4/Docker build.md",
-    "docs/Praktische Projekte/auftraege/exercises with docker/Theorie/Trivy.md",
     "docs/CKAD/A2 Core Concepts/Pod (recap).md",
-    "docs/docker/a6/Docker Registry.md",
-    "docs/Praktische Projekte/auftraege/exercises with docker/a2/Dockerfile",
     "docs/docker/a4/Environement Variables.md",
-    "docs/docker/a2/Basic Docker Commands/Docker run.md",
-    "docs/docker/a3/Access docker container.md",
-    "docs/docker/a3/Docker attach.md",
-    "docs/docker/a3/docker logs.md",
-    "docs/docker/a3/docker inspect.md",
-    "docs/docker/a3/Port mapping (docker run).md",
-    "docs/docker/a3/Volume Mapping.md",
-    "docs/Praktische Projekte/auftraege/exercises with docker/a2",
-    "docs/Praktische Projekte/auftraege/exercises with docker/Theorie",
-    "docs/Praktische Projekte/auftraege/exercises with docker/a1/Dockerfile",
-    "docs/Praktische Projekte/auftraege/exercises with docker/a1",
-    "docs/Praktische Projekte/auftraege/exercises with docker",
-    "docs/Praktische Projekte/auftraege",
-    "docs/ressources/Praktische Projekte_0bcb5eebfbfa46e28aa35fef8605805f-120623-1317-6.pdf",
     "docs/ressources/Pasted image 20230607092149.png",
     "docs/ressources/Pasted image 20230606182459.png"
   ]
