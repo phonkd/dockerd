@@ -10,3 +10,10 @@
 [CKAD](ckad%20info.md)
 
 [Praktische Projekte](Praktische%20Projekte.md)
+
+>[!info] Dateien
+>Wenn dateien wie z.B [a4-dockerfile](a4-dockerfile) findet man im github repository.
+
+
+>[!info] Obsidian
+>Alternativ kann der ordner docs in der repository als obsidian vault geöffnet werden, dort werden alle files angezeigt.

@@ -13,7 +13,7 @@
 2. Rufe die website auf, kannst du die änderung sehen?
    
    >[!answer]
-   >![](Pasted%20image%2020230613132301.png)
+   >Ja
    
 3. starte den container neu, kannst du die änderungen sehen?
 >[!answer]
@@ -32,19 +32,23 @@ docker cp 930:/var/www/html/index.html .
 
 2. Mache eine anpassung an `index.html` 
    >[!answer]
+   >
    >(siehe [a6-index](a6-index.html))
 
 3. Mounte die datei nach /var/www/html 
    >[!answer]
+   >
    >siehe [a6-docker-compose](a6-docker-compose.yml)
 
 4. Kannst du die änderungen sehen?
 >[!answer]
+>
 >Ja
 
 5. Passe die selbe datei in dem container an, was passier mit der lokalen datei?
    
    >[!answer]
+   >
    >Sie wird lokal auch geändert
    
 6. Verhindere das zur runtime des cotainers änderungen an index.html vorgenommen werden können

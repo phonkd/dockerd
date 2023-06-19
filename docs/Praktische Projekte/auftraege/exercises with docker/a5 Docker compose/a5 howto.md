@@ -17,7 +17,9 @@
 ## Bonus
 
 1. verifiziere auch, dass redis aus deinem gb-frontend heraus ansprechbar ist.
+
    >[!answer]
+   >
    >Siehe `./docker-compose.yml`
    >(`links: ...`)
    
