@@ -4,7 +4,9 @@
 
 `docker run -d -p 5000:5000 --name ownreg registry`
 
-## Pushe ein image darauf
+## Pushe eigenes gb-frontend image darauf
+
+[a4-dockerfile](a4-dockerfile)
 
 1. Image taggen
    `docker image tag imageid localhost:5000/sleeper`

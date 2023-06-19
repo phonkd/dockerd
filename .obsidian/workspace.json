@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Praktische Projekte/auftraege/exercises with docker/a3 CMD vs Entrypoint/a3 howto.md",
+                "file": "docs/CKAD/A3 Configuration/secrets (CKAD).md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Praktische Projekte/auftraege/exercises with docker/a3 CMD vs Entrypoint/a3 howto.md",
+                "file": "docs/CKAD/A3 Configuration/secrets (CKAD).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/Praktische Projekte/auftraege/exercises with docker/a3 CMD vs Entrypoint/a3 howto.md",
+                "file": "docs/CKAD/A3 Configuration/secrets (CKAD).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Praktische Projekte/auftraege/exercises with docker/a3 CMD vs Entrypoint/a3 howto.md"
+                "file": "docs/CKAD/A3 Configuration/secrets (CKAD).md"
               }
             }
           }
@@ -149,14 +149,15 @@
   },
   "active": "92f8265ebbdbbb02",
   "lastOpenFiles": [
+    "docs/Praktische Projekte/auftraege/exercises with docker/a3 CMD vs Entrypoint/a3 howto.md",
+    "docs/Praktische Projekte/auftraege/exercises with docker/a4 Docker Registry/a4 howto.md",
+    "docs/setup mkdocs & pages.md",
+    "docs/index.md",
     "docs/Praktische Projekte/auftraege/exercises with docker/a5 Docker compose/a5 howto.md",
     "docs/Praktische Projekte/auftraege/exercises with docker/a6 storage/a6 howto.md",
-    "docs/index.md",
     "docs/CKAD/A3 Configuration/Config Maps.md",
-    "docs/Praktische Projekte/auftraege/exercises with docker/a3 CMD vs Entrypoint/a3 howto.md",
     "docs/CKAD/A3 Configuration/secrets (CKAD).md",
     "docs/Praktische Projekte/auftraege/exercises with docker/a7 Netzwerke/a7 howto.md",
-    "docs/Praktische Projekte/auftraege/exercises with docker/a4 Docker Registry/a4 howto.md",
     "docs/Praktische Projekte/auftraege/exercises with docker/a2 Docker run and Env variables/a2 howto.md",
     "docs/Praktische Projekte/auftraege/exercises with docker/a1 Creating a new docker image/a1 howto.md",
     "docs/Praktische Projekte/auftraege/exercises with docker/a6 storage/a6-docker-compose.yml",
@@ -185,7 +186,6 @@
     "docs/docker/a7/docker volumes.md",
     "docs/docker/a7/Storage Drivers.md",
     "docker cp.md",
-    "docs/docker/a4/Dockerfile.md",
     "docs/ressources/Pasted image 20230613132301.png",
     "docs/ressources/Pasted image 20230613125751.png",
     "site/assets/images/social/docker/a5/Ports in compose.yml.png",
