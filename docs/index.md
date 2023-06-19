@@ -3,9 +3,9 @@
 
 ## Vier Hauptabschnitte:
 
-[Docker Kurs](docker%20kurs%20Info.md)
+[Docker Udemy Kurs](docker%20kurs%20Info.md)
 
-[Kubernetes for beginners](k8s%20for%20beginners%20Info.md)
+[Kubernetes for beginners Udemy Kurs](k8s%20for%20beginners%20Info.md)
 
 [CKAD](ckad%20info.md)
 

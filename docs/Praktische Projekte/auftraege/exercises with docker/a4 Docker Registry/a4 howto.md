@@ -14,6 +14,6 @@
 
 ## Bonus mit compose
 
-1. Siehe `./docker-compose.yml`
+1. Siehe [a4-docker-compose](a4-docker-compose.yml)
 
 2. `docker-compose up -d`

@@ -26,3 +26,4 @@ mehrere "Netze":
    `network:` siehe `./docker-compose.yml`
 2. `frontend` service zugriff auf beide netzwerke geben
 3. `redis-leader` & `redis-follower` dem netzwerk 2 hinzufügen
+
