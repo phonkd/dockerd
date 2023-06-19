@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/CKAD/A3 Configuration/secrets (CKAD).md",
+                "file": "docs/Praktische Projekte/auftraege/exercises with docker/a5 Docker compose/a5 howto.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "cc29d60051e85c22",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/CKAD/A3 Configuration/secrets (CKAD).md",
+                "file": "docs/Praktische Projekte/auftraege/exercises with docker/a5 Docker compose/a5 howto.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/CKAD/A3 Configuration/secrets (CKAD).md",
+                "file": "docs/Praktische Projekte/auftraege/exercises with docker/a5 Docker compose/a5 howto.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/CKAD/A3 Configuration/secrets (CKAD).md"
+                "file": "docs/Praktische Projekte/auftraege/exercises with docker/a5 Docker compose/a5 howto.md"
               }
             }
           }
@@ -147,16 +146,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "92f8265ebbdbbb02",
+  "active": "d1e2438c75662aad",
   "lastOpenFiles": [
+    "docs/index.md",
+    "docs/Praktische Projekte/auftraege/exercises with docker/a6 storage/a6 howto.md",
+    "docs/Praktische Projekte/auftraege/exercises with docker/a5 Docker compose/a5 howto.md",
+    "a5 howto.html",
     "docs/Praktische Projekte/auftraege/exercises with docker/a3 CMD vs Entrypoint/a3 howto.md",
+    "docs/CKAD/A3 Configuration/secrets (CKAD).md",
     "docs/Praktische Projekte/auftraege/exercises with docker/a4 Docker Registry/a4 howto.md",
     "docs/setup mkdocs & pages.md",
-    "docs/index.md",
-    "docs/Praktische Projekte/auftraege/exercises with docker/a5 Docker compose/a5 howto.md",
-    "docs/Praktische Projekte/auftraege/exercises with docker/a6 storage/a6 howto.md",
     "docs/CKAD/A3 Configuration/Config Maps.md",
-    "docs/CKAD/A3 Configuration/secrets (CKAD).md",
     "docs/Praktische Projekte/auftraege/exercises with docker/a7 Netzwerke/a7 howto.md",
     "docs/Praktische Projekte/auftraege/exercises with docker/a2 Docker run and Env variables/a2 howto.md",
     "docs/Praktische Projekte/auftraege/exercises with docker/a1 Creating a new docker image/a1 howto.md",
@@ -176,7 +176,6 @@
     "docs/Praktische Projekte/Praktische Projekte.md",
     "docs/Praktische Projekte/auftraege/exercises with docker/a6 storage/redis-persistent/temp-1.rdb",
     "docs/docker/a5/Links in compose.yml.md",
-    "docs/Praktische Projekte/auftraege/exercises with docker/a6 storage/redis-persistent/temp-18.rdb",
     "site/assets/images/social/docker/a5/docker run --links.png",
     "docs/docker/a7/Docker networking.md",
     "docs/kubernetes/A7 Networking/A5 Networking/101.md",
@@ -185,7 +184,6 @@
     "docs/docker/a2/Basic Docker Commands/Docker run.md",
     "docs/docker/a7/docker volumes.md",
     "docs/docker/a7/Storage Drivers.md",
-    "docker cp.md",
     "docs/ressources/Pasted image 20230613132301.png",
     "docs/ressources/Pasted image 20230613125751.png",
     "site/assets/images/social/docker/a5/Ports in compose.yml.png",
