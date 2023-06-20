@@ -18,8 +18,45 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "74f4c2470958a4e7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/Praktische Projekte/auftraege/exercises with docker/a3 CMD vs Entrypoint/a3 howto.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "846453f861271673",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/Praktische Projekte/auftraege/exercises with docker/a6 storage/a6 howto.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "062f025944799d6a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/docker/a7/docker volumes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Praktische Projekte/auftraege/exercises with docker/a5 Docker compose/a5 howto.md",
+                "file": "docs/Praktische Projekte/auftraege/exercises with docker/a3 CMD vs Entrypoint/a3 howto.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/Praktische Projekte/auftraege/exercises with docker/a5 Docker compose/a5 howto.md",
+                "file": "docs/Praktische Projekte/auftraege/exercises with docker/a3 CMD vs Entrypoint/a3 howto.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Praktische Projekte/auftraege/exercises with docker/a5 Docker compose/a5 howto.md"
+                "file": "docs/Praktische Projekte/auftraege/exercises with docker/a3 CMD vs Entrypoint/a3 howto.md"
               }
             }
           }
@@ -148,42 +185,43 @@
   },
   "active": "d1e2438c75662aad",
   "lastOpenFiles": [
-    "docs/index.md",
-    "docs/Praktische Projekte/auftraege/exercises with docker/a6 storage/a6 howto.md",
-    "docs/Praktische Projekte/auftraege/exercises with docker/a5 Docker compose/a5 howto.md",
-    "a5 howto.html",
-    "docs/Praktische Projekte/auftraege/exercises with docker/a3 CMD vs Entrypoint/a3 howto.md",
-    "docs/CKAD/A3 Configuration/secrets (CKAD).md",
-    "docs/Praktische Projekte/auftraege/exercises with docker/a4 Docker Registry/a4 howto.md",
-    "docs/setup mkdocs & pages.md",
-    "docs/CKAD/A3 Configuration/Config Maps.md",
-    "docs/Praktische Projekte/auftraege/exercises with docker/a7 Netzwerke/a7 howto.md",
     "docs/Praktische Projekte/auftraege/exercises with docker/a2 Docker run and Env variables/a2 howto.md",
     "docs/Praktische Projekte/auftraege/exercises with docker/a1 Creating a new docker image/a1 howto.md",
+    "docs/Praktische Projekte/Praktische Projekte.md",
+    "docs/Praktische Projekte/auftraege/exercises with docker/a7 Netzwerke/a7 howto.md",
+    "docs/Praktische Projekte/auftraege/exercises with docker/a5 Docker compose/a5 howto.md",
+    "docs/docker/a7/docker volumes.md",
+    "docs/Praktische Projekte/auftraege/exercises with docker/a6 storage/a6 howto.md",
+    "Untitled.md",
+    "docs/Praktische Projekte/auftraege/exercises with docker/a6 storage/redis-persistent/temp-19.rdb",
+    "docs/Praktische Projekte/auftraege/exercises with docker/a6 storage/index.html",
+    "docker cp.md",
+    "docs/docker/a7/--mount.md",
+    "docs/Praktische Projekte/auftraege/exercises with docker/Theorie/Trivy.md",
+    "docs/Praktische Projekte/auftraege/exercises with docker/a5 Docker compose/redis-persistent/temp-1.rdb",
+    "docs/Praktische Projekte/auftraege/exercises with docker/a4 Docker Registry/a4 howto.md",
+    "docs/Praktische Projekte/auftraege/exercises with docker/a3 CMD vs Entrypoint/a3 howto.md",
+    "docs/index.md",
+    "a5 howto.html",
+    "docs/CKAD/A3 Configuration/secrets (CKAD).md",
+    "docs/setup mkdocs & pages.md",
+    "docs/CKAD/A3 Configuration/Config Maps.md",
     "docs/Praktische Projekte/auftraege/exercises with docker/a6 storage/a6-docker-compose.yml",
     "docs/Praktische Projekte/auftraege/exercises with docker/a5 Docker compose/a5-docker-compose.yml",
     "docs/Praktische Projekte/auftraege/exercises with docker/a5 Docker compose/a5-dockerfile",
     "docs/Praktische Projekte/auftraege/exercises with docker/a4 Docker Registry/a4-docker-compose.yml",
     "docs/Praktische Projekte/auftraege/exercises with docker/a4 Docker Registry/a4-dockerfile",
     "docs/Praktische Projekte/auftraege/exercises with docker/a3 CMD vs Entrypoint/a3-dockerfile",
-    "docs/Praktische Projekte/auftraege/exercises with docker/a2 Docker run and Env variables/a2-dockerfile",
-    "docs/Praktische Projekte/auftraege/exercises with docker/a1 Creating a new docker image/a1-dockerfile",
     "docs/CKAD/A3 Configuration/config maps (CKAD).md",
     "docs/CKAD/ckad info.md",
     "docs/CKAD/Tips/Extract yaml of pod.md",
     "docs/CKAD/Tips/Formatting output kubectl.md",
     "docs/CKAD/Tips/Imperative Commands.md",
-    "docs/Praktische Projekte/Praktische Projekte.md",
-    "docs/Praktische Projekte/auftraege/exercises with docker/a6 storage/redis-persistent/temp-1.rdb",
     "docs/docker/a5/Links in compose.yml.md",
     "site/assets/images/social/docker/a5/docker run --links.png",
     "docs/docker/a7/Docker networking.md",
     "docs/kubernetes/A7 Networking/A5 Networking/101.md",
     "docs/docker/a5/Docker networks.md",
-    "docs/docker/a7/--mount.md",
-    "docs/docker/a2/Basic Docker Commands/Docker run.md",
-    "docs/docker/a7/docker volumes.md",
-    "docs/docker/a7/Storage Drivers.md",
     "docs/ressources/Pasted image 20230613132301.png",
     "docs/ressources/Pasted image 20230613125751.png",
     "site/assets/images/social/docker/a5/Ports in compose.yml.png",

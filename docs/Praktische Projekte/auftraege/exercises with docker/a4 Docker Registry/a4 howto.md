@@ -19,3 +19,7 @@
 1. Siehe [a4-docker-compose](a4-docker-compose.yml)
 
 2. `docker-compose up -d`
+
+
+Hat sleeper tag?
+Bei erneutem Push tag?
