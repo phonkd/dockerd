@@ -53,7 +53,18 @@ docker cp 930:/var/www/html/index.html .
    
 6. Verhindere das zur runtime des cotainers änderungen an index.html vorgenommen werden können
 >[!question] HOW ?
-`rw`
+>Docker Volume einstellung in docker-compose:
+>```yaml
+>volumes:
+>      - type: bind
+>        source: ./my-local-directory
+>        target: /path/inside/container
+>        read_only: true
+>```
+>
+
+
+
 ## Compose Redis persistent data volume
 
 1. `volume` im compose hinzufügen (siehe `./docker-compose.yml`)

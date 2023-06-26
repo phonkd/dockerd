@@ -1,0 +1,10 @@
+{
+  "confluenceBaseUrl": "",
+  "confluenceParentId": "",
+  "atlassianUserName": "",
+  "atlassianApiToken": "",
+  "folderToPublish": "Confluence Pages",
+  "contentRoot": "/home/phonkd",
+  "firstHeadingPageTitle": true,
+  "mermaidTheme": "match-obsidian"
+}
