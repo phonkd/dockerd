@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/CKAD/Tips/Useful Links.md",
+                "file": "docs/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/CKAD/Tips/Useful Links.md",
+                "file": "docs/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -178,7 +178,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/CKAD/Tips/Useful Links.md",
+                "file": "docs/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -201,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/CKAD/Tips/Useful Links.md"
+                "file": "docs/index.md"
               }
             }
           },
@@ -234,8 +234,8 @@
   },
   "active": "74f4c2470958a4e7",
   "lastOpenFiles": [
-    "docs/index.md",
     "docs/CKAD/Tips/Useful Links.md",
+    "docs/index.md",
     "docs/setup mkdocs & pages.md",
     "docs/docker/docker cp.md",
     "confluence css.md",
