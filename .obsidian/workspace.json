@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/docker/a5/Docker networks.md",
-                "mode": "preview",
-                "source": true
+                "file": "docs/CKAD/Tips/Useful Links.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -94,17 +94,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "460edc7c67298536",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 8
+        ]
       }
     ],
     "direction": "vertical"
@@ -170,6 +161,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "docs/CKAD/Tips/Useful Links.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -186,6 +178,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "docs/CKAD/Tips/Useful Links.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -207,7 +200,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "docs/CKAD/Tips/Useful Links.md"
+              }
             }
           },
           {
@@ -237,17 +232,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "460edc7c67298536",
+  "active": "74f4c2470958a4e7",
   "lastOpenFiles": [
+    "docs/index.md",
+    "docs/CKAD/Tips/Useful Links.md",
+    "docs/setup mkdocs & pages.md",
+    "docs/docker/docker cp.md",
     "confluence css.md",
-    "docs/CKAD/A4 Multi-Container-Pods/ckad init containers.md",
     "docs/docker/a5/Docker networks.md",
+    "Untitled.md",
+    "docs/CKAD/A4 Multi-Container-Pods/ckad init containers.md",
     "docs/CKAD/A4 Multi-Container-Pods/Microservices.md",
     "docs/CKAD/A4 Multi-Container-Pods/ckad-multicontainer Pods.md",
     "docs/CKAD/Tips/Imperative Commands.md",
     "docs/ressources/Pasted image 20230703111906.png",
     "docs/CKAD/A4 Multi-Container-Pods",
-    "docs/CKAD/Tips/Untitled.md",
     "docs/CKAD/Tips/Extract yaml of pod.md",
     "docs/CKAD/A3 Configuration/ckad node affinity.md",
     "docs/CKAD/A3 Configuration/ckad node Selectors.md",
@@ -263,10 +262,6 @@
     "docs/CKAD/A3 Configuration/CKAD-DockerSecurity.md",
     "docs/CKAD/A3 Configuration/Commands and arguments (k8s).md",
     "docs/Praktische Projekte/auftraege/exercises with docker/a7 Netzwerke/a7 howto.md",
-    "docs/Praktische Projekte/auftraege/exercises with docker/a5 Docker compose/a5 howto.md",
-    "docs/Praktische Projekte/auftraege/exercises with docker/a2 Docker run and Env variables/a2 howto.md",
-    "docs/Praktische Projekte/auftraege/exercises with docker/a1 Creating a new docker image/a1 howto.md",
-    "docs/Praktische Projekte/Praktische Projekte.md",
     "docs/Praktische Projekte/auftraege/exercises with docker/a6 storage/redis-persistent/temp-19.rdb",
     "docs/Praktische Projekte/auftraege/exercises with docker/a6 storage/index.html",
     "docs/Praktische Projekte/auftraege/exercises with docker/a5 Docker compose/redis-persistent/temp-1.rdb",
