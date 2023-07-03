@@ -22,3 +22,8 @@ deployment with 4 replicas:
 **Create a Service named redis-service of type ClusterIP to expose pod redis on port 6379**
 (assumes the label `app=redis` has been set)
 `kubectl expose pod redis --port=6379 --name redis-service --dry-run=client -o yaml`
+$
+
+## Namespace in current session:
+
+`kubectl config set-context --current --namespace=elastic-stack`

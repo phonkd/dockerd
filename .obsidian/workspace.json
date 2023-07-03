@@ -62,9 +62,49 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "3419e274b7778b19",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/CKAD/Tips/Imperative Commands.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "426c2e5126e7a809",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "d5e60ad0716533c6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/CKAD/A4 Multi-Container-Pods/ckad init containers.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "460edc7c67298536",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -93,7 +133,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "docker-compose",
+                "query": "sa",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -130,7 +170,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/CKAD/A4 Multi-Container-Pods/ckad-multicontainer Pods.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +186,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/CKAD/A4 Multi-Container-Pods/ckad-multicontainer Pods.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,9 +207,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "docs/CKAD/A4 Multi-Container-Pods/ckad-multicontainer Pods.md"
-              }
+              "state": {}
             }
           },
           {
@@ -201,18 +237,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a961a82957d8be63",
+  "active": "460edc7c67298536",
   "lastOpenFiles": [
-    "docs/ressources/Pasted image 20230703111906.png",
+    "confluence css.md",
+    "docs/CKAD/A4 Multi-Container-Pods/ckad init containers.md",
+    "docs/docker/a5/Docker networks.md",
     "docs/CKAD/A4 Multi-Container-Pods/Microservices.md",
     "docs/CKAD/A4 Multi-Container-Pods/ckad-multicontainer Pods.md",
     "docs/CKAD/Tips/Imperative Commands.md",
+    "docs/ressources/Pasted image 20230703111906.png",
     "docs/CKAD/A4 Multi-Container-Pods",
     "docs/CKAD/Tips/Untitled.md",
     "docs/CKAD/Tips/Extract yaml of pod.md",
     "docs/CKAD/A3 Configuration/ckad node affinity.md",
     "docs/CKAD/A3 Configuration/ckad node Selectors.md",
-    "docs/docker/a5/Docker networks.md",
     "docs/docker/a5/Ports in compose.yml.md",
     "docs/docker/a7/docker volumes.md",
     "docs/docker/a7/Docker networking.md",
@@ -229,7 +267,6 @@
     "docs/Praktische Projekte/auftraege/exercises with docker/a2 Docker run and Env variables/a2 howto.md",
     "docs/Praktische Projekte/auftraege/exercises with docker/a1 Creating a new docker image/a1 howto.md",
     "docs/Praktische Projekte/Praktische Projekte.md",
-    "Untitled.md",
     "docs/Praktische Projekte/auftraege/exercises with docker/a6 storage/redis-persistent/temp-19.rdb",
     "docs/Praktische Projekte/auftraege/exercises with docker/a6 storage/index.html",
     "docs/Praktische Projekte/auftraege/exercises with docker/a5 Docker compose/redis-persistent/temp-1.rdb",
