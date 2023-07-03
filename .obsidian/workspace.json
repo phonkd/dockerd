@@ -30,8 +30,41 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "19f20393ba9925b8",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "7c9ea333a671d345",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/CKAD/A3 Configuration/ckad node Selectors.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a961a82957d8be63",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/CKAD/A4 Multi-Container-Pods/ckad-multicontainer Pods.md",
+                "mode": "source",
+                "source": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -77,8 +110,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -98,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/docker/a5/Docker networks.md",
+                "file": "docs/CKAD/A4 Multi-Container-Pods/ckad-multicontainer Pods.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/docker/a5/Docker networks.md",
+                "file": "docs/CKAD/A4 Multi-Container-Pods/ckad-multicontainer Pods.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/docker/a5/Docker networks.md"
+                "file": "docs/CKAD/A4 Multi-Container-Pods/ckad-multicontainer Pods.md"
               }
             }
           },
@@ -169,10 +201,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "74f4c2470958a4e7",
+  "active": "a961a82957d8be63",
   "lastOpenFiles": [
-    "docs/docker/a5/Ports in compose.yml.md",
+    "docs/ressources/Pasted image 20230703111906.png",
+    "docs/CKAD/A4 Multi-Container-Pods/Microservices.md",
+    "docs/CKAD/A4 Multi-Container-Pods/ckad-multicontainer Pods.md",
+    "docs/CKAD/Tips/Imperative Commands.md",
+    "docs/CKAD/A4 Multi-Container-Pods",
+    "docs/CKAD/Tips/Untitled.md",
+    "docs/CKAD/Tips/Extract yaml of pod.md",
+    "docs/CKAD/A3 Configuration/ckad node affinity.md",
+    "docs/CKAD/A3 Configuration/ckad node Selectors.md",
     "docs/docker/a5/Docker networks.md",
+    "docs/docker/a5/Ports in compose.yml.md",
     "docs/docker/a7/docker volumes.md",
     "docs/docker/a7/Docker networking.md",
     "docs/docker/a5/Docker-Compose.md",
@@ -191,22 +232,13 @@
     "Untitled.md",
     "docs/Praktische Projekte/auftraege/exercises with docker/a6 storage/redis-persistent/temp-19.rdb",
     "docs/Praktische Projekte/auftraege/exercises with docker/a6 storage/index.html",
-    "docker cp.md",
-    "docs/docker/a7/--mount.md",
-    "docs/Praktische Projekte/auftraege/exercises with docker/Theorie/Trivy.md",
     "docs/Praktische Projekte/auftraege/exercises with docker/a5 Docker compose/redis-persistent/temp-1.rdb",
-    "docs/Praktische Projekte/auftraege/exercises with docker/a3 CMD vs Entrypoint/a3 howto.md",
-    "docs/index.md",
     "a5 howto.html",
-    "docs/setup mkdocs & pages.md",
-    "docs/CKAD/A3 Configuration/Config Maps.md",
     "docs/Praktische Projekte/auftraege/exercises with docker/a6 storage/a6-docker-compose.yml",
     "docs/Praktische Projekte/auftraege/exercises with docker/a5 Docker compose/a5-docker-compose.yml",
     "docs/Praktische Projekte/auftraege/exercises with docker/a5 Docker compose/a5-dockerfile",
     "docs/Praktische Projekte/auftraege/exercises with docker/a4 Docker Registry/a4-docker-compose.yml",
     "docs/Praktische Projekte/auftraege/exercises with docker/a4 Docker Registry/a4-dockerfile",
-    "docs/Praktische Projekte/auftraege/exercises with docker/a3 CMD vs Entrypoint/a3-dockerfile",
-    "docs/CKAD/A3 Configuration/config maps (CKAD).md",
     "site/assets/images/social/docker/a5/docker run --links.png",
     "docs/ressources/Pasted image 20230613132301.png",
     "docs/ressources/Pasted image 20230613125751.png",

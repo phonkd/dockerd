@@ -1,5 +1,11 @@
 ***
 #exam
+
+>[!warning] Time management
+>During exams you have to create stuff with yaml files.
+>There however is not enought time to write them all from scratch. Use dry run commands to create yaml files and edit them.
+
+
 ## Theory
 *imperative commands  are useful for quickly creating a ressource e.g `kubectl run nginx-pod --image=nginx:alpine`*
 **Dry run=client**
