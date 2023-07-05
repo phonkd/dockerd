@@ -7,6 +7,7 @@
 >User: Human (e.g admin or developer)
 >Service: Machine (e.g Prometheus Monitoring or jenkins)
 
+# wtf why does the course teach old stuff that doesnt exist anymore-
 
 ## Service Accounts
 ****
@@ -17,5 +18,43 @@
 
 `kubectl create serviceaccount serviceaccountname`
 
+>[!info]
+>This automatically creates a token.
+>This token is stored as a secret object.
+>Find the tokens secret with the command `kubectl describe serviceaccount name`.
+>Find the secret with the command `kubectl describe secret name-token-name-name`
+In a monitoring application such as prometheus, this token can be copied and pasted into the application.
 
+## Mount serviceaccount in definition file:
 
+>[!warning]
+>The pod cant be edited and must be recreated.
+
+```
+...
+spec:
+ containers:
+ serviceAccountName: serviceaccountname
+```
+### Disable default serviceaccounttoken
+
+```
+...
+spec:
+ containers:
+ automountServiceAccountToken: false
+```
+
+## List token from inside of pod
+
+`kubectl exec -it my-kubernetes-pod cat /var/run/secrets/kubernetes.io/serviceaccount/token
+
+# Update
+
+### Create serviceaccount:
+
+`kubectl create serviceaccount dashboard-sa`
+
+## Create token for serviceaccount
+
+`kubectl create token dashboard-sa`

@@ -8,31 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "74f4c2470958a4e7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/index.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8b429405fcebe999",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/CKAD/A3 Configuration/secrets (CKAD).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "19f20393ba9925b8",
+            "id": "43a77223f94cc1c5",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -40,62 +16,19 @@
             }
           },
           {
-            "id": "7c9ea333a671d345",
+            "id": "fb6d63cabb434b25",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/CKAD/A3 Configuration/ckad node Selectors.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a961a82957d8be63",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/CKAD/A4 Multi-Container-Pods/ckad-multicontainer Pods.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "3419e274b7778b19",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/CKAD/Tips/Imperative Commands.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "426c2e5126e7a809",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "d5e60ad0716533c6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/CKAD/A4 Multi-Container-Pods/ckad init containers.md",
+                "file": "docs/CKAD/A6 Pod  Design/CKAD Jobs.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -161,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/index.md",
+                "file": "docs/CKAD/A6 Pod  Design/CKAD Jobs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -178,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/index.md",
+                "file": "docs/CKAD/A6 Pod  Design/CKAD Jobs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -201,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/index.md"
+                "file": "docs/CKAD/A6 Pod  Design/CKAD Jobs.md"
               }
             }
           },
@@ -232,52 +165,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "74f4c2470958a4e7",
+  "active": "fb6d63cabb434b25",
   "lastOpenFiles": [
-    "docs/CKAD/Tips/Useful Links.md",
+    "docs/CKAD/A6 Pod  Design/CKAD Kubernetes Cron Jobs.md",
+    "docs/CKAD/A6 Pod  Design/CKAD Jobs.md",
+    "docs/ressources/Pasted image 20230705135822.png",
+    "docs/ressources/Pasted image 20230705134333.png",
+    "docs/CKAD/A6 Pod  Design/CKAD Updates and Rollbacks.md",
+    "docs/ressources/Pasted image 20230705133833.png",
+    "docs/ressources/Pasted image 20230705132216.png",
+    "docs/ressources/Pasted image 20230705132113.png",
+    "docs/ressources/Pasted image 20230705131418.png",
+    "docs/CKAD/A6 Pod  Design/CKAD Labels and Selectors.md",
+    "docs/CKAD/A6 Pod  Design/CKAD Annotations.md",
+    "docs/Dictionary/Metrics.md",
+    "docs/Dictionary/aggregates.md",
+    "Untitled.md",
+    "docs/Dictionary/annotation.md",
+    "docs/ressources/Pasted image 20230705130142.png",
+    "docs/CKAD/A5 Observability/CKAD Monitoring and Debugging.md",
+    "docs/CKAD/A6 Pod  Design",
+    "docs/ressources/Pasted image 20230705124710.png",
+    "docs/CKAD/A5 Observability/Prometheus.md",
+    "docs/CKAD/A5 Observability/CKAD Readiness Probes.md",
+    "docs/CKAD/ckad info.md",
+    "docs/CKAD/A4 Multi-Container-Pods/ckad init containers.md",
+    "docs/Dictionary",
+    "docs/CKAD/A5 Observability/CKAD container logging.md",
+    "docs/CKAD/A5 Observability/CKAD Liveness Probes.md",
+    "docs/ressources/Pasted image 20230705095231.png",
     "docs/index.md",
+    "docs/CKAD/A5 Observability",
+    "docs/CKAD/Tips/Useful Links.md",
     "docs/setup mkdocs & pages.md",
     "docs/docker/docker cp.md",
     "confluence css.md",
     "docs/docker/a5/Docker networks.md",
-    "Untitled.md",
-    "docs/CKAD/A4 Multi-Container-Pods/ckad init containers.md",
     "docs/CKAD/A4 Multi-Container-Pods/Microservices.md",
     "docs/CKAD/A4 Multi-Container-Pods/ckad-multicontainer Pods.md",
     "docs/CKAD/Tips/Imperative Commands.md",
     "docs/ressources/Pasted image 20230703111906.png",
     "docs/CKAD/A4 Multi-Container-Pods",
     "docs/CKAD/Tips/Extract yaml of pod.md",
-    "docs/CKAD/A3 Configuration/ckad node affinity.md",
-    "docs/CKAD/A3 Configuration/ckad node Selectors.md",
-    "docs/docker/a5/Ports in compose.yml.md",
-    "docs/docker/a7/docker volumes.md",
-    "docs/docker/a7/Docker networking.md",
-    "docs/docker/a5/Docker-Compose.md",
-    "docs/Praktische Projekte/auftraege/exercises with docker/a4 Docker Registry/a4 howto.md",
-    "docs/CKAD/A3 Configuration/CKAD-ServiceAccounts.md",
-    "docs/CKAD/A3 Configuration/CKAD Kubernetes Security Contexts.md",
-    "docs/CKAD/A3 Configuration/secrets (CKAD).md",
-    "docs/Praktische Projekte/auftraege/exercises with docker/a6 storage/a6 howto.md",
-    "docs/CKAD/A3 Configuration/CKAD-DockerSecurity.md",
-    "docs/CKAD/A3 Configuration/Commands and arguments (k8s).md",
-    "docs/Praktische Projekte/auftraege/exercises with docker/a7 Netzwerke/a7 howto.md",
     "docs/Praktische Projekte/auftraege/exercises with docker/a6 storage/redis-persistent/temp-19.rdb",
     "docs/Praktische Projekte/auftraege/exercises with docker/a6 storage/index.html",
     "docs/Praktische Projekte/auftraege/exercises with docker/a5 Docker compose/redis-persistent/temp-1.rdb",
     "a5 howto.html",
     "docs/Praktische Projekte/auftraege/exercises with docker/a6 storage/a6-docker-compose.yml",
-    "docs/Praktische Projekte/auftraege/exercises with docker/a5 Docker compose/a5-docker-compose.yml",
-    "docs/Praktische Projekte/auftraege/exercises with docker/a5 Docker compose/a5-dockerfile",
-    "docs/Praktische Projekte/auftraege/exercises with docker/a4 Docker Registry/a4-docker-compose.yml",
-    "docs/Praktische Projekte/auftraege/exercises with docker/a4 Docker Registry/a4-dockerfile",
-    "site/assets/images/social/docker/a5/docker run --links.png",
-    "docs/ressources/Pasted image 20230613132301.png",
-    "docs/ressources/Pasted image 20230613125751.png",
-    "site/assets/images/social/docker/a5/Ports in compose.yml.png",
-    "docs/ressources/pfp.png",
-    "docs/pfp.png",
-    "docs/ressources/Pasted image 20230607092149.png",
-    "docs/ressources/Pasted image 20230606182459.png"
+    "docs/Praktische Projekte/auftraege/exercises with docker/a5 Docker compose/a5-docker-compose.yml"
   ]
 }
