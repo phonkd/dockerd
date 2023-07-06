@@ -5,7 +5,7 @@
 >- if a frontend application needs to access a backend pod, which of many replicas would it choose?
 
 >[!answer] The cluster IP service
->- Makes a single interface for a group of pods so other pods can access it easily (answers which pod should be chosen (ramdom))
+>- Makes a single interface clusterip for a group of pods so other pods can access it easily (answers which pod should be chosen (ramdom))
 >
 
 
