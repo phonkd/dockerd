@@ -11,48 +11,28 @@
             "id": "43a77223f94cc1c5",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "fb6d63cabb434b25",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/CKAD/A7 Networking&services/Services.md",
+                "file": "docs/CKAD/A8 state persistence/storage classes.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "12bbe0d65500d0d1",
+            "id": "585bdb0bdb7a7e6e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/CKAD/A7 Networking&services/CKAD Cluster IP.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d00b13fae53c1ab1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/CKAD/Tips/speed delete.md",
+                "file": "docs/CKAD/A8 state persistence/CKAD Persistent Volume.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -102,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "cc29d60051e85c22",
@@ -118,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/CKAD/Tips/speed delete.md",
+                "file": "docs/CKAD/A8 state persistence/CKAD Persistent Volume.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/CKAD/Tips/speed delete.md",
+                "file": "docs/CKAD/A8 state persistence/CKAD Persistent Volume.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/CKAD/Tips/speed delete.md"
+                "file": "docs/CKAD/A8 state persistence/CKAD Persistent Volume.md"
               }
             }
           },
@@ -189,12 +170,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d00b13fae53c1ab1",
+  "active": "585bdb0bdb7a7e6e",
   "lastOpenFiles": [
+    "docs/CKAD/A8 state persistence/storage classes.md",
     "docs/CKAD/A8 state persistence/CKAD Persistent Volume.md",
+    "docs/ressources/Pasted image 20230709094537.png",
+    "docs/CKAD/A7 Networking&services/Services.md",
+    "docs/CKAD/A7 Networking&services/CKAD Cluster IP.md",
+    "docs/CKAD/Übung notwendig.md",
     "docs/CKAD/Tips/speed delete.md",
     "docs/CKAD/A8 state persistence/CKAD Volumes.md",
-    "docs/CKAD/A7 Networking&services/CKAD Cluster IP.md",
     "docs/ressources/Pasted image 20230706133219.png",
     "docs/CKAD/A7 Networking&services/CKAD ingress Networking.md",
     "docs/CKAD/A8 state persistence",
@@ -203,7 +188,6 @@
     "docs/ressources/Pasted image 20230706102044.png",
     "docs/ressources/Pasted image 20230706102001.png",
     "docs/kubernetes/A7 Networking/A5 Networking/ClusterIP.md",
-    "docs/CKAD/A7 Networking&services/Services.md",
     "docs/ressources/Pasted image 20230706095319.png",
     "docs/ressources/Pasted image 20230706095259.png",
     "docs/ressources/Pasted image 20230706094758.png",
@@ -217,7 +201,6 @@
     "docs/ressources/Pasted image 20230705134333.png",
     "docs/CKAD/A6 Pod  Design/CKAD Updates and Rollbacks.md",
     "docs/ressources/Pasted image 20230705133833.png",
-    "docs/ressources/Pasted image 20230705132216.png",
     "docs/CKAD/A6 Pod  Design/CKAD Labels and Selectors.md",
     "docs/CKAD/A6 Pod  Design/CKAD Annotations.md",
     "docs/Dictionary/Metrics.md",
@@ -228,11 +211,8 @@
     "docs/CKAD/A5 Observability/Prometheus.md",
     "docs/CKAD/A5 Observability/CKAD Readiness Probes.md",
     "docs/CKAD/ckad info.md",
-    "docs/CKAD/A4 Multi-Container-Pods/ckad init containers.md",
     "docs/Dictionary",
-    "docs/index.md",
     "docs/CKAD/A5 Observability",
-    "docs/CKAD/Tips/Useful Links.md",
     "docs/CKAD/A4 Multi-Container-Pods",
     "docs/Praktische Projekte/auftraege/exercises with docker/a6 storage/redis-persistent/temp-19.rdb",
     "docs/Praktische Projekte/auftraege/exercises with docker/a6 storage/index.html",
