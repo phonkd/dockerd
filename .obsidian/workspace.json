@@ -77,8 +77,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -170,7 +169,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "03dbeda34f5d9af4",
+  "active": "d1e2438c75662aad",
   "lastOpenFiles": [
     "docs/kubernetes/A7 Networking/A5 Networking/Node Port Kubernetes service.md",
     "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a1/A1 PP edit pods.md",
