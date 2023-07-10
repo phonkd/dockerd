@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CKAD Authentication, Authorization and Admission Control.md",
+                "file": "docs/CKAD/A9 Updates 20201/CKAD Authentication, Authorization and Admission Control.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CKAD Authentication, Authorization and Admission Control.md",
+                "file": "docs/CKAD/A9 Updates 20201/CKAD Authentication, Authorization and Admission Control.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CKAD Authentication, Authorization and Admission Control.md",
+                "file": "docs/CKAD/A9 Updates 20201/CKAD Authentication, Authorization and Admission Control.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CKAD Authentication, Authorization and Admission Control.md"
+                "file": "docs/CKAD/A9 Updates 20201/CKAD Authentication, Authorization and Admission Control.md"
               }
             }
           },
@@ -197,7 +197,7 @@
   "active": "7e540c0c7af2b8d5",
   "lastOpenFiles": [
     "CKAD storage in statefulsets.md",
-    "CKAD Authentication, Authorization and Admission Control.md",
+    "docs/CKAD/A9 Updates 20201/CKAD Authentication, Authorization and Admission Control.md",
     "docs/CKAD/A9 Updates 20201",
     "docs/ressources/Pasted image 20230710103109.png",
     "docs/CKAD/A8 state persistence/ckad Headless services.md",
