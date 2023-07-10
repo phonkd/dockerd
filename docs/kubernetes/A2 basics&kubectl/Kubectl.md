@@ -10,3 +10,8 @@
 - List all nodes of Cluster
 
 
+## install
+
+1. `sudo pacman -S kubectl`
+2. `touch ~/.kube/config`
+

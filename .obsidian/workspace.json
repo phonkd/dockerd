@@ -8,24 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "43a77223f94cc1c5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/CKAD/A8 state persistence/CKAD Stateful Sets.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "03dbeda34f5d9af4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/CKAD/A8 state persistence/ckad Headless services.md",
+                "file": "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a1 Pods and edit/A1 PP edit pods.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,26 +25,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CKAD storage in statefulsets.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7e540c0c7af2b8d5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/CKAD/A9 Updates 20201/CKAD Authentication, Authorization and Admission Control.md",
+                "file": "docs/CKAD/A2 Core Concepts/Multi-Container POD's.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -85,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "sa",
+                "query": "port forward",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -102,7 +77,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -122,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/CKAD/A9 Updates 20201/CKAD Authentication, Authorization and Admission Control.md",
+                "file": "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a1 Pods and edit/A1 PP edit pods.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/CKAD/A9 Updates 20201/CKAD Authentication, Authorization and Admission Control.md",
+                "file": "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a1 Pods and edit/A1 PP edit pods.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/CKAD/A9 Updates 20201/CKAD Authentication, Authorization and Admission Control.md"
+                "file": "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a1 Pods and edit/A1 PP edit pods.md"
               }
             }
           },
@@ -194,53 +170,52 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "7e540c0c7af2b8d5",
+  "active": "03dbeda34f5d9af4",
   "lastOpenFiles": [
-    "CKAD storage in statefulsets.md",
-    "docs/CKAD/A9 Updates 20201/CKAD Authentication, Authorization and Admission Control.md",
-    "docs/CKAD/A9 Updates 20201",
-    "docs/ressources/Pasted image 20230710103109.png",
+    "docs/kubernetes/A7 Networking/A5 Networking/Node Port Kubernetes service.md",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a1/A1 PP edit pods.md",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a1 Pods and edit/a1-exported-pod.yml",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a1 Pods and edit/A1 PP edit pods.md",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a1 Pods and edit",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a1/a1-exported-pod.yml",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a1-exported-pod.yml",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/A1 PP edit pods.md",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/pods",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/edit",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/PP",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a1",
+    "docs/ressources/Pasted image 20230710154255.png",
+    "docs/Praktische Projekte/auftraege/exercises with docker/a6 storage/a6 howto.md",
+    "docs/Praktische Projekte/auftraege/exercises with docker/a5 Docker compose/a5 howto.md",
+    "docs/Praktische Projekte/auftraege/exercises with docker/a4 Docker Registry/a4 howto.md",
     "docs/CKAD/A8 state persistence/ckad Headless services.md",
-    "docs/ressources/Pasted image 20230710100344.png",
+    "docs/Praktische Projekte/auftraege/CKAD/PP prerequisites.md",
     "docs/CKAD/A8 state persistence/CKAD Stateful Sets.md",
+    "docs/CKAD/A2 Core Concepts/Multi-Container POD's.md",
+    "docs/Praktische Projekte/auftraege/CKAD/prerequisites/registry/registry-phonkd.yml",
+    "docs/kubernetes/A3 pods/Pods.md",
+    "docs/CKAD/A2 Core Concepts/Pod (recap).md",
+    "docs/Praktische Projekte/auftraege/CKAD/prerequisites/registry/registry-k8s.yml",
+    "Praktische.md",
+    "docs/kubernetes/A2 basics&kubectl/Kubectl.md",
+    "docs/Praktische Projekte/Praktische Projekte.md",
+    "docs/docker/a6/Docker Registry.md",
+    "CKAD storage in statefulsets.md",
+    "kind.md",
+    "docs/Praktische Projekte/Voraussetzungen.md",
+    "docs/CKAD/A9 Updates 20201/CKAD Authentication, Authorization and Admission Control.md",
+    "docs/Untitled.md",
+    "docs/ressources/Pasted image 20230710103109.png",
+    "docs/ressources/Pasted image 20230710100344.png",
     "docs/CKAD/A8 state persistence/storage classes.md",
     "docs/CKAD/A8 state persistence/CKAD Persistent Volume.md",
     "docs/ressources/Pasted image 20230709094537.png",
     "docs/CKAD/A7 Networking&services/Services.md",
-    "docs/CKAD/A7 Networking&services/CKAD Cluster IP.md",
-    "docs/CKAD/Übung notwendig.md",
-    "docs/CKAD/Tips/speed delete.md",
-    "docs/CKAD/A8 state persistence/CKAD Volumes.md",
     "docs/ressources/Pasted image 20230706133219.png",
-    "docs/CKAD/A7 Networking&services/CKAD ingress Networking.md",
-    "docs/CKAD/A8 state persistence",
-    "docs/kubernetes/A7 Networking/A5 Networking/Node Port Kubernetes service.md",
     "docs/ressources/Pasted image 20230706102044.png",
     "docs/ressources/Pasted image 20230706102001.png",
-    "docs/kubernetes/A7 Networking/A5 Networking/ClusterIP.md",
     "docs/ressources/Pasted image 20230706095319.png",
     "docs/ressources/Pasted image 20230706095259.png",
-    "docs/ressources/Pasted image 20230706094758.png",
-    "docs/CKAD/A5 Observability/CKAD Monitoring and Debugging.md",
-    "docs/CKAD/A7 Networking&services",
-    "docs/CKAD/A5 Observability/CKAD Liveness Probes.md",
-    "docs/CKAD/A5 Observability/CKAD container logging.md",
-    "docs/CKAD/A6 Pod  Design/CKAD Jobs.md",
-    "docs/CKAD/A6 Pod  Design/CKAD Kubernetes Cron Jobs.md",
-    "docs/ressources/Pasted image 20230705135822.png",
-    "docs/CKAD/A6 Pod  Design/CKAD Updates and Rollbacks.md",
-    "docs/CKAD/A6 Pod  Design/CKAD Labels and Selectors.md",
-    "docs/CKAD/A6 Pod  Design/CKAD Annotations.md",
-    "docs/Dictionary/Metrics.md",
-    "docs/Dictionary/aggregates.md",
-    "docs/Dictionary/annotation.md",
-    "docs/CKAD/A6 Pod  Design",
-    "docs/CKAD/A5 Observability/Prometheus.md",
-    "docs/Dictionary",
-    "docs/CKAD/A5 Observability",
-    "docs/CKAD/A4 Multi-Container-Pods",
-    "docs/Praktische Projekte/auftraege/exercises with docker/a6 storage/redis-persistent/temp-19.rdb",
-    "docs/Praktische Projekte/auftraege/exercises with docker/a6 storage/index.html",
-    "docs/Praktische Projekte/auftraege/exercises with docker/a5 Docker compose/redis-persistent/temp-1.rdb"
+    "docs/ressources/Pasted image 20230706094758.png"
   ]
 }
