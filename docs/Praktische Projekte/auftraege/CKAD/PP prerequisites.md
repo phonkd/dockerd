@@ -32,3 +32,13 @@
 4. Verify by trying to run from registry `kubectl run --image localhost:5000/gb-frontend-phonkd test`
 
 **Kind pod can't access Registry, neither registry run with compose nor inside of kind pod with service.**
+
+
+## Troubleshooting
+
+>[!info] `/etc/resolv.conf`
+>The nameserver for the kind nodes gets set on cluster creation.
+>If the network configuration on the host changes, these changes don't get applied to the nodes.
+>therefore recreate the cluster.
+>`kind delete cluster --name phonkd`
+>`kind create cluster --name phonkd --config ...`

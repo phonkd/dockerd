@@ -35,3 +35,8 @@ Nicht möglich, metadata kann nicht angepasst werden
 
 
 ### Ändere port im yml ???? no port
+
+
+## Bonus:
+
+[yaml](https://github.com/phonkd/dockerd/blob/main/docs/Praktische%20Projekte/auftraege/CKAD/aufgaben/a1%20Pods%20and%20edit/a1-exported-pod.yml)

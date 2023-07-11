@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a1 Pods and edit/A1 PP edit pods.md",
+                "file": "docs/Praktische Projekte/auftraege/CKAD/PP prerequisites.md",
                 "mode": "source",
                 "source": false
               }
@@ -30,8 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "431d1f889f7e944f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a1 Pods and edit/A1 PP edit pods.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -60,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "port forward",
+                "query": "kind: Deployment",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -81,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "cc29d60051e85c22",
@@ -169,32 +183,37 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "d1e2438c75662aad",
+  "active": "431d1f889f7e944f",
   "lastOpenFiles": [
+    "github.com/phonkd/dockerd/docs.md",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a1 Pods and edit/A1 PP edit pods.md",
+    "github.com/phonkd/dockerd",
+    "github.com/phonkd",
+    "github.com",
+    "docs/CKAD/A2 Core Concepts/Multi-Container POD's.md",
+    "docs/Praktische Projekte/auftraege/CKAD/PP prerequisites.md",
+    "docs/docker/a5/Docker networks.md",
+    "docs/docker/a7/Docker networking.md",
+    "docs/kubernetes/A5 yaml k8s/Rolling update (Deployment).md",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a1 Pods and edit/deployment-of-exported.yml",
+    "docs/CKAD/A2 Core Concepts/Deployment (recap).md",
     "docs/kubernetes/A7 Networking/A5 Networking/Node Port Kubernetes service.md",
     "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a1/A1 PP edit pods.md",
     "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a1 Pods and edit/a1-exported-pod.yml",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a1 Pods and edit/A1 PP edit pods.md",
     "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a1 Pods and edit",
     "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a1/a1-exported-pod.yml",
     "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a1-exported-pod.yml",
     "docs/Praktische Projekte/auftraege/CKAD/aufgaben/A1 PP edit pods.md",
     "docs/Praktische Projekte/auftraege/CKAD/aufgaben/pods",
     "docs/Praktische Projekte/auftraege/CKAD/aufgaben/edit",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/PP",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a1",
     "docs/ressources/Pasted image 20230710154255.png",
     "docs/Praktische Projekte/auftraege/exercises with docker/a6 storage/a6 howto.md",
     "docs/Praktische Projekte/auftraege/exercises with docker/a5 Docker compose/a5 howto.md",
     "docs/Praktische Projekte/auftraege/exercises with docker/a4 Docker Registry/a4 howto.md",
     "docs/CKAD/A8 state persistence/ckad Headless services.md",
-    "docs/Praktische Projekte/auftraege/CKAD/PP prerequisites.md",
     "docs/CKAD/A8 state persistence/CKAD Stateful Sets.md",
-    "docs/CKAD/A2 Core Concepts/Multi-Container POD's.md",
-    "docs/Praktische Projekte/auftraege/CKAD/prerequisites/registry/registry-phonkd.yml",
     "docs/kubernetes/A3 pods/Pods.md",
     "docs/CKAD/A2 Core Concepts/Pod (recap).md",
-    "docs/Praktische Projekte/auftraege/CKAD/prerequisites/registry/registry-k8s.yml",
     "Praktische.md",
     "docs/kubernetes/A2 basics&kubectl/Kubectl.md",
     "docs/Praktische Projekte/Praktische Projekte.md",
@@ -203,13 +222,9 @@
     "kind.md",
     "docs/Praktische Projekte/Voraussetzungen.md",
     "docs/CKAD/A9 Updates 20201/CKAD Authentication, Authorization and Admission Control.md",
-    "docs/Untitled.md",
     "docs/ressources/Pasted image 20230710103109.png",
     "docs/ressources/Pasted image 20230710100344.png",
-    "docs/CKAD/A8 state persistence/storage classes.md",
-    "docs/CKAD/A8 state persistence/CKAD Persistent Volume.md",
     "docs/ressources/Pasted image 20230709094537.png",
-    "docs/CKAD/A7 Networking&services/Services.md",
     "docs/ressources/Pasted image 20230706133219.png",
     "docs/ressources/Pasted image 20230706102044.png",
     "docs/ressources/Pasted image 20230706102001.png",
