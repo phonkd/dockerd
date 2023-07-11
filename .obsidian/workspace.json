@@ -13,38 +13,25 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Praktische Projekte/auftraege/CKAD/PP prerequisites.md",
+                "file": "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a4 CKAD formatting output with kubectl/a4 CKAD Formatting output with kubectl.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "a75bad0effa3e6a7",
+            "id": "7e58bbb30f7cd76b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/CKAD/A2 Core Concepts/Multi-Container POD's.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "431d1f889f7e944f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a1 Pods and edit/A1 PP edit pods.md",
+                "file": "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a2 ReplicaSets/a2 CKAD ReplicaSets Howto.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,8 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "cc29d60051e85c22",
@@ -111,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a1 Pods and edit/A1 PP edit pods.md",
+                "file": "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a4 CKAD formatting output with kubectl/a4 CKAD Formatting output with kubectl.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a1 Pods and edit/A1 PP edit pods.md",
+                "file": "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a4 CKAD formatting output with kubectl/a4 CKAD Formatting output with kubectl.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a1 Pods and edit/A1 PP edit pods.md"
+                "file": "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a4 CKAD formatting output with kubectl/a4 CKAD Formatting output with kubectl.md"
               }
             }
           },
@@ -183,29 +169,40 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "431d1f889f7e944f",
+  "active": "03dbeda34f5d9af4",
   "lastOpenFiles": [
-    "github.com/phonkd/dockerd/docs.md",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a1 Pods and edit/A1 PP edit pods.md",
-    "github.com/phonkd/dockerd",
-    "github.com/phonkd",
-    "github.com",
-    "docs/CKAD/A2 Core Concepts/Multi-Container POD's.md",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a3 Deployments/CKAD Deployment howto.md",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a4 CKAD formatting output with kubectl/a4 CKAD Formatting output with kubectl.md",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a2 ReplicaSets/a2 CKAD ReplicaSets Howto.md",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a5 CKAD Namespaces/a5 CKAD namespaces howto.md",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a5 CKAD Namespaces/redis.yml",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a5 CKAD Namespaces/frontend.yml",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a5 CKAD Namespaces",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a4 CKAD formatting output with kubectl",
+    "docs/ressources/Pasted image 20230711151632.png",
+    "docs/ressources/Pasted image 20230711143014.png",
+    "docs/ressources/Pasted image 20230711142900.png",
+    "docs/ressources/Pasted image 20230711142630.png",
     "docs/Praktische Projekte/auftraege/CKAD/PP prerequisites.md",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a2 ReplicaSets/CKAD Deployment howto.md",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a2 ReplicaSets/a2-replica-set.yml",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a3 Deployments/a3-deploymnt.yml",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a3 Deployments",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a1 Pods and edit/A1 PP edit pods.md",
+    "docs/CKAD/A2 Core Concepts/Multi-Container POD's.md",
+    "docs/kubernetes/A5 yaml k8s/A5 Controllers/replica sets.md",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a2 ReplicaSets/a2-deploy-replic.yml",
+    "docs/kubernetes/A5 yaml k8s/A5 Controllers/example replica set yaml.md",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a2 ReplicaSets/a2-replica.yml",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a2 ReplicaSets",
+    "github.com/phonkd/dockerd/docs.md",
     "docs/docker/a5/Docker networks.md",
     "docs/docker/a7/Docker networking.md",
     "docs/kubernetes/A5 yaml k8s/Rolling update (Deployment).md",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a1 Pods and edit/deployment-of-exported.yml",
     "docs/CKAD/A2 Core Concepts/Deployment (recap).md",
     "docs/kubernetes/A7 Networking/A5 Networking/Node Port Kubernetes service.md",
     "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a1/A1 PP edit pods.md",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a1 Pods and edit/a1-exported-pod.yml",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a1 Pods and edit",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a1/a1-exported-pod.yml",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a1-exported-pod.yml",
     "docs/Praktische Projekte/auftraege/CKAD/aufgaben/A1 PP edit pods.md",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/pods",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/edit",
     "docs/ressources/Pasted image 20230710154255.png",
     "docs/Praktische Projekte/auftraege/exercises with docker/a6 storage/a6 howto.md",
     "docs/Praktische Projekte/auftraege/exercises with docker/a5 Docker compose/a5 howto.md",
@@ -214,22 +211,10 @@
     "docs/CKAD/A8 state persistence/CKAD Stateful Sets.md",
     "docs/kubernetes/A3 pods/Pods.md",
     "docs/CKAD/A2 Core Concepts/Pod (recap).md",
-    "Praktische.md",
-    "docs/kubernetes/A2 basics&kubectl/Kubectl.md",
-    "docs/Praktische Projekte/Praktische Projekte.md",
-    "docs/docker/a6/Docker Registry.md",
-    "CKAD storage in statefulsets.md",
-    "kind.md",
-    "docs/Praktische Projekte/Voraussetzungen.md",
-    "docs/CKAD/A9 Updates 20201/CKAD Authentication, Authorization and Admission Control.md",
     "docs/ressources/Pasted image 20230710103109.png",
     "docs/ressources/Pasted image 20230710100344.png",
     "docs/ressources/Pasted image 20230709094537.png",
     "docs/ressources/Pasted image 20230706133219.png",
-    "docs/ressources/Pasted image 20230706102044.png",
-    "docs/ressources/Pasted image 20230706102001.png",
-    "docs/ressources/Pasted image 20230706095319.png",
-    "docs/ressources/Pasted image 20230706095259.png",
-    "docs/ressources/Pasted image 20230706094758.png"
+    "docs/ressources/Pasted image 20230706102044.png"
   ]
 }
