@@ -3,6 +3,7 @@
 >In an environement with many pod definition yaml files, storing all [Environment variables](Environment%20variables%20k8s.md) can be tedious and time consuming.
 >A config map is a file containing environement variables
 
+
 ## Info about config map
 `kubectl get configmaps`
 `kubectl describe configmaps`

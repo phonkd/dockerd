@@ -77,3 +77,30 @@ env:
      name: app-secret
      key: DB_password
 
+
+
+```
+
+## Mount secret as volume
+
+```yaml
+spec:
+      containers:
+      - image: phonkd/t-practice:2
+        name: t-practice
+        ports:
+        - containerPort: 80
+        envFrom:
+        - configMapRef:
+           name: confmap1
+        - secretRef:
+           name: maisegret
+        volumeMounts:
+          - name: htmlsecret
+            mountPath: /var/www/html/index.html
+            subPath: index.html
+      volumes:
+        - name: htmlsecret
+          secret:
+            secretName: a8-html-secret
+```

@@ -1,0 +1,36 @@
+{
+  "addToCommand": true,
+  "addToContextMenu": true,
+  "createInstanceNearExistingOnes": true,
+  "errorNoticeTimeout": 0,
+  "focusOnNewInstance": true,
+  "hideStatusBar": "focused",
+  "language": "",
+  "lastReadChangelogVersion": "3.10.0",
+  "newInstanceBehavior": "newHorizontalSplit",
+  "noticeTimeout": 5,
+  "openChangelogOnUpdate": true,
+  "pinNewInstance": true,
+  "preferredRenderer": "canvas",
+  "profiles": {
+    "4360d1ad-ce47-4a37-bdb1-4a7328ae1508": {
+      "args": [
+        ""
+      ],
+      "executable": "alacritty",
+      "name": "alacritty",
+      "platforms": {
+        "linux": true
+      },
+      "restoreHistory": true,
+      "successExitCodes": [
+        "0",
+        "SIGINT",
+        "SIGTERM"
+      ],
+      "terminalOptions": {},
+      "type": "external"
+    }
+  },
+  "recovery": {}
+}

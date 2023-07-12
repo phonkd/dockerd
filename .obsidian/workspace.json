@@ -13,19 +13,43 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a4 CKAD formatting output with kubectl/a4 CKAD Formatting output with kubectl.md",
+                "file": "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a8 CKAD Secrets/a8 CKAD secrets howto.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "7e58bbb30f7cd76b",
+            "id": "67aaa4c94156ad5c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a2 ReplicaSets/a2 CKAD ReplicaSets Howto.md",
+                "file": "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a7 CKAD config maps/a7 CKAD config maps howto.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4f629cc71c6fd3c8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/CKAD/A3 Configuration/secrets (CKAD).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0f9e05fbf014185e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/CKAD/A3 Configuration/CKAD Config Maps.md",
                 "mode": "source",
                 "source": false
               }
@@ -68,20 +92,13 @@
                 "sortOrder": "alphabetical"
               }
             }
-          },
-          {
-            "id": "d1b4ef13f23e1b00",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {}
-            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 459.5,
+    "collapsed": true
   },
   "right": {
     "id": "cc29d60051e85c22",
@@ -97,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a4 CKAD formatting output with kubectl/a4 CKAD Formatting output with kubectl.md",
+                "file": "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a8 CKAD Secrets/a8 CKAD secrets howto.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a4 CKAD formatting output with kubectl/a4 CKAD Formatting output with kubectl.md",
+                "file": "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a8 CKAD Secrets/a8 CKAD secrets howto.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a4 CKAD formatting output with kubectl/a4 CKAD Formatting output with kubectl.md"
+                "file": "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a8 CKAD Secrets/a8 CKAD secrets howto.md"
               }
             }
           },
@@ -159,62 +176,61 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "confluence-integration:Publish to Confluence": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "markdown-importer:Open format converter": false,
+      "terminal:Open terminal": false
     }
   },
   "active": "03dbeda34f5d9af4",
   "lastOpenFiles": [
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a3 Deployments/CKAD Deployment howto.md",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a4 CKAD formatting output with kubectl/a4 CKAD Formatting output with kubectl.md",
+    "docs/ressources/Pasted image 20230712164855.png",
+    "docs/ressources/Pasted image 20230712164822.png",
+    "docs/ressources/Pasted image 20230712164612.png",
+    "docs/CKAD/A3 Configuration/secrets (CKAD).md",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a8 CKAD Secrets/a8 CKAD secrets howto.md",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a8 CKAD Secrets/a8-secrets-frontend-html-mount.yml",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a8 CKAD Secrets/a8-html-in-secret-secret.yml",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a8 CKAD Secrets/a8-randomhtml.html",
+    "docs/ressources/Pasted image 20230712161015.png",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a8 CKAD Secrets/a8-secrets-secret.yml",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a8 CKAD Secrets/a8-secrets-frontend.yml",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a7 CKAD config maps/a7 CKAD config maps howto.md",
+    "docs/CKAD/A3 Configuration/CKAD Config Maps.md",
+    "docs/ressources/Pasted image 20230712155635.png",
+    "docs/CKAD/A3 Configuration/config maps (CKAD).md",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a8 CKAD Secrets/secret.yml",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a8 CKAD Secrets/configmap-frontend.yml",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a8 CKAD Secrets/a7-ckad-namespaces-frontend.yml",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a8 CKAD Secrets/a6-ckad-namespaces-redis.yml",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a8 CKAD Secrets/a6-ckad-namespaces-redis-follower.yml",
+    "docs/ressources/Pasted image 20230712143921.png",
+    "docs/CKAD/A4 Multi-Container-Pods/ckad-multicontainer Pods.md",
+    "docs/kubernetes/A5 yaml k8s/Environement variable in yaml.md",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a6 CKAD env/a6 CKAD env howto.md",
+    "docs/CKAD/A3 Configuration/Environment variables k8s.md",
     "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a2 ReplicaSets/a2 CKAD ReplicaSets Howto.md",
     "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a5 CKAD Namespaces/a5 CKAD namespaces howto.md",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a5 CKAD Namespaces/redis.yml",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a5 CKAD Namespaces/frontend.yml",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a5 CKAD Namespaces",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a4 CKAD formatting output with kubectl",
+    "docs/docker/a4/Environement Variables.md",
+    "docs/CKAD/A2 Core Concepts/Multi-Container POD's.md",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a4 CKAD formatting output with kubectl/a4 CKAD Formatting output with kubectl.md",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a3 Deployments/CKAD Deployment howto.md",
     "docs/ressources/Pasted image 20230711151632.png",
     "docs/ressources/Pasted image 20230711143014.png",
     "docs/ressources/Pasted image 20230711142900.png",
     "docs/ressources/Pasted image 20230711142630.png",
     "docs/Praktische Projekte/auftraege/CKAD/PP prerequisites.md",
     "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a2 ReplicaSets/CKAD Deployment howto.md",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a2 ReplicaSets/a2-replica-set.yml",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a3 Deployments/a3-deploymnt.yml",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a3 Deployments",
     "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a1 Pods and edit/A1 PP edit pods.md",
-    "docs/CKAD/A2 Core Concepts/Multi-Container POD's.md",
     "docs/kubernetes/A5 yaml k8s/A5 Controllers/replica sets.md",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a2 ReplicaSets/a2-deploy-replic.yml",
     "docs/kubernetes/A5 yaml k8s/A5 Controllers/example replica set yaml.md",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a2 ReplicaSets/a2-replica.yml",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a2 ReplicaSets",
     "github.com/phonkd/dockerd/docs.md",
     "docs/docker/a5/Docker networks.md",
     "docs/docker/a7/Docker networking.md",
     "docs/kubernetes/A5 yaml k8s/Rolling update (Deployment).md",
     "docs/CKAD/A2 Core Concepts/Deployment (recap).md",
-    "docs/kubernetes/A7 Networking/A5 Networking/Node Port Kubernetes service.md",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a1/A1 PP edit pods.md",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/A1 PP edit pods.md",
-    "docs/ressources/Pasted image 20230710154255.png",
-    "docs/Praktische Projekte/auftraege/exercises with docker/a6 storage/a6 howto.md",
-    "docs/Praktische Projekte/auftraege/exercises with docker/a5 Docker compose/a5 howto.md",
-    "docs/Praktische Projekte/auftraege/exercises with docker/a4 Docker Registry/a4 howto.md",
-    "docs/CKAD/A8 state persistence/ckad Headless services.md",
-    "docs/CKAD/A8 state persistence/CKAD Stateful Sets.md",
-    "docs/kubernetes/A3 pods/Pods.md",
-    "docs/CKAD/A2 Core Concepts/Pod (recap).md",
-    "docs/ressources/Pasted image 20230710103109.png",
-    "docs/ressources/Pasted image 20230710100344.png",
-    "docs/ressources/Pasted image 20230709094537.png",
-    "docs/ressources/Pasted image 20230706133219.png",
-    "docs/ressources/Pasted image 20230706102044.png"
+    "docs/ressources/Pasted image 20230710154255.png"
   ]
 }

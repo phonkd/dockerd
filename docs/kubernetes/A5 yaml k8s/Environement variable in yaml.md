@@ -4,7 +4,7 @@
 ...
 spec:
  containers:
-  -name: postgres
+ - name: postgres
    image: postgres
    env:
     - name: POSTGRES_PASSWORD
