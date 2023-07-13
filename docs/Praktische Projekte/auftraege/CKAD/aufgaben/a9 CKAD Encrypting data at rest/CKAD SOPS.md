@@ -8,7 +8,10 @@ is an editor of encrypted files that supports YAML, JSON, ENV, INI and BINARY fo
 
 [GPG](GPG.md)
 
-`gpg --full-gen-key`
+```
+gpg --full-gen-key
+```
+
 
 ![Pasted image 20230713092444](Pasted%20image%2020230713092444.png)
 
@@ -16,9 +19,13 @@ is an editor of encrypted files that supports YAML, JSON, ENV, INI and BINARY fo
 
 ### Public Key exportieren
 
-1. Key id finden `gpg --list-secret-keys --keyid-format long <email>`
+1. Key id finden 
+
+```
+gpg --list-secret-keys --keyid-format long <email>
+```
    
-   ![Pasted image 20230713105306](Pasted%20image%2020230713105306.png)
+![Pasted image 20230713105306](Pasted%20image%2020230713105306.png)
 
 2. `gpg --armor --export <id> > file`
 
