@@ -6,19 +6,19 @@ is an editor of encrypted files that supports YAML, JSON, ENV, INI and BINARY fo
 
 ## Erstelle für dich ein GPG Schlüssel-paar (RSA 4096Bit), mit deiner Email
 
-[GPG](GPG.md)
+[GPG](docs/Praktische%20Projekte/auftraege/CKAD/aufgaben/a9%20CKAD%20Encrypting%20data%20at%20rest/GPG.md)
 
 `gpg --full-gen-key`
 
-![](Pasted%20image%2020230713092444.png)
+![Pasted image 20230713092444](docs/ressources/Pasted%20image%2020230713092444.png)
 
-![](Pasted%20image%2020230713092548.png)
+![Pasted image 20230713092548](docs/ressources/Pasted%20image%2020230713092548.png)
 
 ### Public Key exportieren
 
 1. Key id finden `gpg --list-secret-keys --keyid-format long <email>`
    
-   ![](Pasted%20image%2020230713105306.png)
+   ![Pasted image 20230713105306](docs/ressources/Pasted%20image%2020230713105306.png)
 
 2. `gpg --armor --export <id> > file`
 
@@ -37,7 +37,7 @@ kubectl create secret generic --from-file pub.key maiaccount -n namespace-fronte
 sops --encrypt --pgp=gpgid filename.yml > encryptdfilename
 ```
 
-[GPG](GPG.md)
+[GPG](docs/Praktische%20Projekte/auftraege/CKAD/aufgaben/a9%20CKAD%20Encrypting%20data%20at%20rest/GPG.md)
 
 ## Enschlüssle die datei wieder
 
@@ -46,7 +46,7 @@ sops -d secrets.enc.yaml
 ```
 *password was entered*
 
-![](Pasted%20image%2020230713110431.png)
+![Pasted image 20230713110431](docs/ressources/Pasted%20image%2020230713110431.png)
 
 *On the left: decrypted key, on the right non encrypted key*
 

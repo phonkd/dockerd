@@ -1,6 +1,6 @@
 ****
 
-[secrets (CKAD)](secrets%20(CKAD).md)
+[secrets (CKAD)](CKAD)).md)
 
 ## Füge deinem Deployment eine Environment Variable hinzu, welche aus einen Secret kommt:
 
@@ -20,15 +20,15 @@ envFrom:
 
 `kubectl apply -f a7-deployment.yml`
 
-[a8-secrets-frontend](a8-secrets-frontend.yml)
+[a8-secrets-frontend](docs/Praktische%20Projekte/auftraege/CKAD/aufgaben/a8%20CKAD%20Secrets/a8-secrets-frontend.yml)
 
-[a8-secrets-secret](a8-secrets-secret.yml)
+[a8-secrets-secret](docs/Praktische%20Projekte/auftraege/CKAD/aufgaben/a8%20CKAD%20Secrets/a8-secrets-secret.yml)
 
 ### Verification:
 
 `kubectl exec -n namespace-frontend-1 frontend-65f7cfb7cd-9fqjk -- /bin/bash -c 'echo $notpassword'`
 
-![](Pasted%20image%2020230712161015.png)
+![Pasted image 20230712161015](docs/ressources/Pasted%20image%2020230712161015.png)
 
 ## Speichere deine Index.html in ein Secret und mounte sie in deine Deployment Pods:
 
@@ -42,15 +42,15 @@ Im secret unter `data:` `a8-randomhtml.html` zu `index.html` ändern.
 
 Siehe:
 
-[./a8-html-in-secret-secret.yml](a8-html-in-secret-secret.yml)
+[./a8-html-in-secret-secret.yml](docs/Praktische%20Projekte/auftraege/CKAD/aufgaben/a8%20CKAD%20Secrets/a8-html-in-secret-secret.yml)
 
-[./a8-randomhtml.yml](a8-randomhtml.html)
+[./a8-randomhtml.yml](docs/Praktische%20Projekte/auftraege/CKAD/aufgaben/a8%20CKAD%20Secrets/a8-randomhtml.html)
 
 ### 2. Pod mount:
 
-See [./a8-secrets-frontend-html-mount.yml](a8-secrets-frontend-html-mount.yml)
+See [./a8-secrets-frontend-html-mount.yml](docs/Praktische%20Projekte/auftraege/CKAD/aufgaben/a8%20CKAD%20Secrets/a8-secrets-frontend-html-mount.yml)
 
-Similar to [a7 CKAD config maps](a7%20CKAD%20config%20maps%20howto.md) just that under `volumes:` its `secret:` and `secretName:` instead of `configMap:` and `name:`.
+Similar to [a7 CKAD config maps](docs/Praktische%20Projekte/auftraege/CKAD/aufgaben/a7%20CKAD%20config%20maps/a7%20CKAD%20config%20maps%20howto.md) just that under `volumes:` its `secret:` and `secretName:` instead of `configMap:` and `name:`.
 
 **Apply changes:**
 
@@ -62,13 +62,13 @@ Similar to [a7 CKAD config maps](a7%20CKAD%20config%20maps%20howto.md) just that
 
 ### 3. Test:
 
-![](Pasted%20image%2020230712164612.png)
+![Pasted image 20230712164612](docs/ressources/Pasted%20image%2020230712164612.png)
 
 
 >[!question]- Index.html
 >Does under data the key from the key value pair have to be index.html?
->![](Pasted%20image%2020230712164822.png)
+>![Pasted image 20230712164822](docs/ressources/Pasted%20image%2020230712164822.png)
 >With another name, following error showed up:
 >
->![](Pasted%20image%2020230712164855.png)
+>![Pasted image 20230712164855](docs/ressources/Pasted%20image%2020230712164855.png)
 

@@ -33,12 +33,12 @@ docker cp 930:/var/www/html/index.html .
 2. Mache eine anpassung an `index.html` 
    >[!answer]
    >
-   >(siehe [a6-index](a6-index.html))
+   >(siehe [a6-index](docs/Praktische%20Projekte/auftraege/exercises%20with%20docker/a6%20storage/a6-index.html))
 
 3. Mounte die datei nach /var/www/html 
    >[!answer]
    >
-   >siehe [a6-docker-compose](a6-docker-compose.yml)
+   >siehe [a6-docker-compose](docs/Praktische%20Projekte/auftraege/exercises%20with%20docker/a6%20storage/a6-docker-compose.yml)
 
 4. Kannst du die änderungen sehen?
 >[!answer]
