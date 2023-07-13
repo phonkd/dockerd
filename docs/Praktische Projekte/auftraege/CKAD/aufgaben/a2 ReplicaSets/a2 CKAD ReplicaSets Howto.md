@@ -11,7 +11,7 @@
 
 Siehe
 
-**Obsidian:** [[docs/Praktische Projekte/auftraege/CKAD/aufgaben/a2 ReplicaSets/a2-replica-set.yml]]
+**Obsidian:** [a2-replica-set](a2-replica-set.yml)
 
 **Others:** `./a2-replica-set-yml`
 
@@ -21,7 +21,7 @@ Der namen der Pods besteht aus `replicasetName`-`random`
 
 Die pods sind alle genau gleich alt: 
 
-![[docs/ressources/Pasted image 20230711142630.png]]
+![Pasted image 20230711142630](../../../../../ressources/Pasted%20image%2020230711142630.png)
 
 sonst sind alle pods fast gleich
 
@@ -35,13 +35,13 @@ sonst sind alle pods fast gleich
 
 `kubectl edit replicaset a2-replicaset`
 
-![[docs/ressources/Pasted image 20230711142900.png]]
+![Pasted image 20230711142900](../../../../../ressources/Pasted%20image%2020230711142900.png)
 
 ## Lösche einen Pod. Was passiert?
 
 Der pod wird gelöscht, aber direkt wird ein neuer gestartet:
 
-![[docs/ressources/Pasted image 20230711143014.png]]
+![Pasted image 20230711143014](../../../../../ressources/Pasted%20image%2020230711143014.png)
 
 ## Füg den, durch das Replicaset, ausgerollten Pods ein neues Label hinzu. Es darf maximal ein Command verwendet werden. Was passiert (evtl. Musst du kurz warten)?
 
@@ -51,4 +51,4 @@ Das label wird dem Pod hinzugefügt und kann mit `kubectl describe pod podname` 
 
 Auch nach langem warten (15 min) passiert mit dem Pod nichts.
 
-![[docs/ressources/Pasted image 20230711151632.png]]
+![Pasted image 20230711151632](../../../../../ressources/Pasted%20image%2020230711151632.png)

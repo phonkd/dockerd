@@ -4,7 +4,7 @@
 
 `./a2-deploy-replic.yml`
 
-[[a2-deploy-replic.yml|a2-deploy-replic]] Obsidian users
+[a2-deploy-replic](a2-deploy-replic.yml) Obsidian users
 
 `replicas: 1` --> `replicas: 3`
 

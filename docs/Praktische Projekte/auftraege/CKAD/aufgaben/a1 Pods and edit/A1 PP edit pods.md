@@ -27,7 +27,7 @@ Port existiert bei `kubectl edit pod a1a1` nicht.
 
 Nicht möglich, metadata kann nicht angepasst werden
 
-![[docs/ressources/Pasted image 20230710154255.png]]
+![Pasted image 20230710154255](../../../../../ressources/Pasted%20image%2020230710154255.png)
 
 ## Yaml von laufendem pod exportieren
 

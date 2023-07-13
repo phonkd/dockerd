@@ -9,19 +9,19 @@ kubectl create namespace namespace-redis-2
 
 ## Deploy das Frontend in Namespace 1 und redis in Namespace 2
 
-Obsidian: [[a5-ckad-namespaces-redis-yml]]
+Obsidian: [a5-ckad-namespaces-redis-yml](a5-ckad-namespaces-redis.yml)
 
 sonstige: `./a5-ckad-namespaces-redis.yml`
 
 und 
 
-Obsidian: [[docs/Praktische Projekte/auftraege/CKAD/aufgaben/a5 CKAD Namespaces/a5-ckad-namespaces-frontend.yml]]
+Obsidian: [a5-ckad-namespaces-frontend](a5-ckad-namespaces-frontend.yml)
 
 sonstige: `./a5-ckad-namespaces-frontend.yml`
 
 und
 
-Obsidian: [[docs/Praktische Projekte/auftraege/CKAD/aufgaben/a5 CKAD Namespaces/a5-ckad-namespaces-redis-follower.yml]]
+Obsidian: [a5-ckad-namespaces-redis-follower](a5-ckad-namespaces-redis-follower.yml)
 
 andere: `./a5-ckad-namespaces-redis-follower.yml`
 

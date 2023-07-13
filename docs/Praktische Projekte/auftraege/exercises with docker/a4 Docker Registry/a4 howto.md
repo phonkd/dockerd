@@ -6,7 +6,7 @@
 
 ## Pushe eigenes gb-frontend image darauf
 
-[[docs/Praktische Projekte/auftraege/exercises with docker/a4 Docker Registry/a4-dockerfile]]
+[a4-dockerfile](a4-dockerfile)
 
 1. Image taggen
    `docker image tag imageid localhost:5000/sleeper`
@@ -16,7 +16,7 @@
 
 ## Bonus mit compose
 
-1. Siehe [[docs/Praktische Projekte/auftraege/exercises with docker/a4 Docker Registry/a4-docker-compose.yml]]
+1. Siehe [a4-docker-compose](a4-docker-compose.yml)
 
 2. `docker-compose up -d`
 
