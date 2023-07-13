@@ -3,13 +3,13 @@
 1. Erstelle eine Docker-Compose Datei, die sowohl dein Image als auch [Redis](https://redis.io/ "https://redis.io/") beinhaltet.  
     (Redis soll mindestens aus zwei Komponenten bestehen: einem Leader (Image: [docker.io/redis:6.0.5](http://docker.io/redis:6.0.5 "http://docker.io/redis:6.0.5")) und einen Follower (Image: [gcr.io/google_samples/gb-redis-follower:v2](http://gcr.io/google_samples/gb-redis-follower:v2 "http://gcr.io/google_samples/gb-redis-follower:v2")) 
 >[!answer]
->Siehe [a5-docker-compose](docs/Praktische%20Projekte/auftraege/exercises%20with%20docker/a5%20Docker%20compose/a5-docker-compose.yml)
->Eigenes image kam aus eigener registry [a4 howto](docs/Praktische%20Projekte/auftraege/exercises%20with%20docker/a4%20Docker%20Registry/a4%20howto.md)
+>Siehe [[docs/Praktische Projekte/auftraege/exercises with docker/a5 Docker compose/a5-docker-compose.yml]]
+>Eigenes image kam aus eigener registry [[docs/Praktische Projekte/auftraege/exercises with docker/a4 Docker Registry/a4 howto]]
 
 2. Sorge dafür das das gb-frontend im browser aufgerufen werden kann:
 
 >[!answer]
->Siehe [a5-docker-compose](docs/Praktische%20Projekte/auftraege/exercises%20with%20docker/a5%20Docker%20compose/a5-docker-compose.yml)
+>Siehe [[docs/Praktische Projekte/auftraege/exercises with docker/a5 Docker compose/a5-docker-compose.yml]]
 >(`ports:`)
    
 

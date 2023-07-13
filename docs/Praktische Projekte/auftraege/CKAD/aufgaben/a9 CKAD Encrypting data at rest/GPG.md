@@ -17,7 +17,7 @@ Was already installed
 
 2. Copy the GPG key ID:
    
-   ![Pasted image 20230713105242](docs/ressources/Pasted%20image%2020230713105242.png)
+   ![[docs/ressources/Pasted image 20230713105242.png]]
 
 3. show public Key `gpg --armor --export prevslCopiedId`
 
@@ -27,4 +27,4 @@ Was already installed
 gpg --fingerprint email.adress@gmail.com
 ```
 
-![Pasted image 20230713103255](docs/ressources/Pasted%20image%2020230713103255.png)
+![[docs/ressources/Pasted image 20230713103255.png]]

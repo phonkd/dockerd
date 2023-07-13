@@ -1,6 +1,6 @@
 ****
 
-[CKAD Config Maps](docs/CKAD/A3%20Configuration/CKAD%20Config%20Maps.md)
+[[docs/CKAD/A3 Configuration/CKAD Config Maps]]
 
 ## Füge deinem Deployment eine Environment Variable hinzu, welche aus einer Configmap kommt
 
@@ -26,7 +26,7 @@
 
 The index html is successfully mounted into the container, however all the other files in the html folder got deleted by the configmap:
 
-![Pasted image 20230712143921](docs/ressources/Pasted%20image%2020230712143921.png)
+![[docs/ressources/Pasted image 20230712143921.png]]
 
 ### 2nd try
 
@@ -39,4 +39,4 @@ added `subPath: index.html` to the `volumeMounts` section (deployment yaml).
 `kubectl port-forward -n namespace-frontend-1 frontend-5755c5c699-9z5mm 5000:80`
 
 
-![Pasted image 20230712155635](docs/ressources/Pasted%20image%2020230712155635.png)
+![[docs/ressources/Pasted image 20230712155635.png]]
