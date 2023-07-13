@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: deployment-of-exported
+  name: deployment-of-exported
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: deployment-of-exported
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: deployment-of-exported
+    spec:
+      containers:
+      - image: phonkd/t-practice:2 
+        name: t-practice
+        ports:
+        - containerPort: 80
+        resources: {}
+status: {}

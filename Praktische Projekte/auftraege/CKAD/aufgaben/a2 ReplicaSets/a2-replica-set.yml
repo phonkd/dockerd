@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+  name: a2-replicaset
+spec: 
+ replicas: 3
+ selector:
+   matchLabels:
+     app: gbftd
+ template:
+   metadata:
+     name: gbfrontend
+     labels:
+       app: gbftd
+   spec:
+    containers:
+      - image: phonkd/t-practice:2
+        name: t-practice
+        ports:
+        - containerPort: 80

@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: redis-follower
+  name: redis-follower
+  namespace: namespace-redis-2
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: redis-follower
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: redis-follower
+    spec:
+      containers:
+      - image: gcr.io/google_samples/gb-redis-follower:v2
+        name: redis-follower
+        ports:
+          - containerPort: 80
