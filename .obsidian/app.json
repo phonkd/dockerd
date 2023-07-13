@@ -12,5 +12,5 @@
     "downscalePercent": 100
   },
   "showUnsupportedFiles": true,
-  "newLinkFormat": "absolute"
+  "newLinkFormat": "shortest"
 }

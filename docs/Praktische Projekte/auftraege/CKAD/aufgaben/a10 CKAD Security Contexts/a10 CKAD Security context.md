@@ -11,11 +11,11 @@ I've edited the dockerfile to add a new user with the userid 1500 and added `sec
 
 >[!error] Result
 >
->![](docs/Praktische%20Projekte/auftraege/CKAD/aufgaben/a10%20CKAD%20Security%20Contexts/get-pods-error.png)
+>![](get-pods-error.png)
 >
 >*Containers seem to crash*
 >
->![](docs/Praktische%20Projekte/auftraege/CKAD/aufgaben/a10%20CKAD%20Security%20Contexts/Pasted%20image%2020230713133643.png)
+>![](Pasted%20image%2020230713133643.png)
 >
 >Cause seems to be a **Permission denied** error (no longer root).
 >
@@ -28,5 +28,5 @@ Im [a10 CKAD Sec context-frontend](docs/Praktische%20Projekte/auftraege/CKAD/auf
 
 Daraufhin crasht der Pod weil er keine rechte hat:
 
-![](docs/Praktische%20Projekte/auftraege/CKAD/aufgaben/a10%20CKAD%20Security%20Contexts/Pasted%20image%2020230713142303.png)
+![](Pasted%20image%2020230713142303.png)
 

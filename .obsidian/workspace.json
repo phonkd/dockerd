@@ -25,13 +25,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/CKAD/A3 Configuration/CKAD Kubernetes Security Contexts.md",
+                "file": "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a10 CKAD Security Contexts/a10 CKAD Security context.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -90,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Praktische Projekte/auftraege/docker security/Hacking a docker container.md",
+                "file": "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a10 CKAD Security Contexts/a10 CKAD Security context.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/Praktische Projekte/auftraege/docker security/Hacking a docker container.md",
+                "file": "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a10 CKAD Security Contexts/a10 CKAD Security context.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -130,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Praktische Projekte/auftraege/docker security/Hacking a docker container.md"
+                "file": "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a10 CKAD Security Contexts/a10 CKAD Security context.md"
               }
             }
           },
@@ -160,14 +161,15 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "8a0a042c6b0e8bff",
+  "active": "17d8524cdfb8f135",
   "lastOpenFiles": [
+    "docs/CKAD/A3 Configuration/CKAD Kubernetes Security Contexts.md",
+    "docs/Praktische Projekte/auftraege/docker security/Hacking a docker container.md",
     "docs/Praktische Projekte/auftraege/docker security/old-esceip.sh",
     "docs/Praktische Projekte/auftraege/docker security/out_container",
     "docs/Praktische Projekte/auftraege/docker security/Pasted image 20230713144602.png",
     "docs/Praktische Projekte/auftraege/docker security/esceip.sh",
     "github.com/phonkd/dockerd/docs.md",
-    "docs/Praktische Projekte/auftraege/docker security/Hacking a docker container.md",
     "docs/Praktische Projekte/auftraege/docker security",
     "README.md",
     "a5-ckad-namespaces-redis-yml.md",
@@ -175,7 +177,6 @@
     "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a10 CKAD Security Contexts/a10 CKAD Security context.md",
     "similar to [docker inspect.md",
     "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a10 CKAD Security Contexts/Pasted image 20230713142303.png",
-    "docs/CKAD/A3 Configuration/CKAD Kubernetes Security Contexts.md",
     "docs/CKAD/A3 Configuration/Pasted image 20230713142122.png",
     "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a10 CKAD Security Contexts/Pasted image 20230713133643.png",
     "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a10 CKAD Security Contexts/get-pods-error.png",
@@ -206,7 +207,6 @@
     "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a10 CKAD Security Contexts/a9 CKAD Sec context-frontend.yml",
     "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a10 CKAD Security Contexts",
     "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a9 CKAD Encrypting data at rest/secrets-decrypted.yaml",
-    "docs/ressources/Pasted image 20230713110431.png",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a9 CKAD Encrypting data at rest/secrets.enc.yaml"
+    "docs/ressources/Pasted image 20230713110431.png"
   ]
 }
