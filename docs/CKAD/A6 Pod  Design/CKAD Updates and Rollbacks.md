@@ -10,7 +10,7 @@ On Update a new revision is created.
 
 This enables an easy rollback.
 
-![](Pasted%20image%2020230705131418.png)
+![Pasted image 20230705131418](Pasted%20image%2020230705131418.png)
 
 **View rollout status:**
 
@@ -26,9 +26,9 @@ This enables an easy rollback.
 
 Destroy all old pods and recreate new ones. (Shit bc of downtime)
 
-![](Pasted%20image%2020230705133833.png)
+![Pasted image 20230705133833](Pasted%20image%2020230705133833.png)
 
-![](Pasted%20image%2020230705132113.png)
+![Pasted image 20230705132113](Pasted%20image%2020230705132113.png)
 
 ### Rolling Update (Default)
 
@@ -36,7 +36,7 @@ Destroy single pods 1by1 and create pods with the new version.
 
 Kubernetes creates a new replicasets and scales the old one down one  by one while increasing the replicas by 1 in the new replicaset.
 
-![](Pasted%20image%2020230705132216.png)
+![Pasted image 20230705132216](Pasted%20image%2020230705132216.png)
 
 
 ## Create Deployment

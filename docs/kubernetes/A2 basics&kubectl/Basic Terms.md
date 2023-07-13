@@ -17,7 +17,7 @@
    Components:
 	   - Container Runtime
 	   - </>Kubelet (interacts with kube-apiserver)
-	![](Pasted%20image%2020230519115125.png)
+	![Pasted image 20230519115125](docs/docker/a2/ressources/Pasted%20image%2020230519115125.png)
 **Kubernetes components:**
 - API Server
 	- Enables communicating with the cluster (CLI...)

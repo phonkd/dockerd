@@ -4,7 +4,7 @@ Services enable connectivity between:
 
 Pods, Users and external data sources:
 
-![](Pasted%20image%2020230706094758.png)
+![Pasted image 20230706094758](Pasted%20image%2020230706094758.png)
 
 ## Node Port Service
 
@@ -12,5 +12,5 @@ Pods, Users and external data sources:
 
 **Ports:**
 
-![](Pasted%20image%2020230706095319.png)
+![Pasted image 20230706095319](Pasted%20image%2020230706095319.png)
 

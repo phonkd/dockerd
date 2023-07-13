@@ -6,7 +6,7 @@
 >- [ ] Personal use
 >**Example:**
 >Have a dev and a prod environement on one cluster:
->![[docs/ressources/Pasted image 20230606160501.png]]
+>![Pasted image 20230606160501](docs/ressources/Pasted%20image%2020230606160501.png)
 
 ## Namespace capabilities
 - Policies:

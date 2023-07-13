@@ -4,7 +4,7 @@
 
 is an editor of encrypted files that supports YAML, JSON, ENV, INI and BINARY formats and encrypts with AWS KMS, GCP KMS, Azure Key Vault, age, and PGP. ([demo](https://www.youtube.com/watch?v=YTEVyLXFiq0))
 
-## Erstelle für dich ein GPG Schlüssel-paar (RSA 4096Bit), mit deiner Email
+## Erstelle für dich ein GPG Schlüssel-paar (RSA 4096Bit) mit deiner Email
 
 [GPG](GPG.md)
 

@@ -21,7 +21,7 @@
 
 >[!info] Kube Scheduler
 >The kube Scheduler looks at resource requirements of a pod and distributes pods across nodes efficiently:
->![](Pasted%20image%2020230627104814.png)
+>![Pasted image 20230627104814](Pasted%20image%2020230627104814.png)
 
 
 ## set specifig resource requirements on pod
@@ -71,14 +71,14 @@ If it does so repeatedly it will be terminated with a out of memory error.
 
 By default any pod can use all of the resources available and suffocate other pods or system processes.
 
-![](Pasted%20image%2020230627110442.png)
+![Pasted image 20230627110442](Pasted%20image%2020230627110442.png)
 Right model requires all pods to have requests defined for them to get resources.
 
 ### Memory
 
 Just like with CPU, one pod can consume all the memory available and hinder other processes.
 
-![](Pasted%20image%2020230627110933.png)
+![Pasted image 20230627110933](Pasted%20image%2020230627110933.png)
 
 
 
@@ -104,7 +104,7 @@ spec:
    type: Container
 ```
 
-![](Pasted%20image%2020230627111327.png)
+![Pasted image 20230627111327](Pasted%20image%2020230627111327.png)
 ## Limit Total usage of all pods (Resource Quotas)
 
 **Limit resources in current namespace:**

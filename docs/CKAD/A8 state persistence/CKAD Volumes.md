@@ -22,5 +22,5 @@ volumes:
 >On a multi node cluster, each node has a different /data directory and have different data on them. 
 >To add volumes that share the same state across nodes use one of the following solutions:
 >
->![](Pasted%20image%2020230706133219.png)
+>![Pasted image 20230706133219](Pasted%20image%2020230706133219.png)
 

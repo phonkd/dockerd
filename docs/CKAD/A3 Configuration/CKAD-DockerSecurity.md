@@ -21,5 +21,5 @@
 
 >[!tip] Security Tips 
 >1. Change the user from root to another
->2. drop unnessecary [Priveleges](CKAD-DockerSecurity#^75e1ad)
+>2. drop unnessecary [](.md#^75e1ad)
 

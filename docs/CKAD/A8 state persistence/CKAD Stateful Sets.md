@@ -1,6 +1,6 @@
 ****
 
-*statefulsets are similar to deployments, they however by default have ordered Pod creation (if pod 1 fails creating, pod 2 will never try). This can be changed with [Pod management Policy](CKAD%20Stateful%20Sets.md#Pod%20management%20Policy) Statefulsets are useful for services with static hostnames.*
+*statefulsets are similar to deployments, they however by default have ordered Pod creation (if pod 1 fails creating, pod 2 will never try). This can be changed with [](.md#Pod%20management%20Policy) Statefulsets are useful for services with static hostnames.*
 
 
 ## vs Deployments

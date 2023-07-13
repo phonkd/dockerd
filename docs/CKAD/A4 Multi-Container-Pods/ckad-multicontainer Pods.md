@@ -9,7 +9,7 @@ It sometimes is a best practice to keep the two services seperated instead of cr
 
 Useful for collecting log data from a webserver and sending it to a log server.
 
-![](Pasted%20image%2020230703111906.png)
+![Pasted image 20230703111906](Pasted%20image%2020230703111906.png)
 
 ## Adapter:
 

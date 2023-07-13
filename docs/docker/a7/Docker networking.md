@@ -7,7 +7,7 @@
 
 ## Bridge
 *Private internal Network of host*
-![](Pasted%20image%2020230519091901.png)
+![Pasted image 20230519091901](docs/docker/resources/Pasted%20image%2020230519091901.png)
 Containers get a private IP adress (usually 127.0.0.any).
 **Access containers in bridge network**
 - Map port from container to docker host
@@ -16,7 +16,7 @@ Containers get a private IP adress (usually 127.0.0.any).
 *A container running e.g apache with the option --network=host network wise is the same as running it directly (not in container).
 >[!warning]
 >This means you can run two containers at the same time that use the same port
->![](Pasted%20image%2020230519092211.png)
+>![Pasted image 20230519092211](docs/docker/resources/Pasted%20image%2020230519092211.png)
 
 ## none
 *Isolated Network without access to the outside or any other containers*

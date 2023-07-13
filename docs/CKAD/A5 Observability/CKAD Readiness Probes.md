@@ -16,7 +16,7 @@
 
 *Array of True or false values aboutt the pod*
 
-![](Pasted%20image%2020230705095231.png)
+![Pasted image 20230705095231](Pasted%20image%2020230705095231.png)
 
 ### the Ready Condition:
 

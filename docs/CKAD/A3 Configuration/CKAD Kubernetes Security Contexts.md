@@ -46,3 +46,7 @@ spec:
      capabilities:
       add: ["KILL"]
 ```
+
+## Disable system capabilities
+
+![](docs/CKAD/A3%20Configuration/Pasted%20image%2020230713142122.png)

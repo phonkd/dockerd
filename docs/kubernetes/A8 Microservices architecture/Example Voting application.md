@@ -16,7 +16,7 @@
 >- Voting app needs redis host with hostname redis.
 >- Result app needs access to worker
 >- Worker needs access to db and redis
->![](Pasted%20image%2020230524104928.png)
+>![Pasted image 20230524104928](docs/docker/resources/Pasted%20image%2020230524104928.png)
 >Add:
 >`--link redis:redis` to voting app
 >`--link db:db`to result-app
@@ -50,7 +50,7 @@
 
 >[!note]
 >Since the worker node is never accessed by another pod but only connects to other pods, it has no service.
-![](Pasted%20image%2020230524105927.png)
+![Pasted image 20230524105927](docs/docker/resources/Pasted%20image%2020230524105927.png)
 
 > [!info]
 > The name redis and db are to be named redis and db because the sourcecode of the application hard coded the name.

@@ -1,6 +1,6 @@
 ****
 Always Instruction argument
-![[Pasted image 20230516141638.png]]
+![Pasted image 20230516141638](docs/docker/resources/Pasted%20image%2020230516141638.png)
 
 ## From
 Specify the base os e.g alpine:latest or ubuntu:20.04

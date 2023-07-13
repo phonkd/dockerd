@@ -10,4 +10,4 @@
 - Overlay2
 **What storage driver am I using:**
 `docker info | grep Storage
-![[Pasted image 20230519083004.png]]
+![Pasted image 20230519083004](docs/docker/resources/Pasted%20image%2020230519083004.png)

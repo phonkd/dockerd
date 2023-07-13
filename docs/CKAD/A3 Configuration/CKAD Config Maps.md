@@ -9,7 +9,7 @@
 `kubectl describe configmaps`
 ****
 *Its smart to seperate config maps for different pods:*
-	![](Pasted%20image%2020230607092149.png)
+	![Pasted image 20230607092149](Pasted%20image%2020230607092149.png)
 ***
 ## Inject config map to pod:
 *use it*

@@ -1,6 +1,6 @@
 ***
 [example replica set yaml](example%20replica%20set%20yaml.md)
-Not the same as [[Replication controller]]
+Not the same as [Replication controller](Replication%20controller.md)
 
 Create:
 `kubectl create -f file.yml

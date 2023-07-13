@@ -25,8 +25,8 @@ services:
 | --------------- | ------------------------------------------------------------------------------ | ------------- |
 | image:          | specify docker image                                                           |  phonkd/ubuntu             |
 | container_name: | specify container name                                                         |  somename             |
-| networks:       | specify what networks the container gets connected to. See [[Docker networks]] |   - backend            |
+| networks:       | specify what networks the container gets connected to. See [Docker networks](Docker%20networks.md) |   - backend            |
 | version:        | specify docker-compose version                                                 |        "2"       |
 
 
-[[Docker networks]]
+[Docker networks](Docker%20networks.md)

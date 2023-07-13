@@ -4,52 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "5c2f238e7b7f4e0c",
+        "id": "e914d2e2f4174039",
         "type": "tabs",
         "children": [
           {
-            "id": "03dbeda34f5d9af4",
+            "id": "8a0a042c6b0e8bff",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a8 CKAD Secrets/a8 CKAD secrets howto.md",
+                "file": "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a10 CKAD Security Contexts/a10 CKAD Security context.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "67aaa4c94156ad5c",
+            "id": "17d8524cdfb8f135",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a7 CKAD config maps/a7 CKAD config maps howto.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4f629cc71c6fd3c8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/CKAD/A3 Configuration/secrets (CKAD).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0f9e05fbf014185e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/CKAD/A3 Configuration/CKAD Config Maps.md",
+                "file": "docs/CKAD/A3 Configuration/CKAD Kubernetes Security Contexts.md",
                 "mode": "source",
                 "source": false
               }
@@ -84,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "kind: Deployment",
+                "query": "capa",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -93,12 +69,12 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 459.5,
-    "collapsed": true
+    "width": 459.5
   },
   "right": {
     "id": "cc29d60051e85c22",
@@ -114,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a8 CKAD Secrets/a8 CKAD secrets howto.md",
+                "file": "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a10 CKAD Security Contexts/a10 CKAD Security context.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +107,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a8 CKAD Secrets/a8 CKAD secrets howto.md",
+                "file": "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a10 CKAD Security Contexts/a10 CKAD Security context.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +130,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a8 CKAD Secrets/a8 CKAD secrets howto.md"
+                "file": "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a10 CKAD Security Contexts/a10 CKAD Security context.md"
               }
             }
           },
@@ -184,53 +160,53 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "03dbeda34f5d9af4",
+  "active": "8a0a042c6b0e8bff",
   "lastOpenFiles": [
-    "docs/ressources/Pasted image 20230712164855.png",
-    "docs/ressources/Pasted image 20230712164822.png",
-    "docs/ressources/Pasted image 20230712164612.png",
-    "docs/CKAD/A3 Configuration/secrets (CKAD).md",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a10 CKAD Security Contexts/Pasted image 20230713142303.png",
+    "docs/CKAD/A3 Configuration/CKAD Kubernetes Security Contexts.md",
+    "docs/CKAD/A3 Configuration/Pasted image 20230713142122.png",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a10 CKAD Security Contexts/a10 CKAD Security context.md",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a10 CKAD Security Contexts/Pasted image 20230713133643.png",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a10 CKAD Security Contexts/get-pods-error.png",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a10 CKAD Security Contexts/a10 CKAD Sec context-frontend.yml",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a10 CKAD Security Contexts/ckad-security-context-dockerfile",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a10 CKAD Security Contexts/a4-dockerfile",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a9 CKAD Encrypting data at rest/SOPS.md",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a9 CKAD Encrypting data at rest/Pasted image 20230713131612.png",
     "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a8 CKAD Secrets/a8 CKAD secrets howto.md",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a8 CKAD Secrets/a8-secrets-frontend-html-mount.yml",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a8 CKAD Secrets/a8-html-in-secret-secret.yml",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a8 CKAD Secrets/a8-randomhtml.html",
-    "docs/ressources/Pasted image 20230712161015.png",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a8 CKAD Secrets/a8-secrets-secret.yml",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a8 CKAD Secrets/a8-secrets-frontend.yml",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a7 CKAD config maps/a7 CKAD config maps howto.md",
-    "docs/CKAD/A3 Configuration/CKAD Config Maps.md",
-    "docs/ressources/Pasted image 20230712155635.png",
-    "docs/CKAD/A3 Configuration/config maps (CKAD).md",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a8 CKAD Secrets/secret.yml",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a8 CKAD Secrets/configmap-frontend.yml",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a8 CKAD Secrets/a7-ckad-namespaces-frontend.yml",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a8 CKAD Secrets/a6-ckad-namespaces-redis.yml",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a8 CKAD Secrets/a6-ckad-namespaces-redis-follower.yml",
-    "docs/ressources/Pasted image 20230712143921.png",
-    "docs/CKAD/A4 Multi-Container-Pods/ckad-multicontainer Pods.md",
-    "docs/kubernetes/A5 yaml k8s/Environement variable in yaml.md",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a6 CKAD env/a6 CKAD env howto.md",
-    "docs/CKAD/A3 Configuration/Environment variables k8s.md",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a2 ReplicaSets/a2 CKAD ReplicaSets Howto.md",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a9 CKAD Encrypting data at rest/CKAD SOPS.md",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a9 CKAD Encrypting data at rest/a9 CKAD Encrypting at rest Howto.md",
     "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a5 CKAD Namespaces/a5 CKAD namespaces howto.md",
-    "docs/docker/a4/Environement Variables.md",
-    "docs/CKAD/A2 Core Concepts/Multi-Container POD's.md",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a4 CKAD formatting output with kubectl/a4 CKAD Formatting output with kubectl.md",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a3 Deployments/CKAD Deployment howto.md",
-    "docs/ressources/Pasted image 20230711151632.png",
-    "docs/ressources/Pasted image 20230711143014.png",
-    "docs/ressources/Pasted image 20230711142900.png",
-    "docs/ressources/Pasted image 20230711142630.png",
-    "docs/Praktische Projekte/auftraege/CKAD/PP prerequisites.md",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a2 ReplicaSets/CKAD Deployment howto.md",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a1 Pods and edit/A1 PP edit pods.md",
-    "docs/kubernetes/A5 yaml k8s/A5 Controllers/replica sets.md",
-    "docs/kubernetes/A5 yaml k8s/A5 Controllers/example replica set yaml.md",
-    "github.com/phonkd/dockerd/docs.md",
-    "docs/docker/a5/Docker networks.md",
-    "docs/docker/a7/Docker networking.md",
+    "a5-ckad-namespaces-redis-yml.md",
+    "docs/kubernetes/A5 yaml k8s/Rollout.md",
     "docs/kubernetes/A5 yaml k8s/Rolling update (Deployment).md",
-    "docs/CKAD/A2 Core Concepts/Deployment (recap).md",
-    "docs/ressources/Pasted image 20230710154255.png"
+    "docs/kubernetes/A5 yaml k8s/Rollback.md",
+    "docs/kubernetes/A5 yaml k8s/Environement variable in yaml.md",
+    "docs/kubernetes/A5 yaml k8s/A5 Controllers/Replication controller.md",
+    "docs/kubernetes/A5 yaml k8s/A5 Controllers/replace yml file.md",
+    "docs/kubernetes/A5 yaml k8s/A5 Controllers/example replication yaml.md",
+    "docs/kubernetes/A5 yaml k8s/A5 Controllers/example replica set yaml.md",
+    "docs/kubernetes/A5 yaml k8s/A5 Controllers/delete replicaset and pods.md",
+    "docs/kubernetes/A4 yaml/yaml.md",
+    "docs/kubernetes/A4 yaml/List vs dictionaries.md",
+    "docs/kubernetes/A3 pods/Pods.md",
+    "similar to [docker inspect.md",
+    "docs/kubernetes/A3 pods/Kubectl edit.md",
+    "docs/kubernetes/A3 pods/Delete pods.md",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a9 CKAD Encrypting data at rest/GPG.md",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a6 CKAD env/a6 CKAD env howto.md",
+    "docs/docker/a7/Pasted image 20230713124341.png",
+    "docs/docker/a7/Pasted image 20230713124331.png",
+    "docs/docker/a7/Pasted image 20230713124250.png",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a10 CKAD Security Contexts/a9 CKAD Sec context-frontend.yml",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a10 CKAD Security Contexts",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a9 CKAD Encrypting data at rest/secrets-decrypted.yaml",
+    "docs/ressources/Pasted image 20230713110431.png",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a9 CKAD Encrypting data at rest/secrets.enc.yaml",
+    "docs/ressources/Pasted image 20230713105306.png",
+    "docs/ressources/Pasted image 20230713105242.png",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a9 CKAD Encrypting data at rest/maiaccount.yml",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a9 CKAD Encrypting data at rest/pub.key",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a9 CKAD Encrypting data at rest"
   ]
 }

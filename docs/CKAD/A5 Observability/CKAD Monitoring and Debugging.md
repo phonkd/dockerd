@@ -12,7 +12,7 @@
 >[!warning] Metrics Server IN-MEMORY
 >The Metrics server only stores data in memory and not on the disk.
 >Therefore it alone is no solution for monitoring e.g monthly usage.
->Use [[Prometheus]]
+>Use [Prometheus](Prometheus.md)
 
 
 
@@ -24,7 +24,7 @@ The cAdvisor collects data and exposes it to the metrics server via the kube API
 
 ## Getting Started:
 
-![](Pasted%20image%2020230705124710.png)
+![Pasted image 20230705124710](Pasted%20image%2020230705124710.png)
 
 `kubectl top node` Performance metrics of nodes
 

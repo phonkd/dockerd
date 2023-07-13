@@ -2,7 +2,7 @@
 
 Normally all containers inside a pod run as long as the pod does. The Services are often continuous and dont stop running (Web Server, logging).
 
-To create a container that runs a simple JOB once and then stops, use [ckad init containers](ckad%20init%20containers.md). (on pod creation)
+To create a container that runs a simple JOB once and then stops, use [ckad init containers](.md). (on pod creation)
 
 >[!info] Possibilities
 >Its possible to specify multiple init containers.

@@ -6,11 +6,11 @@
 - [ ] Password based authentication disabled
 - [ ] SSH Key based authentication
 
-[[CKAD Authentication]]
+[CKAD Authentication](CKAD%20Authentication)
 
-[[CKAD Authorization]]
+[CKAD Authorization](CKAD%20Authorization)
 
-[[CKAD RBAC]]
+[CKAD RBAC](CKAD%20RBAC)
 
-[[CKAD Adission control]]
+[CKAD Adission control](CKAD%20Adission%20control)
 

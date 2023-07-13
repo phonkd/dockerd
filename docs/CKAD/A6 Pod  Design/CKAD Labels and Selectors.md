@@ -17,7 +17,7 @@ An example of this are replica sets: They know which pods to count in by labels.
 >
 >The ones in the template section are from the pods!
 >
->![](Pasted%20image%2020230705130142.png)
+>![Pasted image 20230705130142](Pasted%20image%2020230705130142.png)
 
 ## Add labels to stuff
 

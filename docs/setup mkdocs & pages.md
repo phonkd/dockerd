@@ -17,7 +17,7 @@
 1. Navigate to settings
 2. Scroll down to github Pages
 3. Change the branch to the docs folder:
-   ![[docs/ressources/Pasted image 20230606182459.png]]
+   ![Pasted image 20230606182459](docs/ressources/Pasted%20image%2020230606182459.png)
 4. Setup Github actions (create .github/workflows/ci.yml)
 5. See my ci.yml (github.com/phonkd/dockerd)
 6. Install dependencies `- run: pip install mkdocs-material pillow cairosvg mkdocs-roamlinks-plugin`

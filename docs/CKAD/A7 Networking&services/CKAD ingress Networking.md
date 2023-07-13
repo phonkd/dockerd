@@ -19,13 +19,13 @@ metadata:
 
 Instead of having all of this crap:
 
-![](Pasted%20image%2020230706102001.png)
+![Pasted image 20230706102001](Pasted%20image%2020230706102001.png)
 
 You are better off setting up an ingress Controller in Kubernetes.
 
 It involves creating a deployment of one of the following Services:
 
-![](Pasted%20image%2020230706102044.png)
+![Pasted image 20230706102044](Pasted%20image%2020230706102044.png)
 
 ## How to setup ingress
 

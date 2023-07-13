@@ -1,1 +1,1 @@
-*same as using [[docker run]] without -d flag*
+*same as using [Docker run](Docker%20run.md) without -d flag*

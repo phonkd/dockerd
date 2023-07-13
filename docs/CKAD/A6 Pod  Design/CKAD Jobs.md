@@ -14,7 +14,7 @@ To run a container, calculate 10 + 5 run:
 
 The container will exit (0)
 
-![](Pasted%20image%2020230705134333.png)
+![Pasted image 20230705134333](Pasted%20image%2020230705134333.png)
 
 **Kubernetes**
 
@@ -47,7 +47,7 @@ spec:
 
 Kubernetes will create Pods as long as there arent 3 successfull completions:
 
-![](Pasted%20image%2020230705135822.png)
+![Pasted image 20230705135822](Pasted%20image%2020230705135822.png)
 
 with the `parallelism: 3` property, 3 pods are created in paralell.
 

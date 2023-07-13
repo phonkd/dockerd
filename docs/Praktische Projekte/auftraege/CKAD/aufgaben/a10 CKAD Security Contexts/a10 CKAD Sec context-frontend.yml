@@ -18,10 +18,12 @@ spec:
       labels:
         app: frontend
     spec:
-      securityContext:
-       runAsUser: 1001
       containers:
-      - image: phonkd/t-practice:2
+      - image: phonkd/t-practice:noroot
+        securityContext:
+          capabilities:
+           drop:
+           - ALL
         name: t-practice
         ports:
         - containerPort: 80

@@ -1,6 +1,7 @@
 #list #dictionary
 ****
 # Dictionaries vs lists:
+
 | Property | List | Dictionary |
 | -------- | ---- | ---------- |
 | Ordered  | Yes  | unordered           |

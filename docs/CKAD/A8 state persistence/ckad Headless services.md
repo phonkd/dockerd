@@ -2,9 +2,9 @@
 
 ## Example
 
-To make a mysql database accessible to a webserver, a [Service](docs/CKAD/A7%20Networking&services/Services.md) is needed. By default this service would loadbalance across all nodes including the slaves. It should only route traffic to the master node by its hostname. For this a [ckad Headless service](ckad%20Headless%20services.md) exists.
+To make a mysql database accessible to a webserver, a [Service](docs/CKAD/A7%20Networking&services/Services.md) is needed. By default this service would loadbalance across all nodes including the slaves. It should only route traffic to the master node by its hostname. For this a [ckad Headless service](.md) exists.
 
-![](Pasted%20image%2020230710100344.png)
+![Pasted image 20230710100344](Pasted%20image%2020230710100344.png)
 
 Each pod will be accessible by
 
@@ -46,7 +46,7 @@ spec:
 >All pods will have the same hostname with a template like this in a deployment.
 
 
->[!success] Solution: [Stateful Sets](CKAD%20Stateful%20Sets.md)
+>[!success](CKAD%20Stateful%20Sets.md)
 >Specify the `serviceName:` under `spec` of the statefulset.
 >The statefulset automatically creates a dns record with the pods name. `mysql-0...`
 

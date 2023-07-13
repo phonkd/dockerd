@@ -20,7 +20,7 @@ spec:
 | kind       | kind of opject                         | Pod, Service, ReplicaSet, Deployment |                                 |
 | metadata   | data about the object                  | `name: any-name`                     | labels:                         |
 | labels:    | under metadata                         | `anything: youwant`                  |                                 |
-| spec       | describe containers and their image... | [Spec](yaml%20in%20kubernetes.md#Spec)                                     |                                 |
+| spec       | describe containers and their image... | [](.md#Spec)                                     |                                 |
 ## Spec
 **Example `pod-definition.yml`:**
 1. Create yml file:

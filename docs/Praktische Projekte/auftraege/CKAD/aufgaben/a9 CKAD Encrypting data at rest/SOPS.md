@@ -12,3 +12,4 @@ https://github.com/getsops/sops/releases
 sudo pacman -S sops
 ```
 
+
