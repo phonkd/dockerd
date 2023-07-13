@@ -10,15 +10,15 @@ is an editor of encrypted files that supports YAML, JSON, ENV, INI and BINARY fo
 
 `gpg --full-gen-key`
 
-![Pasted image 20230713092444](../../../../../ressources/Pasted%20image%2020230713092444.png)
+![Pasted image 20230713092444](Pasted%20image%2020230713092444.png)
 
-![Pasted image 20230713092548](../../../../../ressources/Pasted%20image%2020230713092548.png)
+![Pasted image 20230713092548](Pasted%20image%2020230713092548.png)
 
 ### Public Key exportieren
 
 1. Key id finden `gpg --list-secret-keys --keyid-format long <email>`
    
-   ![Pasted image 20230713105306](../../../../../ressources/Pasted%20image%2020230713105306.png)
+   ![Pasted image 20230713105306](Pasted%20image%2020230713105306.png)
 
 2. `gpg --armor --export <id> > file`
 
@@ -46,7 +46,7 @@ sops -d secrets.enc.yaml
 ```
 *password was entered*
 
-![Pasted image 20230713110431](../../../../../ressources/Pasted%20image%2020230713110431.png)
+![Pasted image 20230713110431](Pasted%20image%2020230713110431.png)
 
 *On the left: decrypted key, on the right non encrypted key*
 

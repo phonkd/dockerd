@@ -4,7 +4,7 @@
     (Redis soll mindestens aus zwei Komponenten bestehen: einem Leader (Image: [docker.io/redis:6.0.5](http://docker.io/redis:6.0.5 "http://docker.io/redis:6.0.5")) und einen Follower (Image: [gcr.io/google_samples/gb-redis-follower:v2](http://gcr.io/google_samples/gb-redis-follower:v2 "http://gcr.io/google_samples/gb-redis-follower:v2")) 
 >[!answer]
 >Siehe [a5-docker-compose](a5-docker-compose.yml)
->Eigenes image kam aus eigener registry [a4 howto](../a4%20Docker%20Registry/a4%20howto.md)
+>Eigenes image kam aus eigener registry [a4 howto](a4%20howto.md)
 
 2. Sorge dafür das das gb-frontend im browser aufgerufen werden kann:
 

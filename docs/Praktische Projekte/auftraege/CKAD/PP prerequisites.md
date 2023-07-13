@@ -19,15 +19,15 @@
 
 ### Cluster creation
 
-1. Edit [kind-config](prerequisites/kindstuff/kind-config.yml)
+1. Edit [kind-config](kind-config.yml)
 2. Run command `kind create cluster --config=./kind-config.yml`
-3. Install kubectl [Kubectl](../../../kubernetes/A2%20basics&kubectl/Kubectl.md)
+3. Install kubectl [Kubectl](Kubectl.md)
 4. Verify with `kubectl get nodes`
 
 ### Setup registry 
 
-1. Install [Docker-Compose](../../../docker/a5/Docker-Compose.md)
-2. Run docker compose (this one): [a4-docker-compose](prerequisites/registry/a4-docker-compose.yml),
+1. Install [Docker-Compose](Docker-Compose.md)
+2. Run docker compose (this one): [a4-docker-compose](docs/Praktische%20Projekte/auftraege/CKAD/prerequisites/registry/a4-docker-compose.yml),
 3. Push the image by running `docker build -t localhost:5000/gb-frontend-phonkd:v1 .`
 4. Verify by trying to run from registry `kubectl run --image localhost:5000/gb-frontend-phonkd test`
 
