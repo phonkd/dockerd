@@ -25,7 +25,6 @@ I've edited the dockerfile to add a new user with the userid 1500 and added `sec
 ## Verhindere, dass in deinen Container System Capabilities verwendet werden können:
 
 Im [a10 CKAD Sec context-frontend](docs/Praktische%20Projekte/auftraege/CKAD/aufgaben/a10%20CKAD%20Security%20Contexts/a10%20CKAD%20Sec%20context-frontend.yml) file wurde unter `securityContext:` das felt `capabilities:` `drop:` hinzufgefügt und `- All` wurde ausgewählt.
-
 Daraufhin crasht der Pod weil er keine rechte hat:
 
 ![](Pasted%20image%2020230713142303.png)
