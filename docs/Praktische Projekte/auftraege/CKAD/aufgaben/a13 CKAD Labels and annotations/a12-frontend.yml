@@ -17,6 +17,7 @@ spec:
       creationTimestamp: null
       labels:
         app: frontend
+        gb-component: frontend
     spec:
       containers:
       - image: phonkd/t-practice:2

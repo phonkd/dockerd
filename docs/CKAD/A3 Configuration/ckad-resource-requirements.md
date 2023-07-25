@@ -67,6 +67,8 @@ If it does so repeatedly it will be terminated with a out of memory error.
 >Each pod gets some amount of resources (request).
 >Pods can also use more resources if available but only to an extent that still all pods get their requested resources.
 
+^1360f2
+
 ### CPU
 
 By default any pod can use all of the resources available and suffocate other pods or system processes.

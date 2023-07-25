@@ -18,7 +18,7 @@
 
 `kubectl create serviceaccount serviceaccountname`
 
->[!info]
+>[!info] **No longer true (no token is generated!!)** goto [Create token for serviceaccount](CKAD-ServiceAccounts.md#Create%20token%20for%20serviceaccount)
 >This automatically creates a token.
 >This token is stored as a secret object.
 >Find the tokens secret with the command `kubectl describe serviceaccount name`.

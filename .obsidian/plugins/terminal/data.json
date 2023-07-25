@@ -13,14 +13,14 @@
   "pinNewInstance": true,
   "preferredRenderer": "canvas",
   "profiles": {
-    "4360d1ad-ce47-4a37-bdb1-4a7328ae1508": {
-      "args": [
-        ""
-      ],
-      "executable": "alacritty",
-      "name": "alacritty",
+    "40638faa-320a-4144-b905-9f17b1cd7182": {
+      "args": [],
+      "executable": "alacritty -o font.size=12",
+      "name": "ala",
       "platforms": {
-        "linux": true
+        "darwin": false,
+        "linux": true,
+        "win32": false
       },
       "restoreHistory": true,
       "successExitCodes": [
