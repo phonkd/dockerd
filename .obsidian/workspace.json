@@ -11,6 +11,18 @@
             "id": "80f829300ae673b0",
             "type": "leaf",
             "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a15 CKAD PP Multi container pods/a15 CKAD PP Multi container pods howto.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4bbe4acc3959f16b",
+            "type": "leaf",
+            "state": {
               "type": "empty",
               "state": {}
             }
@@ -57,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 459.5
+    "width": 459.5,
+    "collapsed": true
   },
   "right": {
     "id": "cc29d60051e85c22",
@@ -73,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a15 CKAD PP Multi container pods/a15 CKAD PP Multi container pods howto.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a15 CKAD PP Multi container pods/a15 CKAD PP Multi container pods howto.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -110,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a15 CKAD PP Multi container pods/a15 CKAD PP Multi container pods howto.md"
+              }
             }
           },
           {
@@ -139,12 +156,13 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "d1e2438c75662aad",
+  "active": "80f829300ae673b0",
   "lastOpenFiles": [
+    "a15-redis.yaml.md",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a15 CKAD PP Multi container pods/a15 CKAD PP Multi container pods howto.md",
     "docs/CKAD/A3 Configuration/Commands and arguments (k8s).md",
     "docs/CKAD/A4 Multi-Container-Pods/ckad init containers.md",
     "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a7 CKAD config maps/a7 CKAD config maps howto.md",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a15 CKAD PP Multi container pods/a15 CKAD PP Multi container pods howto.md",
     "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a15 CKAD PP Multi container pods/Pasted image 20230726173852.png",
     "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a15 CKAD PP Multi container pods/a15-redis.yml",
     "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a15 CKAD PP Multi container pods/redis.conf",

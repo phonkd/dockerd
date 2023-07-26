@@ -46,7 +46,7 @@ This did also not work so i just directly created the dump folder in `/home/phon
 
 ### Regularily snapshot:
 
-For this i created a [Config Map](a15-redis.conf) for containing the redis config file. (`save 60 0`)
+For this i created a [a15-redis](a15-redis.yml) for containing the redis config file. (`save 60 0`)
 
 I mapped it into the [redis-leader deployment](a15-ckad-namespaces-redis.yml) and added `redis-server` with the `args` `/usr/local/redis.conf` (config file location).
 Now it creates a snapshot every minute as long as 0 character changes.
