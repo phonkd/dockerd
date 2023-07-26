@@ -1,5 +1,5 @@
 ****
-1. Create dockerfile (see ./Dockerfile)
+1. Create dockerfile [a1-dockerfile](a1-dockerfile)
 2. Build
    
 ```

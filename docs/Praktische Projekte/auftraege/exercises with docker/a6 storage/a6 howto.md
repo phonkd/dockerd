@@ -67,7 +67,7 @@ docker cp 930:/var/www/html/index.html .
 
 ## Compose Redis persistent data volume
 
-1. `volume` im compose hinzufügen (siehe `./docker-compose.yml`)
+1. `volume` im compose hinzufügen (siehe [a6-docker-compose](a6-docker-compose.yml))
 2. Warten bis redis automatisch `dump.rdb `saved oder `docker exec -it redismasterid redis-cli save`
 
 

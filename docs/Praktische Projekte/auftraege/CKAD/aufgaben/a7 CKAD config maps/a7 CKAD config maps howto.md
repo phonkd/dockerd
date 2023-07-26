@@ -40,3 +40,5 @@ added `subPath: index.html` to the `volumeMounts` section (deployment yaml).
 
 
 ![Pasted image 20230712155635](Pasted%20image%2020230712155635.png)
+
+[a7-ckad-namespaces-frontend](a7-ckad-namespaces-frontend.yml)

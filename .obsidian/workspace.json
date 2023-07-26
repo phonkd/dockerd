@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "50fdb9a2857a39ec",
+        "id": "d49005f8405c69f5",
         "type": "tabs",
         "children": [
           {
-            "id": "73ed8570162e4a0e",
+            "id": "80f829300ae673b0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a15 CKAD PP Multi container pods/a15 CKAD PP Multi container pods howto.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -48,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "link pods",
+                "query": "entrypoint",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a15 CKAD PP Multi container pods/a15 CKAD PP Multi container pods howto.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +89,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a15 CKAD PP Multi container pods/a15 CKAD PP Multi container pods howto.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -116,9 +110,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a15 CKAD PP Multi container pods/a15 CKAD PP Multi container pods howto.md"
-              }
+              "state": {}
             }
           },
           {
@@ -147,52 +139,52 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "73ed8570162e4a0e",
+  "active": "d1e2438c75662aad",
   "lastOpenFiles": [
+    "docs/CKAD/A3 Configuration/Commands and arguments (k8s).md",
+    "docs/CKAD/A4 Multi-Container-Pods/ckad init containers.md",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a7 CKAD config maps/a7 CKAD config maps howto.md",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a15 CKAD PP Multi container pods/a15 CKAD PP Multi container pods howto.md",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a15 CKAD PP Multi container pods/Pasted image 20230726173852.png",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a15 CKAD PP Multi container pods/a15-redis.yml",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a15 CKAD PP Multi container pods/redis.conf",
+    "docs/Praktische Projekte/auftraege/exercises with docker/a6 storage/a6 howto.md",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a15 CKAD PP Multi container pods/a15-redis.conf",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a15 CKAD PP Multi container pods/non-needed-cron-dump.yml",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a15 CKAD PP Multi container pods/a15-cron-dump.yml",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a15 CKAD PP Multi container pods/Pasted image 20230726131134.png",
+    "docs/CKAD/A8 state persistence/CKAD Volumes.md",
+    "docs/CKAD/A8 state persistence/CKAD Persistent Volume.md",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a15 CKAD PP Multi container pods/redis-dumps",
+    "docs/Praktische Projekte/auftraege/exercises with docker/a7 Netzwerke/a7 howto.md",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a15 CKAD PP Multi container pods/Pasted image 20230726092056.png",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a15 CKAD PP Multi container pods/a15-redis-flw-cip.yml",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a15 CKAD PP Multi container pods/Pasted image 20230726091452.png",
+    "docs/Praktische Projekte/auftraege/exercises with docker/a7 Netzwerke/redis-persistent/temp-1.rdb",
+    "docs/Praktische Projekte/auftraege/exercises with docker/a7 Netzwerke/a7-docker-compose.yml",
+    "docs/Praktische Projekte/auftraege/exercises with docker/a7 Netzwerke/index.html",
+    "docs/Praktische Projekte/auftraege/exercises with docker/a7 Netzwerke/a6 howto.md",
+    "docs/Praktische Projekte/auftraege/exercises with docker/a1 Creating a new docker image/a1 howto.md",
+    "docs/Praktische Projekte/auftraege/docker security/Pasted image 20230713144602.png",
     "docs/Praktische Projekte/auftraege/exercises with docker/a5 Docker compose/a5 howto.md",
     "docs/kubernetes/A7 Networking/A5 Networking/ClusterIP.md",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a15 CKAD PP Multi container pods/a15 CKAD PP Multi container pods howto.md",
-    "docs/Praktische Projekte/auftraege/exercises with docker/a6 storage/a6 howto.md",
     "docs/CKAD/A3 Configuration/taints and tolerations.md",
     "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a5 CKAD Namespaces/a5 CKAD namespaces howto.md",
     "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a3 Deployments/CKAD Deployment howto.md",
     "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a4 CKAD formatting output with kubectl/a4 CKAD Formatting output with kubectl.md",
     "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a6 CKAD env/a6 CKAD env howto.md",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a7 CKAD config maps/a7 CKAD config maps howto.md",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a15 CKAD PP Multi container pods/a15-guestbook-php-confmap.yml",
     "docs/CKAD/A7 Networking&services/CKAD Cluster IP.md",
     "docs/kubernetes/A8 Microservices architecture/Example Voting application.md",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a15 CKAD PP Multi container pods/a15-redis-avail.yml",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a15 CKAD PP Multi container pods/a15-link-frontwbacknd.yml",
     "docs/Praktische Projekte/auftraege/exercises with docker/a4 Docker Registry/a4 howto.md",
-    "docs/Praktische Projekte/auftraege/exercises with docker/a7 Netzwerke/a7 howto.md",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a15 CKAD PP Multi container pods/a15-ckad-namespaces-redis.yml",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a15 CKAD PP Multi container pods/a15-ckad-namespaces-redis-follower.yml",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a15 CKAD PP Multi container pods/a15-ckad-namespaces-frontend.yml",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a15 CKAD PP Multi container pods/a6-ckad-namespaces-redis.yml",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a15 CKAD PP Multi container pods/a6-ckad-namespaces-redis-follower.yml",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a15 CKAD PP Multi container pods/a6-ckad-namespaces-frontend.yml",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a14 CKAD Taints and tolerations/a6-ckad-namespaces-redis.yml",
     "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a14 CKAD Taints and tolerations/a14 CKAD PP Taints and tolerations &mor.md",
     "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a14 CKAD Taints and tolerations/Pasted image 20230725133035.png",
     "docs/CKAD/A3 Configuration/ckad node affinity.md",
     "docs/CKAD/A3 Configuration/ckad node Selectors.md",
     "docs/Praktische Projekte/Praktische Projekte.md",
     "docs/Praktische Projekte/Voraussetzungen.md",
-    "docs/Praktische Projekte/auftraege/CKAD/prerequisites/PP prerequisites.md",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a13 CKAD Labels and annotations/a13 CKAD PP Labels and annotations.md",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a12 Resource requirements/a12 CKAD PP Resource Req.md",
     "Pasted image 20230725122323.png",
     "Pasted image 20230725122040.png",
-    "docs/CKAD/A6 Pod  Design/CKAD Annotations.md",
-    "docs/misc/Dictionary/annotation.md",
-    "docs/CKAD/A3 Configuration/ckad-resource-requirements.md",
     "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a12 Resource requirements/Pasted image 20230725114100.png",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a12 Resource requirements/Pasted image 20230725112802.png",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a11 PP CKAD Service Accounts/Pasted image 20230725102655.png",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a11 PP CKAD Service Accounts/Pasted image 20230725102634.png",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a11 PP CKAD Service Accounts/Pasted image 20230725102633.png",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a11 PP CKAD Service Accounts/Pasted image 20230725102627.png",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a11 PP CKAD Service Accounts/Pasted image 20230725102352.png"
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a12 Resource requirements/Pasted image 20230725112802.png"
   ]
 }

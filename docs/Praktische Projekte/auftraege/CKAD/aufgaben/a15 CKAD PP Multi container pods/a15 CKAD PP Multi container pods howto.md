@@ -2,8 +2,10 @@
 
 ## Füge deinem Redis Master Pod einen zweiten Container hinzu, welcher regelmässig einen Redis dump durchführt.
 
+### Troubleshooting
+
 >[!error] Error Error Error Error
->After trying for about 3 Hours I gave up on trying to connect redis with the frontend. I did this:
+>Before realizing that the redis-follower also needs a [ClusterIP](ClusterIP.md) service i wasted my time doing the following:
 >- Moved all pods into one namespace
 >- quadruple checked every name, label and selector
 >- Checked if the redis hostname can be resolved using `nslookup redis` from gb-frontend (with success)
@@ -14,9 +16,44 @@
 >[a15-ckad-namespaces-redis-follower](a15-ckad-namespaces-redis-follower.yml)
 >
 
+>[!info] Second try
+>
+>I have gone back to the docker exercieses where the same goal was already achieved using docker compose: [a7-docker-compose](a7-docker-compose.yml)
+>
+>After testing it again i found that removing the redis-follower from the redis network results in this error:
+>![](Pasted%20image%2020230726091452.png)
+>Meaning that potentially the redis-follower is the issue.
+>So i also created a service for the redis-follower:
+>`kubectl create service clusterip --tcp 6379:6379 redis-follower -n namespace-frontend-1 -o yaml > a15-redis-flw-cip.yml`
+>And it worked!!! (only on chromium not on firefox)
+>![](Pasted%20image%2020230726092056.png)
+
+### Real
+Again i look at how i did this  in docker [a6-docker-compose](a6-docker-compose.yml).
+Most likely because the path to here contains spaces, kubernetes cant find the directory.
+After adding "" it still does not work and i decided to symlink the directory to /home/phonkd/redis-persistence.
+`ln -s redis-dumps /home/phonkd/redis-persistence`
+This did also not work so i just directly created the dump folder in `/home/phonkd`.
+
+>[!success] Bruh
+>The directory needs to exist inside of the docker container (node)
+>
+>![](Pasted%20image%2020230726131134.png)
+>Container fails after bein recreated because the directory does not exist on all nodes BRUUUH
+>```bash
+>docker exec -it 0ec mkdir -p /home/phonkd/redis-dumps
+>docker exec -it 238 mkdir -p /home/phonkd/redis-dumps
+
+### Regularily snapshot:
+
+For this i created a [Config Map](a15-redis.conf) for containing the redis config file. (`save 60 0`)
+
+I mapped it into the [redis-leader deployment](a15-ckad-namespaces-redis.yml) and added `redis-server` with the `args` `/usr/local/redis.conf` (config file location).
+Now it creates a snapshot every minute as long as 0 character changes.
+
+![](Pasted%20image%2020230726173852.png)
+
+Shit thats no second container but i'm done with this...
 
 
-After port-forwarding `kubectl port-forward -n namespace-frontend-1 pods/frontend-7c78bc4fcf-pbnrl 40000:80` i can access the website but cannot write entrys.
-My solution to this was moving all pods into the frontend namespace.
-This also did not suffice.
 

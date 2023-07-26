@@ -21,6 +21,23 @@ spec:
         name: redis-leader
         ports:
         - containerPort: 6379
+        command: ["redis-server"]
+        args: ["/usr/local/redis.conf"]  
+        volumeMounts:
+        - name: redis-persistence
+          mountPath: /data
+        - name: redisconf
+          mountPath: /usr/local/redis.conf  
+          subPath: redis.conf
         env:
         - name: thisis
           value: redis-master
+      volumes:
+        - name: redis-persistence
+          hostPath:
+            path: /home/phonkd/redis-dumps
+            type: Directory
+        - name: redisconf
+          configMap:
+            name: redisconf
+
