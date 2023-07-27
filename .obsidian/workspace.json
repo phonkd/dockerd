@@ -26,6 +26,14 @@
               "type": "empty",
               "state": {}
             }
+          },
+          {
+            "id": "d253c4eb3798d15e",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
         ]
       }
@@ -56,7 +64,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "entrypoint",
+                "query": "kubectl logs",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +73,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -158,8 +167,9 @@
   },
   "active": "80f829300ae673b0",
   "lastOpenFiles": [
-    "a15-redis.yaml.md",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a15 CKAD PP Multi container pods/a15-redis-conf.yml",
     "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a15 CKAD PP Multi container pods/a15 CKAD PP Multi container pods howto.md",
+    "a15-redis.yaml.md",
     "docs/CKAD/A3 Configuration/Commands and arguments (k8s).md",
     "docs/CKAD/A4 Multi-Container-Pods/ckad init containers.md",
     "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a7 CKAD config maps/a7 CKAD config maps howto.md",
@@ -199,7 +209,6 @@
     "docs/CKAD/A3 Configuration/ckad node affinity.md",
     "docs/CKAD/A3 Configuration/ckad node Selectors.md",
     "docs/Praktische Projekte/Praktische Projekte.md",
-    "docs/Praktische Projekte/Voraussetzungen.md",
     "Pasted image 20230725122323.png",
     "Pasted image 20230725122040.png",
     "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a12 Resource requirements/Pasted image 20230725114100.png",

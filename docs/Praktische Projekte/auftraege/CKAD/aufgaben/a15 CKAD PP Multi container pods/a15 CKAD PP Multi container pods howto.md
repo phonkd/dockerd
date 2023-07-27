@@ -53,7 +53,14 @@ Now it creates a snapshot every minute as long as 0 character changes.
 
 ![](Pasted%20image%2020230726173852.png)
 
-Shit thats no second container but i'm done with this...
+Bruh dat kein zweita container.
 
+### Container nr 2
+
+I added another container with the name `redis-dumper`.
+On running it the command `redis-cli` with the arguments `-h redis-master -a 123 -r -1 -i 1 save` .
+- `-r` is the amount of times `-1` means indefinitely
+- `-i` is the interval `1` means every second
+- `save` creates the dump
 
 

@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   labels:
-    app: redis
+    app: redis-master
   name: redis-master
   namespace: namespace-frontend-1
 spec:
@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - image: redis:6.0.5
-        name: redis-leader
+        name: redis-master
         ports:
         - containerPort: 6379
         command: ["redis-server"]
@@ -32,6 +32,10 @@ spec:
         env:
         - name: thisis
           value: redis-master
+      - image: redis
+        name: redis-dumper
+        command: ["redis-cli"]
+        args: ["-a","123","-h","localhost","-r","-1","-i","1","save"]
       volumes:
         - name: redis-persistence
           hostPath:

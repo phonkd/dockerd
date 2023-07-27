@@ -12,7 +12,7 @@ spec:
     protocol: TCP
     targetPort: 6379
   selector:
-    name: redis-master
+    app: redis-master
   type: ClusterIP
 status:
   loadBalancer: {}
