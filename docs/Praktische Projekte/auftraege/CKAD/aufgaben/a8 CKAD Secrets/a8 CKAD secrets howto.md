@@ -1,6 +1,6 @@
 ****
 
-[secrets (CKAD)](CKAD)))).md)
+[secrets (CKAD)](docs/Praktische%20Projekte/auftraege/CKAD/aufgaben/a19%20CKAD%20Monitoring%20and%20debugging/CKAD%20Monitoring%20and%20debugging.md)))).md)
 
 ## Füge deinem Deployment eine Environment Variable hinzu, welche aus einen Secret kommt:
 

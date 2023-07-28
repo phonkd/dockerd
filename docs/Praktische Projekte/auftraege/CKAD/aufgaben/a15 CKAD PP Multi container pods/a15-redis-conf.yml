@@ -3,7 +3,6 @@ kind: ConfigMap
 data:
   redis.conf: |
    save 60 0
-   requirepass 123
 metadata:
   creationTimestamp: null
   name: redisconf
