@@ -18,17 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "16775deadc9b459c",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -70,7 +61,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 459.5
+    "width": 459.5,
+    "collapsed": true
   },
   "right": {
     "id": "cc29d60051e85c22",
@@ -86,6 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a20 CKAD PP Rolling Updates&Rollbacks/a20 Rolling updates and rollbacks pp howto.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,6 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a20 CKAD PP Rolling Updates&Rollbacks/a20 Rolling updates and rollbacks pp howto.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +117,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a20 CKAD PP Rolling Updates&Rollbacks/a20 Rolling updates and rollbacks pp howto.md"
+              }
             }
           },
           {
@@ -152,13 +148,15 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "16775deadc9b459c",
+  "active": "f9f164a2434718c3",
   "lastOpenFiles": [
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a20 CKAD PP Rolling Updates&Rollbacks/a20-dockerfile",
+    "docs/Praktische Projekte/auftraege/CKAD/prerequisites/PP prerequisites.md",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a20 CKAD PP Rolling Updates&Rollbacks/a20 Rolling updates and rollbacks pp howto.md",
     "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a20 CKAD PP Rolling Updates&Rollbacks/Dockerfile",
     "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a20 CKAD PP Rolling Updates&Rollbacks/a20-Dockerfile",
     "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a20 CKAD PP Rolling Updates&Rollbacks/a17-frontend.yml",
     "docs/Praktische Projekte/auftraege/exercises with docker/a1 Creating a new docker image/Dockerfile.md",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a20 CKAD PP Rolling Updates&Rollbacks/a20 Rolling updates and rollbacks pp howto.md",
     "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a19 CKAD Monitoring and debugging/CKAD Monitoring and debugging.md",
     "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a20 CKAD PP Rolling Updates&Rollbacks",
     "docs/Praktische Projekte/Praktische Projekte.md",
@@ -177,7 +175,6 @@
     "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a16 CKAD PP Init container/a16 CKAD init containers.md",
     "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a17 CKAD PP Readiness Startup and Liveness Probes",
     "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a16 CKAD PP Init container/a16-frontend.yml",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a16 CKAD PP Init container/a15-ckad-namespaces-frontend.yml",
     "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a15 CKAD PP Multi container pods/a15 CKAD PP Multi container pods howto.md",
     "a15-redis.yaml.md",
     "docs/CKAD/A3 Configuration/Commands and arguments (k8s).md",
@@ -196,7 +193,6 @@
     "docs/Praktische Projekte/auftraege/exercises with docker/a5 Docker compose/a5 howto.md",
     "docs/kubernetes/A7 Networking/A5 Networking/ClusterIP.md",
     "docs/CKAD/A3 Configuration/taints and tolerations.md",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a5 CKAD Namespaces/a5 CKAD namespaces howto.md",
     "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a14 CKAD Taints and tolerations/Pasted image 20230725133035.png",
     "Pasted image 20230725122323.png",
     "Pasted image 20230725122040.png"
