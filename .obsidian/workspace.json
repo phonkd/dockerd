@@ -4,47 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "d49005f8405c69f5",
+        "id": "f8562fcf55177c02",
         "type": "tabs",
         "children": [
           {
-            "id": "80f829300ae673b0",
+            "id": "f9f164a2434718c3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a17 CKAD PP Readiness Startup and Liveness Probes/a17 CKAD Readiness Startup and Liveness Probes.md",
+                "file": "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a20 CKAD PP Rolling Updates&Rollbacks/a20 Rolling updates and rollbacks pp howto.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "e2479b92dc3fa794",
+            "id": "16775deadc9b459c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a17 CKAD PP Readiness Startup and Liveness Probes/a17 CKAD Readiness Startup and Liveness Probes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b24ab5045bb7d9d7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a19 CKAD Monitoring and debugging/CKAD Monitoring and debugging.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 459.5,
-    "collapsed": true
+    "width": 459.5
   },
   "right": {
     "id": "cc29d60051e85c22",
@@ -103,7 +86,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a19 CKAD Monitoring and debugging/CKAD Monitoring and debugging.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +102,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a19 CKAD Monitoring and debugging/CKAD Monitoring and debugging.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,9 +123,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a19 CKAD Monitoring and debugging/CKAD Monitoring and debugging.md"
-              }
+              "state": {}
             }
           },
           {
@@ -173,10 +152,19 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "b24ab5045bb7d9d7",
+  "active": "16775deadc9b459c",
   "lastOpenFiles": [
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a17 CKAD PP Readiness Startup and Liveness Probes/a17 CKAD Readiness Startup and Liveness Probes.md",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a20 CKAD PP Rolling Updates&Rollbacks/Dockerfile",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a20 CKAD PP Rolling Updates&Rollbacks/a20-Dockerfile",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a20 CKAD PP Rolling Updates&Rollbacks/a17-frontend.yml",
+    "docs/Praktische Projekte/auftraege/exercises with docker/a1 Creating a new docker image/Dockerfile.md",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a20 CKAD PP Rolling Updates&Rollbacks/a20 Rolling updates and rollbacks pp howto.md",
     "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a19 CKAD Monitoring and debugging/CKAD Monitoring and debugging.md",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a20 CKAD PP Rolling Updates&Rollbacks",
+    "docs/Praktische Projekte/Praktische Projekte.md",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a17 CKAD PP Readiness Startup and Liveness Probes/a17 CKAD Readiness Startup and Liveness Probes.md",
+    "temp prx.md",
+    "Pasted image 20230730222317.png",
     "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a19 CKAD Monitoring and debugging",
     "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a17 CKAD PP Readiness Startup and Liveness Probes/Pasted image 20230728143158.png",
     "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a18 CKAD Container Logging/a18 CKAD Container logging.md",
@@ -191,13 +179,10 @@
     "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a16 CKAD PP Init container/a16-frontend.yml",
     "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a16 CKAD PP Init container/a15-ckad-namespaces-frontend.yml",
     "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a15 CKAD PP Multi container pods/a15 CKAD PP Multi container pods howto.md",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a16 CKAD PP Init container",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a15 CKAD PP Multi container pods/a15-redis-conf.yml",
     "a15-redis.yaml.md",
     "docs/CKAD/A3 Configuration/Commands and arguments (k8s).md",
     "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a7 CKAD config maps/a7 CKAD config maps howto.md",
     "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a15 CKAD PP Multi container pods/Pasted image 20230726173852.png",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a15 CKAD PP Multi container pods/a15-redis.yml",
     "docs/Praktische Projekte/auftraege/exercises with docker/a6 storage/a6 howto.md",
     "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a15 CKAD PP Multi container pods/Pasted image 20230726131134.png",
     "docs/CKAD/A8 state persistence/CKAD Volumes.md",
@@ -212,14 +197,8 @@
     "docs/kubernetes/A7 Networking/A5 Networking/ClusterIP.md",
     "docs/CKAD/A3 Configuration/taints and tolerations.md",
     "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a5 CKAD Namespaces/a5 CKAD namespaces howto.md",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a3 Deployments/CKAD Deployment howto.md",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a4 CKAD formatting output with kubectl/a4 CKAD Formatting output with kubectl.md",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a6 CKAD env/a6 CKAD env howto.md",
-    "docs/CKAD/A7 Networking&services/CKAD Cluster IP.md",
-    "docs/kubernetes/A8 Microservices architecture/Example Voting application.md",
     "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a14 CKAD Taints and tolerations/Pasted image 20230725133035.png",
     "Pasted image 20230725122323.png",
-    "Pasted image 20230725122040.png",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a12 Resource requirements/Pasted image 20230725114100.png"
+    "Pasted image 20230725122040.png"
   ]
 }
