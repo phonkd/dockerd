@@ -7,7 +7,7 @@ metadata:
   name: gb-frontend
   namespace: namespace-frontend-1
 spec:
-  replicas: 1
+  replicas: 3
   selector:
     matchLabels:
       app: frontend
@@ -19,7 +19,7 @@ spec:
         app: frontend
     spec:
       containers:
-      - image: gcr.io/google_samples/gb-frontend:v5
+      - image: gcr.io/google_samples/gb-frontend:v6
         name: t-practice
         ports:
         - containerPort: 80

@@ -1,0 +1,23 @@
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  creationTimestamp: null
+  name: rediscron
+spec:
+  jobTemplate:
+    metadata:
+      creationTimestamp: null
+      name: rediscron
+    spec:
+      template:
+        metadata:
+          creationTimestamp: null
+        spec:
+          containers:
+          - image: redis
+            name: rediscron
+            command: ["redis-cli", "-h", "redis-master", "DBSIZE"]
+            resources: {}
+          restartPolicy: OnFailure
+  schedule: '*/5 * * * *'
+status: {}

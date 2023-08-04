@@ -13,6 +13,24 @@
   "pinNewInstance": true,
   "preferredRenderer": "canvas",
   "profiles": {
+    "0765a1d3-ee7a-4c24-aab0-60f6b637bd9c": {
+      "args": [],
+      "executable": "/bin/zsh",
+      "name": "int",
+      "platforms": {
+        "linux": true
+      },
+      "pythonExecutable": "python3",
+      "restoreHistory": true,
+      "successExitCodes": [
+        "0",
+        "SIGINT",
+        "SIGTERM"
+      ],
+      "terminalOptions": {},
+      "type": "integrated",
+      "useWin32Conhost": false
+    },
     "40638faa-320a-4144-b905-9f17b1cd7182": {
       "args": [],
       "executable": "alacritty -o font.size=12",
