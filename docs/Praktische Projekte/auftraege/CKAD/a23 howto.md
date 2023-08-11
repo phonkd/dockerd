@@ -15,3 +15,4 @@ Exists.
 >[!info] 
 >Für das Frontend soll der type "NodePort" sein
   Erreich das Frontend via NodePort
+	

@@ -13,10 +13,18 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a23 Services/a23 howto.md",
+                "file": "docs/Praktische Projekte/Helm package/Helm Auftrag.md",
                 "mode": "source",
                 "source": false
               }
+            }
+          },
+          {
+            "id": "1ae4287cefad70a9",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -77,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a23 Services/a23 howto.md",
+                "file": "docs/Praktische Projekte/Helm package/Helm Auftrag.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a23 Services/a23 howto.md",
+                "file": "docs/Praktische Projekte/Helm package/Helm Auftrag.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a23 Services/a23 howto.md"
+                "file": "docs/Praktische Projekte/Helm package/Helm Auftrag.md"
               }
             }
           },
@@ -149,6 +157,32 @@
   },
   "active": "f9f164a2434718c3",
   "lastOpenFiles": [
+    "docs/Praktische Projekte/Helm package/schaebig-0.1.0.tgz",
+    "docs/Praktische Projekte/Helm package/Helm Auftrag.md",
+    "docs/Praktische Projekte/Helm package/schaebig/templates/a15-redis-flw-cip.yml",
+    "docs/Praktische Projekte/Helm package/schaebig/templates/a15-redis-conf.yml",
+    "docs/Praktische Projekte/Helm package/schaebig/templates/a15-redis-avail.yml",
+    "docs/Praktische Projekte/Helm package/schaebig/templates/a15-ckad-namespaces-redis.yml",
+    "docs/Praktische Projekte/Helm package/schaebig/templates/a15-ckad-namespaces-redis-follower.yml",
+    "docs/Praktische Projekte/Helm package/schaebig/templates/a15/non-needed-cron-dump.yml",
+    "docs/Praktische Projekte/Helm package/schaebig/templates/a15/a15-redis-flw-cip.yml",
+    "docs/Praktische Projekte/Helm package/schaebig/templates/a15/a15-redis-conf.yml",
+    "docs/Praktische Projekte/Helm package/schaebig/templates/a15/a15-redis-avail.yml",
+    "docs/Praktische Projekte/Helm package/schaebig/templates/a15/a15-ckad-namespaces-redis.yml",
+    "docs/Praktische Projekte/Helm package/schaebig/templates/a15/a15 CKAD PP Multi container pods howto.md",
+    "docs/Praktische Projekte/Helm package/schaebig/templates/a15/Pasted image 20230726173852.png",
+    "docs/Praktische Projekte/Helm package/schaebig/templates/a15/Pasted image 20230726131134.png",
+    "docs/Praktische Projekte/Helm package/schaebig/templates/a15/Pasted image 20230726092056.png",
+    "docs/Praktische Projekte/Helm package/schaebig/templates/a15/Pasted image 20230726091452.png",
+    "docs/Praktische Projekte/auftraege/CKAD/a23 howto.md",
+    "docs/Praktische Projekte/auftraege/CKAD/prerequisites/PP prerequisites.md",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a12 Resource requirements/a12 CKAD PP Resource Req.md",
+    "Deployment.md",
+    "Pasted image 20230725122040.png",
+    "Pasted image 20230725122323.png",
+    "Pasted image 20230730222317.png",
+    "README.md",
+    "temp prx.md",
     "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a22 CKAD PP Cron Jobs/a22 CKAD PP Cron Jobs.md",
     "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a21 CKAD PP Jobs/a21 CKAD PP Jobs.md",
     "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a20 CKAD PP Rolling Updates&Rollbacks/a20 Rolling updates and rollbacks pp howto.md",
@@ -157,43 +191,17 @@
     "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a17 CKAD PP Readiness Startup and Liveness Probes/a17 CKAD Readiness Startup and Liveness Probes.md",
     "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a16 CKAD PP Init container/a16 CKAD init containers.md",
     "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a15 CKAD PP Multi container pods/a15 CKAD PP Multi container pods howto.md",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a8 CKAD Secrets/a8 CKAD secrets howto.md",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a1 Pods and edit/A1 PP edit pods.md",
     "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a14 CKAD Taints and tolerations/a14 CKAD PP Taints and tolerations &mor.md",
     "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a13 CKAD Labels and annotations/a13 CKAD PP Labels and annotations.md",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a12 Resource requirements/a12 CKAD PP Resource Req.md",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a23 Services/a23 howto.md",
     "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a11 PP CKAD Service Accounts/a11 PP CKAD Service Accounts.md",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a23 Services/frontend-np.yml",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a21 CKAD PP Jobs/frontend-np.yml",
     "docs/kubernetes/A5 yaml k8s/Rollout.md",
     "Untitled.md",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a22 CKAD PP Cron Jobs/cron.yml",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a22 CKAD PP Cron Jobs",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a21 CKAD PP Jobs/xclip",
     "idk.md",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a21 CKAD PP Jobs/memsize-job.yml",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a21 CKAD PP Jobs/dbsize-job.yml",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a21 CKAD PP Jobs/stdout",
     "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a21 CKAD PP Jobs/Pasted image 20230803154014.png",
     "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a21 CKAD PP Jobs/Pasted image 20230803153958.png",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a21 CKAD PP Jobs",
-    "Untitled",
     "docs/kubernetes/A5 yaml k8s/Rolling update (Deployment).md",
-    "Deployment.md",
-    "docs/CKAD/A2 Core Concepts/Deployment (recap).md",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a20 CKAD PP Rolling Updates&Rollbacks/Pasted image 20230803125058.png",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a20 CKAD PP Rolling Updates&Rollbacks/Pasted image 20230803125040.png",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a20 CKAD PP Rolling Updates&Rollbacks/Pasted image 20230803124812.png",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a20 CKAD PP Rolling Updates&Rollbacks/Pasted image 20230803124732.png",
-    "docs/Praktische Projekte/auftraege/CKAD/prerequisites/PP prerequisites.md",
-    "docs/Praktische Projekte/auftraege/exercises with docker/a1 Creating a new docker image/Dockerfile.md",
-    "docs/Praktische Projekte/Praktische Projekte.md",
-    "temp prx.md",
-    "Pasted image 20230730222317.png",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a17 CKAD PP Readiness Startup and Liveness Probes/Pasted image 20230728143158.png",
-    "docs/CKAD/A5 Observability/CKAD Liveness Probes.md",
-    "docs/CKAD/A5 Observability/CKAD Readiness Probes.md",
-    "docs/CKAD/A4 Multi-Container-Pods/ckad init containers.md",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a15 CKAD PP Multi container pods/Pasted image 20230726173852.png",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a15 CKAD PP Multi container pods/Pasted image 20230726131134.png"
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a20 CKAD PP Rolling Updates&Rollbacks/Pasted image 20230803125058.png"
   ]
 }

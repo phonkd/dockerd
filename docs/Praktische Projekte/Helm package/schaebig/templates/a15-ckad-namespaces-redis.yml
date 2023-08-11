@@ -1,0 +1,47 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: redis-master
+  name: redis-master
+  namespace: namespace-frontend-1
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: redis-master
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: redis-master
+    spec:
+      containers:
+      - image: redis:6.0.5
+        name: redis-master
+        ports:
+        - containerPort: 6379
+        command: ["redis-server"]
+        args: ["/usr/local/redis.conf"]  
+        volumeMounts:
+        - name: redis-persistence
+          mountPath: /data
+        - name: redisconf
+          mountPath: /usr/local/redis.conf  
+          subPath: redis.conf
+        env:
+        - name: thisis
+          value: redis-master
+      - image: redis
+        name: redis-dumper
+        command: ["redis-cli"]
+        args: ["-a","123","-h","localhost","-r","-1","-i","1","save"]
+      volumes:
+        - name: redis-persistence
+          hostPath:
+            path: /home/phonkd/redis-dumps
+            type: Directory
+        - name: redisconf
+          configMap:
+            name: redisconf
+

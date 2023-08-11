@@ -1,0 +1,29 @@
+apiVersion: v1
+kind: Service
+metadata:
+  creationTimestamp: "2023-07-26T07:19:13Z"
+  labels:
+    app: redis-follower
+  name: redis-follower
+  namespace: namespace-frontend-1
+  resourceVersion: "2762"
+  uid: c67d4a10-cef6-4c06-bcb5-3baa9de328f6
+spec:
+  clusterIP: 10.96.41.181
+  clusterIPs:
+  - 10.96.41.181
+  internalTrafficPolicy: Cluster
+  ipFamilies:
+  - IPv4
+  ipFamilyPolicy: SingleStack
+  ports:
+  - name: 6379-6379
+    port: 6379
+    protocol: TCP
+    targetPort: 6379
+  selector:
+    app: redis-follower
+  sessionAffinity: None
+  type: ClusterIP
+status:
+  loadBalancer: {}
