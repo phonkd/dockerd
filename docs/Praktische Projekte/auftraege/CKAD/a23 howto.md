@@ -6,7 +6,7 @@
 
 `kubectl create service  nodeport frontend --tcp 8080:8080 -o yaml > frontend-np.yml`
 
-[frontend-np](frontend-np.yml)
+[frontend-np](docs/Praktische%20Projekte/auftraege/CKAD/aufgaben/a23%20Services/frontend-np.yml)
 
 Access by `172.18.0.2:30233` (Ip of a node)
 ## 1x für Redis. 

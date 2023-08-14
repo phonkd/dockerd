@@ -12,10 +12,10 @@ docker push phonkd/t-practice:v6
 ```
 
 ## Stelle sicher, das vom "alten" Frontend 3 Replicas laufen
-[a20-frontend](a20-frontend.yml)
+[a20-frontend](docs/Praktische%20Projekte/auftraege/CKAD/aufgaben/a20%20CKAD%20PP%20Rolling%20Updates&Rollbacks/a20-frontend.yml)
 ![](Pasted%20image%2020230803124732.png)
 ## Aktualisiere den Tag im Deployment
-[a20-frontend](a20-frontend.yml)
+[a20-frontend](docs/Praktische%20Projekte/auftraege/CKAD/aufgaben/a20%20CKAD%20PP%20Rolling%20Updates&Rollbacks/a20-frontend.yml)
 ![](Pasted%20image%2020230803124812.png)
 ## 4. Beobachte wie das neue Image ausgerollt wird
 ![](Pasted%20image%2020230803125040.png)

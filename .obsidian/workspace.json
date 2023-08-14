@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Praktische Projekte/Helm package/Helm Auftrag.md",
+                "file": "docs/Praktische Projekte/helm auftrag/Ingress.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "kubectl context",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -61,8 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 459.5,
-    "collapsed": true
+    "width": 459.5
   },
   "right": {
     "id": "cc29d60051e85c22",
@@ -78,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Praktische Projekte/Helm package/Helm Auftrag.md",
+                "file": "docs/Praktische Projekte/helm auftrag/Ingress.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/Praktische Projekte/Helm package/Helm Auftrag.md",
+                "file": "docs/Praktische Projekte/helm auftrag/Ingress.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Praktische Projekte/Helm package/Helm Auftrag.md"
+                "file": "docs/Praktische Projekte/helm auftrag/Ingress.md"
               }
             }
           },
@@ -150,19 +149,22 @@
   },
   "active": "f9f164a2434718c3",
   "lastOpenFiles": [
-    "docs/Praktische Projekte/Helm package/Pasted image 20230814094458.png",
-    "docs/Praktische Projekte/Helm package/Pasted image 20230814094446.png",
-    "docs/Praktische Projekte/Helm package/Pasted image 20230814094353.png",
-    "docs/Praktische Projekte/Helm package/Pasted image 20230814094251.png",
-    "docs/Praktische Projekte/Helm package/Pasted image 20230814094026.png",
-    "docs/Praktische Projekte/Helm package/Pasted image 20230814093549.png",
-    "docs/Praktische Projekte/Helm package/schaebig-0.1.0.tgz",
-    "docs/Praktische Projekte/Helm package/Helm Auftrag.md",
-    "docs/Praktische Projekte/Helm package/schaebig/templates/a15-redis-flw-cip.yml",
-    "docs/Praktische Projekte/Helm package/schaebig/templates/a15-redis-conf.yml",
-    "docs/Praktische Projekte/Helm package/schaebig/templates/a15-redis-avail.yml",
-    "docs/Praktische Projekte/Helm package/schaebig/templates/a15-ckad-namespaces-redis.yml",
-    "docs/Praktische Projekte/Helm package/schaebig/templates/a15-ckad-namespaces-redis-follower.yml",
+    "docs/Praktische Projekte/helm auftrag/ingress-frontend.yml",
+    "docs/Praktische Projekte/helm auftrag/Ingress.md",
+    "docs/Praktische Projekte/helm auftrag/Helm Auftrag.md",
+    "docs/CKAD/Tips/Imperative Commands.md",
+    "docs/Praktische Projekte/helm auftrag/Pasted image 20230814094458.png",
+    "docs/Praktische Projekte/helm auftrag/Pasted image 20230814094446.png",
+    "docs/Praktische Projekte/helm auftrag/Pasted image 20230814094353.png",
+    "docs/Praktische Projekte/helm auftrag/Pasted image 20230814094251.png",
+    "docs/Praktische Projekte/helm auftrag/Pasted image 20230814094026.png",
+    "docs/Praktische Projekte/helm auftrag/Pasted image 20230814093549.png",
+    "docs/Praktische Projekte/helm auftrag/schaebig-0.1.0.tgz",
+    "docs/Praktische Projekte/helm auftrag/schaebig/templates/a15-redis-flw-cip.yml",
+    "docs/Praktische Projekte/helm auftrag/schaebig/templates/a15-redis-conf.yml",
+    "docs/Praktische Projekte/helm auftrag/schaebig/templates/a15-redis-avail.yml",
+    "docs/Praktische Projekte/helm auftrag/schaebig/templates/a15-ckad-namespaces-redis.yml",
+    "docs/Praktische Projekte/helm auftrag/schaebig/templates/a15-ckad-namespaces-redis-follower.yml",
     "docs/Praktische Projekte/Helm package/schaebig/templates/a15/non-needed-cron-dump.yml",
     "docs/Praktische Projekte/Helm package/schaebig/templates/a15/a15-redis-flw-cip.yml",
     "docs/Praktische Projekte/Helm package/schaebig/templates/a15/a15-redis-conf.yml",
@@ -176,7 +178,6 @@
     "docs/Praktische Projekte/auftraege/CKAD/prerequisites/PP prerequisites.md",
     "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a12 Resource requirements/a12 CKAD PP Resource Req.md",
     "Deployment.md",
-    "Pasted image 20230725122040.png",
     "README.md",
     "temp prx.md",
     "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a22 CKAD PP Cron Jobs/a22 CKAD PP Cron Jobs.md",
@@ -193,8 +194,6 @@
     "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a13 CKAD Labels and annotations/a13 CKAD PP Labels and annotations.md",
     "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a11 PP CKAD Service Accounts/a11 PP CKAD Service Accounts.md",
     "docs/kubernetes/A5 yaml k8s/Rollout.md",
-    "Untitled.md",
-    "idk.md",
-    "docs/kubernetes/A5 yaml k8s/Rolling update (Deployment).md"
+    "Untitled.md"
   ]
 }

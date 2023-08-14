@@ -10,10 +10,10 @@
 >- quadruple checked every name, label and selector
 >- Checked if the redis hostname can be resolved using `nslookup redis` from gb-frontend (with success)
 >- Tried other Browser (firefox & Chrome)
->[a15-redis-avail](a15-redis-avail.yml) 
->[a15-ckad-namespaces-redis](a15-ckad-namespaces-redis.yml)
+>[a15-redis-avail](docs/Praktische%20Projekte/auftraege/CKAD/aufgaben/a15%20CKAD%20PP%20Multi%20container%20pods/a15-redis-avail.yml) 
+>[a15-ckad-namespaces-redis](docs/Praktische%20Projekte/auftraege/CKAD/aufgaben/a15%20CKAD%20PP%20Multi%20container%20pods/a15-ckad-namespaces-redis.yml)
 >[a15-ckad-namespaces-frontend](a15-ckad-namespaces-frontend.yml)
->[a15-ckad-namespaces-redis-follower](a15-ckad-namespaces-redis-follower.yml)
+>[a15-ckad-namespaces-redis-follower](docs/Praktische%20Projekte/auftraege/CKAD/aufgaben/a15%20CKAD%20PP%20Multi%20container%20pods/a15-ckad-namespaces-redis-follower.yml)
 >
 
 >[!info] Second try
@@ -48,7 +48,7 @@ This did also not work so i just directly created the dump folder in `/home/phon
 
 For this i created a [a15-redis](a15-redis.yml) for containing the redis config file. (`save 60 0`)
 
-I mapped it into the [redis-leader deployment](a15-ckad-namespaces-redis.yml) and added `redis-server` with the `args` `/usr/local/redis.conf` (config file location).
+I mapped it into the [redis-leader deployment](docs/Praktische%20Projekte/auftraege/CKAD/aufgaben/a15%20CKAD%20PP%20Multi%20container%20pods/a15-ckad-namespaces-redis.yml) and added `redis-server` with the `args` `/usr/local/redis.conf` (config file location).
 Now it creates a snapshot every minute as long as 0 character changes.
 
 ![](Pasted%20image%2020230726173852.png)
