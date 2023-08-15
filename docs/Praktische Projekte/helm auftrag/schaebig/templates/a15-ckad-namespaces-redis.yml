@@ -21,8 +21,6 @@ spec:
         name: redis-master
         ports:
         - containerPort: 6379
-        command: ["redis-server"]
-        args: ["/usr/local/redis.conf"]  
         volumeMounts:
         - name: redis-persistence
           mountPath: /data

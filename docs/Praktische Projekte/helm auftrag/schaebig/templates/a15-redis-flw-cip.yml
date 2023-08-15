@@ -9,13 +9,6 @@ metadata:
   resourceVersion: "2762"
   uid: c67d4a10-cef6-4c06-bcb5-3baa9de328f6
 spec:
-  clusterIP: 10.96.41.181
-  clusterIPs:
-  - 10.96.41.181
-  internalTrafficPolicy: Cluster
-  ipFamilies:
-  - IPv4
-  ipFamilyPolicy: SingleStack
   ports:
   - name: 6379-6379
     port: 6379

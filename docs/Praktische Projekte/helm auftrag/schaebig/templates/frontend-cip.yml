@@ -4,16 +4,16 @@ metadata:
   creationTimestamp: null
   namespace: namespace-frontend-1
   labels:
-    app: a15-redis-avail
-  name: redis-master
+    app: frontend-cip
+  name: frontend-cip
 spec:
   ports:
-  - name: redis-port
-    port: 6379
+  - name: "80"
+    port: 8080
     protocol: TCP
-    targetPort: 6379
+    targetPort: 80
   selector:
-    app: redis-master
+    app: frontend
   type: ClusterIP
 status:
   loadBalancer: {}

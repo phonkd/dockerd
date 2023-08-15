@@ -38,25 +38,3 @@ spec:
             port: 80
 
 
-        
-      initContainers:
-      - name: redis-master-availability-tester
-        image: redis
-        command: ["/bin/sh", "-c"]
-        args:
-          - |
-            response=$(redis-cli -h redis-master ping)
-            if [ "$response" != "PONG" ]; then
-             echo "Redis-master did not resopnse with ping but with $response"
-             exit 1
-            fi
-      - name: redis-follower-availability-tester
-        image: redis
-        command: ["/bin/sh", "-c"]
-        args:  
-          - |
-            response=$(redis-cli -h redis-follower ping)
-            if [ "$response" != "PONG" ]; then
-             echo "Redis-follower did not resopnse with ping but with $response"
-             exit 1
-            fi

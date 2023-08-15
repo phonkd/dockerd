@@ -3,20 +3,12 @@ kind: Service
 metadata:
   creationTimestamp: "2023-08-10T05:55:31Z"
   labels:
-    app: frontend
-  name: frontend
+    app: frontend-np
+  name: frontend-np
   namespace: namespace-frontend-1
   resourceVersion: "98718"
   uid: 3f4c21f8-409f-47ad-abd3-95f2723ecdcc
 spec:
-  clusterIP: 10.96.186.150
-  clusterIPs:
-  - 10.96.186.150
-  externalTrafficPolicy: Cluster
-  internalTrafficPolicy: Cluster
-  ipFamilies:
-  - IPv4
-  ipFamilyPolicy: SingleStack
   ports:
   - name: 8080-8080
     nodePort: 30233
