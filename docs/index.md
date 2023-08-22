@@ -7,7 +7,6 @@ Entries from the docker courses aren't sorted by videos but are created for topi
 
 Praktische Projekte:
 
-[Praktische Projekte (Docker)](Praktische%20Projekte%20(Docker).md)
 
 [Creating a new docker image](a1%20howto.md)
 
@@ -69,7 +68,7 @@ For the udemy course i created notes for most of the videos and sorted them by t
 
 [Container logging](a18%20CKAD%20Container%20logging.md)
 
-[Monitoring and debugging](docs/Praktische%20Projekte/auftraege/CKAD/aufgaben/a19%20CKAD%20Monitoring%20and%20debugging/CKAD%20Monitoring%20and%20debugging.md)
+[Monitoring and debugging](a19%20CKAD%20Monitoring%20and%20debugging.md)
 
 [Rolling updates and rollbacks](a20%20Rolling%20updates%20and%20rollbacks%20pp%20howto.md)
 

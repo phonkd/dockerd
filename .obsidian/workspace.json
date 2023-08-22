@@ -18,6 +18,18 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "5dcea32aadf8a313",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a19 CKAD Monitoring and debugging/a19 CKAD Monitoring and debugging.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -150,9 +162,10 @@
   },
   "active": "f9f164a2434718c3",
   "lastOpenFiles": [
-    "docs/Praktische Projekte/auftraege/exercises with docker/a1 Creating a new docker image/a1 howto.md",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a19 CKAD Monitoring and debugging/a19 CKAD Monitoring and debugging.md",
     "docs/index.md",
     "docs/Praktische Projekte/Praktische Projekte (Docker).md",
+    "docs/Praktische Projekte/auftraege/exercises with docker/a1 Creating a new docker image/a1 howto.md",
     "docs/docker/a5/docker compose build.md",
     "docs/Praktische Projekte/auftraege/exercises with docker/a7 Netzwerke/a7 howto.md",
     "docs/CKAD/A3 Configuration/secrets (CKAD).md",
@@ -170,7 +183,6 @@
     "docs/Praktische Projekte/helm auftrag/Pasted image 20230815121837.png",
     "docs/Praktische Projekte/helm auftrag/Pasted image 20230815121740.png",
     "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a16 CKAD PP Init container/a16 CKAD init containers.md",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a19 CKAD Monitoring and debugging/CKAD Monitoring and debugging.md",
     "docs/Praktische Projekte/helm auftrag/Ingress.md",
     "docs/Praktische Projekte/helm auftrag/ingress-frontend.yml",
     "docs/CKAD/Tips/Imperative Commands.md",
