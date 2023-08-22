@@ -37,3 +37,51 @@ In my case i applied the config map, the image and the port via the values.yaml:
 ![](Pasted%20image%2020230814094446.png)
 
 ![](Pasted%20image%2020230814094458.png)
+
+## Ingress
+
+>[!tip] Protip
+>**Install an ingress controller** ffs
+>Preferably also configure it...
+>`sudo nvim /etc/var/lib/rancher/k3s/server/manifests/traefik-config.yml`
+
+```yml
+>apiVersion: helm.cattle.io/v1
+kind: HelmChartConfig
+metadata:
+  name: traefik
+  namespace: kube-system
+spec:
+  valuesContent: |-
+    image:
+      name: traefik
+      tag: v2.8.5
+    forwardedHeaders:
+      enabled: true
+      trustedIPs:
+        - 10.0.0.0/8
+    ssl:
+      enabled: true
+      permanentRedirect: false
+    dashboard:
+      enabled: true
+      domain: dashboard.traefik.local  # replace with your preferred domain
+    additionalArguments:
+      - "--api.insecure=true"
+```
+
+### Also:
+
+![](Pasted%20image%2020230815121837.png)
+
+*Port forwarding rules*
+
+### Finally 
+
+`kubectl apply -f` [ingress-frontend.yml](ingress-frontend.yml)
+
+### Dis/enable ingress in values.yml
+
+Added Condition in [ingress-frontend](ingress-frontend.yml)
+
+En/disable in [values](values.yaml)

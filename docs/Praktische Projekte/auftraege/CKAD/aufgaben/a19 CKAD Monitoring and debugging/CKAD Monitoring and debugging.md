@@ -19,3 +19,4 @@ k describe ingress ingress-name (auf endpoints schauen)
 >If the endpoints aren't working check the selector of the service or the ingress.
 
 
+-a "123" -h redis-master
