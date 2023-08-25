@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/index.md",
+                "file": "docs/CKAD/A3 Configuration/secrets (CKAD).md",
                 "mode": "source",
                 "source": false
               }
@@ -60,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "secrets",
+                "query": "base 64",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/index.md",
+                "file": "docs/CKAD/A3 Configuration/secrets (CKAD).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +107,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/index.md",
+                "file": "docs/CKAD/A3 Configuration/secrets (CKAD).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/index.md"
+                "file": "docs/CKAD/A3 Configuration/secrets (CKAD).md"
               }
             }
           },
@@ -141,9 +141,17 @@
               "type": "side-panel-control-view",
               "state": {}
             }
+          },
+          {
+            "id": "ceaee995666babaf",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -160,10 +168,11 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "f9f164a2434718c3",
+  "active": "d1e2438c75662aad",
   "lastOpenFiles": [
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a19 CKAD Monitoring and debugging/a19 CKAD Monitoring and debugging.md",
+    "docs/CKAD/A6 Pod  Design/CKAD Jobs.md",
     "docs/index.md",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a19 CKAD Monitoring and debugging/a19 CKAD Monitoring and debugging.md",
     "docs/Praktische Projekte/Praktische Projekte (Docker).md",
     "docs/Praktische Projekte/auftraege/exercises with docker/a1 Creating a new docker image/a1 howto.md",
     "docs/docker/a5/docker compose build.md",
@@ -206,7 +215,6 @@
     "docs/Praktische Projekte/auftraege/CKAD/a23 howto.md",
     "docs/Praktische Projekte/auftraege/CKAD/prerequisites/PP prerequisites.md",
     "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a12 Resource requirements/a12 CKAD PP Resource Req.md",
-    "Deployment.md",
-    "README.md"
+    "Deployment.md"
   ]
 }
