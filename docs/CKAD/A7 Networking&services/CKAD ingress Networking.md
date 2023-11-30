@@ -113,4 +113,13 @@ metadata:
  name: nginx-ingress-serviceaccount
 ```
 
-### 5. 
+
+# Update
+
+## Deploy an Ingress controller
+
+- Nginx
+- HAPROXY
+- Traefik
+
+## Define the ingress rules (ingress resources)

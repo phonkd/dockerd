@@ -13,25 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/CKAD/A3 Configuration/secrets (CKAD).md",
+                "file": "docs/ckaord/Lernziele.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "5dcea32aadf8a313",
+            "id": "0fe4b0a65428157f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a19 CKAD Monitoring and debugging/a19 CKAD Monitoring and debugging.md",
+                "file": "docs/CKA/deployment-types/replica sets.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -60,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "base 64",
+                "query": "secret",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,8 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 459.5,
-    "collapsed": true
+    "width": 459.5
   },
   "right": {
     "id": "cc29d60051e85c22",
@@ -90,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/CKAD/A3 Configuration/secrets (CKAD).md",
+                "file": "docs/CKA/deployment-types/replica sets.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +107,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/CKAD/A3 Configuration/secrets (CKAD).md",
+                "file": "docs/CKA/deployment-types/replica sets.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/CKAD/A3 Configuration/secrets (CKAD).md"
+                "file": "docs/CKA/deployment-types/replica sets.md"
               }
             }
           },
@@ -148,6 +148,16 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {}
+            }
+          },
+          {
+            "id": "b8bce8d532ba9ffd",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
             }
           }
         ],
@@ -168,53 +178,53 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "d1e2438c75662aad",
+  "active": "0fe4b0a65428157f",
   "lastOpenFiles": [
-    "docs/CKAD/A6 Pod  Design/CKAD Jobs.md",
-    "docs/index.md",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a19 CKAD Monitoring and debugging/a19 CKAD Monitoring and debugging.md",
-    "docs/Praktische Projekte/Praktische Projekte (Docker).md",
-    "docs/Praktische Projekte/auftraege/exercises with docker/a1 Creating a new docker image/a1 howto.md",
-    "docs/docker/a5/docker compose build.md",
-    "docs/Praktische Projekte/auftraege/exercises with docker/a7 Netzwerke/a7 howto.md",
-    "docs/CKAD/A3 Configuration/secrets (CKAD).md",
+    "docs/CKA/kube proxy/kube-proxy.md",
+    "docs/CKA/deployment-types/replica sets.md",
+    "docs/CKA/deployment-types",
+    "docs/CKA/kube proxy/Pasted image 20231128145155.png",
+    "docs/CKA/kubernetes via kubeadm vs manual.md",
+    "docs/CKA/kube proxy",
+    "docs/CKA/Pasted image 20231128112641.png",
+    "docs/CKA/Pasted image 20231128112613.png",
+    "docs/CKA/Pasted image 20231128112548.png",
+    "docs/CKA/kube-scheduler/kube-scheduler.md",
+    "docs/CKA/systemd vs kubeadm",
+    "docs/CKA/kube-controller manager/kube-controller manager.md",
+    "docs/CKA/kube-controller manager/Pasted image 20231128111714.png",
+    "docs/CKA/kube-controller manager/Pasted image 20231128111619.png",
+    "docs/CKA/kube-apiserver/kubernetes apiserver (kube-apiserver).md",
+    "docs/CKA/kube-controller manager/Pasted image 20231128111028.png",
+    "docs/CKA/kube-controller manager",
+    "docs/CKA/kube-apiserver/Pasted image 20231127161554.png",
+    "docs/CKA/kube-scheduler",
+    "docs/CKA/etcd/etcdctl.md",
+    "docs/CKA/kube-apiserver",
+    "docs/CKA/etcd/ETCD.md",
+    "docs/CKA/etcd",
+    "docs/CKA/Pasted image 20231127155316.png",
+    "docs/CKA/Pasted image 20231127155219.png",
+    "docs/ckaord/cka/ETCD.md",
+    "docs/CKA",
+    "docs/ckaord/cka/Container Runtimes and their ctl.md",
+    "docs/ckaord/Lernziele.md",
+    "docs/ckaord/CKA vs. CKAD.md",
+    "docs/docker/docker cp.md",
+    "docs/docker/a7/docker volumes.md",
+    "docs/ckaord/cka",
     "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a8 CKAD Secrets/a8 CKAD secrets howto.md",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a9 CKAD Encrypting data at rest/SOPS.md",
-    "docs/Praktische Projekte/auftraege/exercises with docker/a3 CMD vs Entrypoint/a3 howto.md",
-    "docs/CKAD/A3 Configuration/CKAD Config Maps.md",
-    "docs/Praktische Projekte/auftraege/exercises with docker/a5 Docker compose/a5 howto.md",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a1 Pods and edit/A1 PP edit pods.md",
-    "docs/CKAD/A8 state persistence/CKAD Persistent Volume.md",
+    "docs/ckaord",
+    "docs/CKAD/A6 Pod  Design/CKAD Kubernetes Cron Jobs.md",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a22 CKAD PP Cron Jobs/a22 CKAD PP Cron Jobs.md",
+    "docs/CKAD/A6 Pod  Design/CKAD Jobs.md",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a19 CKAD Monitoring and debugging/a19 CKAD Monitoring and debugging.md",
+    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a7 CKAD config maps/a7 CKAD config maps howto.md",
     "docs/kubernetes/A5 yaml k8s/Environement variable in yaml.md",
     "docs/CKAD/A3 Configuration/Environment variables k8s.md",
-    "docs/Praktische Projekte/helm auftrag/Helm Auftrag.md",
-    "docs/Praktische Projekte/helm auftrag/Pasted image 20230814093549.png",
-    "docs/Praktische Projekte/helm auftrag/Pasted image 20230815121837.png",
-    "docs/Praktische Projekte/helm auftrag/Pasted image 20230815121740.png",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a16 CKAD PP Init container/a16 CKAD init containers.md",
-    "docs/Praktische Projekte/helm auftrag/Ingress.md",
-    "docs/Praktische Projekte/helm auftrag/ingress-frontend.yml",
-    "docs/CKAD/Tips/Imperative Commands.md",
-    "docs/Praktische Projekte/helm auftrag/Pasted image 20230814094458.png",
-    "docs/Praktische Projekte/helm auftrag/Pasted image 20230814094446.png",
-    "docs/Praktische Projekte/helm auftrag/Pasted image 20230814094353.png",
-    "docs/Praktische Projekte/helm auftrag/Pasted image 20230814094251.png",
-    "docs/Praktische Projekte/helm auftrag/Pasted image 20230814094026.png",
-    "docs/Praktische Projekte/helm auftrag/schaebig-0.1.0.tgz",
-    "docs/Praktische Projekte/helm auftrag/schaebig/templates/a15-redis-flw-cip.yml",
-    "docs/Praktische Projekte/helm auftrag/schaebig/templates/a15-redis-conf.yml",
-    "docs/Praktische Projekte/helm auftrag/schaebig/templates/a15-redis-avail.yml",
-    "docs/Praktische Projekte/helm auftrag/schaebig/templates/a15-ckad-namespaces-redis.yml",
-    "docs/Praktische Projekte/helm auftrag/schaebig/templates/a15-ckad-namespaces-redis-follower.yml",
-    "docs/Praktische Projekte/Helm package/schaebig/templates/a15/non-needed-cron-dump.yml",
-    "docs/Praktische Projekte/Helm package/schaebig/templates/a15/a15-redis-flw-cip.yml",
-    "docs/Praktische Projekte/Helm package/schaebig/templates/a15/a15-redis-conf.yml",
-    "docs/Praktische Projekte/Helm package/schaebig/templates/a15/a15 CKAD PP Multi container pods howto.md",
-    "docs/Praktische Projekte/Helm package/schaebig/templates/a15/Pasted image 20230726173852.png",
-    "docs/Praktische Projekte/Helm package/schaebig/templates/a15/Pasted image 20230726131134.png",
-    "docs/Praktische Projekte/auftraege/CKAD/a23 howto.md",
-    "docs/Praktische Projekte/auftraege/CKAD/prerequisites/PP prerequisites.md",
-    "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a12 Resource requirements/a12 CKAD PP Resource Req.md",
-    "Deployment.md"
+    "docs/CKAD/A7 Networking&services/CKAD ingress Networking.md",
+    "docs/CKAD/A7 Networking&services/CKAD Cluster IP.md",
+    "docs/CKAD/A3 Configuration/secrets (CKAD).md",
+    "docs/index.md"
   ]
 }

@@ -34,7 +34,7 @@ For the udemy course i created notes for most of the videos and sorted them by t
 
 [edit pods](A1%20PP%20edit%20pods.md)
 
-[replica sets](replica%20sets.md)
+[replica sets](docs/kubernetes/A5%20yaml%20k8s/A5%20Controllers/replica%20sets.md)
 
 [Deployments](CKAD%20Deployment%20howto.md)
 
