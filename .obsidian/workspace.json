@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/CKA/deployment-types/replica sets.md",
+                "file": "docs/CKA/kritische shit.md",
                 "mode": "source",
                 "source": false
               }
@@ -90,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/CKA/deployment-types/replica sets.md",
+                "file": "docs/CKA/kritische shit.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +107,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/CKA/deployment-types/replica sets.md",
+                "file": "docs/CKA/kritische shit.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/CKA/deployment-types/replica sets.md"
+                "file": "docs/CKA/kritische shit.md"
               }
             }
           },
@@ -180,8 +180,11 @@
   },
   "active": "0fe4b0a65428157f",
   "lastOpenFiles": [
-    "docs/CKA/kube proxy/kube-proxy.md",
+    "docs/CKA/Pasted image 20231204162152.png",
+    "docs/CKA/kube-scheduler/manually schedule pod.md",
+    "docs/CKA/kritische shit.md",
     "docs/CKA/deployment-types/replica sets.md",
+    "docs/CKA/kube proxy/kube-proxy.md",
     "docs/CKA/deployment-types",
     "docs/CKA/kube proxy/Pasted image 20231128145155.png",
     "docs/CKA/kubernetes via kubeadm vs manual.md",
@@ -222,9 +225,6 @@
     "docs/Praktische Projekte/auftraege/CKAD/aufgaben/a7 CKAD config maps/a7 CKAD config maps howto.md",
     "docs/kubernetes/A5 yaml k8s/Environement variable in yaml.md",
     "docs/CKAD/A3 Configuration/Environment variables k8s.md",
-    "docs/CKAD/A7 Networking&services/CKAD ingress Networking.md",
-    "docs/CKAD/A7 Networking&services/CKAD Cluster IP.md",
-    "docs/CKAD/A3 Configuration/secrets (CKAD).md",
-    "docs/index.md"
+    "docs/CKAD/A7 Networking&services/CKAD ingress Networking.md"
   ]
 }
