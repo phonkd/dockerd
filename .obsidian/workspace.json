@@ -23,11 +23,9 @@
             "id": "0fe4b0a65428157f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "docs/CKA/kritische shit.md",
-                "mode": "source",
-                "source": false
+                "file": "docs/CKA/Pasted image 20231128112641.png"
               }
             }
           }
@@ -74,7 +72,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 459.5
+    "width": 459.5,
+    "collapsed": true
   },
   "right": {
     "id": "cc29d60051e85c22",
@@ -90,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/CKA/kritische shit.md",
+                "file": "docs/CKA/Pasted image 20231128112641.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/CKA/kritische shit.md",
+                "file": "docs/CKA/Pasted image 20231128112641.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -130,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/CKA/kritische shit.md"
+                "file": "docs/CKA/Pasted image 20231128112641.png"
               }
             }
           },
@@ -181,17 +180,19 @@
   "active": "0fe4b0a65428157f",
   "lastOpenFiles": [
     "docs/CKA/Pasted image 20231204162152.png",
-    "docs/CKA/kube-scheduler/manually schedule pod.md",
+    "docs/CKA/Pasted image 20231128112641.png",
+    "docs/CKA/Pasted image 20231128112613.png",
+    "docs/CKA/Pasted image 20231128112548.png",
+    "docs/CKA/Pasted image 20231127155316.png",
+    "docs/CKA/Pasted image 20231127155219.png",
     "docs/CKA/kritische shit.md",
+    "docs/CKA/kube-scheduler/manually schedule pod.md",
     "docs/CKA/deployment-types/replica sets.md",
     "docs/CKA/kube proxy/kube-proxy.md",
     "docs/CKA/deployment-types",
     "docs/CKA/kube proxy/Pasted image 20231128145155.png",
     "docs/CKA/kubernetes via kubeadm vs manual.md",
     "docs/CKA/kube proxy",
-    "docs/CKA/Pasted image 20231128112641.png",
-    "docs/CKA/Pasted image 20231128112613.png",
-    "docs/CKA/Pasted image 20231128112548.png",
     "docs/CKA/kube-scheduler/kube-scheduler.md",
     "docs/CKA/systemd vs kubeadm",
     "docs/CKA/kube-controller manager/kube-controller manager.md",
@@ -206,8 +207,6 @@
     "docs/CKA/kube-apiserver",
     "docs/CKA/etcd/ETCD.md",
     "docs/CKA/etcd",
-    "docs/CKA/Pasted image 20231127155316.png",
-    "docs/CKA/Pasted image 20231127155219.png",
     "docs/ckaord/cka/ETCD.md",
     "docs/CKA",
     "docs/ckaord/cka/Container Runtimes and their ctl.md",
