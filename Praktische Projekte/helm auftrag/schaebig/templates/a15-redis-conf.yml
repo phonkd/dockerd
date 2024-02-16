@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+data:
+  redis.conf: |
+{{ .Values.redisconf.yikes | indent 4 }}
+metadata:
+  creationTimestamp: null
+  name: redisconf
+  namespace: namespace-frontend-1

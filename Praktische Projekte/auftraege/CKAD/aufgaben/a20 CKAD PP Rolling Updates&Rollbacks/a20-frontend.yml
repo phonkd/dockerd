@@ -1,0 +1,60 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: frontend
+  name: gb-frontend
+  namespace: namespace-frontend-1
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: frontend
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: frontend
+    spec:
+      containers:
+      - image: gcr.io/google_samples/gb-frontend:v6
+        name: t-practice
+        ports:
+        - containerPort: 80
+        env:
+        - name: hinzugefuegt
+          value: wurds
+        readinessProbe:
+          httpGet:
+            path: /
+            port: 80
+        livenessProbe:
+          httpGet:
+            path: /
+            port: 80
+
+
+        
+      initContainers:
+      - name: redis-master-availability-tester
+        image: redis
+        command: ["/bin/sh", "-c"]
+        args:
+          - |
+            response=$(redis-cli -h redis-master ping)
+            if [ "$response" != "PONG" ]; then
+             echo "Redis-master did not resopnse with ping but with $response"
+             exit 1
+            fi
+      - name: redis-follower-availability-tester
+        image: redis
+        command: ["/bin/sh", "-c"]
+        args:  
+          - |
+            response=$(redis-cli -h redis-follower ping)
+            if [ "$response" != "PONG" ]; then
+             echo "Redis-follower did not resopnse with ping but with $response"
+             exit 1
+            fi

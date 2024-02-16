@@ -1,0 +1,27 @@
+version: "3"
+services:
+  myimage:
+    image: localhost:5000/gb-frontendd
+    networks:
+      - frontend
+      - redis
+    ports:
+      - 80:80
+    links:
+      - redis-leader
+      - redis-follower
+    volumes:
+      - ./index.html:/var/www/html/index.html
+  redis-leader:
+    image: redis:6.0.5
+    networks: 
+      - redis
+    volumes:
+      - ./redis-persistent/:/data
+  redis-follower:
+    image: gcr.io/google_samples/gb-redis-follower:v2
+    networks: 
+      - redis
+networks:
+  redis:
+  frontend:

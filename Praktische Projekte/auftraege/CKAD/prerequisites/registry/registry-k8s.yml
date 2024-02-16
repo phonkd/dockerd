@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: registry
+spec:
+  - image: registry
+    ports:
+      - 5000:5000

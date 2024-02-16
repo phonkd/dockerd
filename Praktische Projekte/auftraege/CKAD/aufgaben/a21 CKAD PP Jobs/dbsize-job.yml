@@ -1,0 +1,18 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  creationTimestamp: null
+  name: dbsize
+spec:
+  template:
+    metadata:
+      namespace: namespace-frontend-1
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: redis
+        name: dbsize
+        command: ["redis-cli", "-h", "redis-master", "DBSIZE"]
+        resources: {}
+      restartPolicy: Never
+status: {}

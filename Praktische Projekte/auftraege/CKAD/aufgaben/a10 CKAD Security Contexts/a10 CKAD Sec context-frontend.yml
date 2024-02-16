@@ -1,0 +1,43 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: frontend
+  name: frontend
+  namespace: namespace-frontend-1
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: frontend
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: frontend
+    spec:
+      containers:
+      - image: phonkd/t-practice:noroot
+        securityContext:
+          capabilities:
+           drop:
+           - ALL
+        name: t-practice
+        ports:
+        - containerPort: 80
+        envFrom:
+        - configMapRef: 
+           name: confmap1
+        - secretRef:
+           name: maisegret
+        volumeMounts:
+          - name: html
+            mountPath: /var/www/html/index.html
+            subPath: index.html
+      volumes:
+        - name: html
+          configMap: 
+            name: confmap1
+

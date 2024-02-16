@@ -1,0 +1,33 @@
+apiVersion: v1
+kind: Service
+metadata:
+  creationTimestamp: null
+  name: phonkds-registry
+spec:
+  ports:
+  - port: 5000
+    protocol: TCP
+    targetPort: 5000
+  selector:
+    run: phonkds-registry
+status:
+  loadBalancer: {}
+---
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  creationTimestamp: null
+  labels:
+    run: phonkds-registry
+  name: phonkds-registry
+spec:
+  containers:
+  - image: registry
+    name: phonkds-registry
+    ports:
+    - containerPort: 5000
+    resources: {}
+  dnsPolicy: ClusterFirst
+  restartPolicy: Always
+status: {}

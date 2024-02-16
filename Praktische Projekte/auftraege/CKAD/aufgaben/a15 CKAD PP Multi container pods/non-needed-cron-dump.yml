@@ -1,0 +1,24 @@
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  creationTimestamp: null
+  name: crondump
+spec:
+  jobTemplate:
+    metadata:
+      creationTimestamp: null
+      name: crondump
+    spec:
+      template:
+        metadata:
+          creationTimestamp: null
+        spec:
+          containers:
+          - image: alpine
+            name: crondump
+            args:[""]
+            command:[""]
+            resources: {}
+          restartPolicy: OnFailure
+  schedule: '* * * * *'
+status: {}

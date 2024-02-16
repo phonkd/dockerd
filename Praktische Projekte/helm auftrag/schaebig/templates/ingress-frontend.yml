@@ -1,0 +1,43 @@
+{{- if .Values.ingress.enabled }}
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  creationTimestamp: null
+  name: gb-fronting
+  namespace: namespace-frontend-1
+    #spec:
+    #  defaultBackend:
+    #    service:
+    #      name: frontend
+    #      port:
+    #        number: 30233
+spec:
+  ingressClassName: traefik
+    #  rules:
+    #  - host:
+    #    http:
+    #      paths:
+    #      - path: /
+    #        pathType: Prefix
+    #        backend:
+    #          service:
+    #            name: frontend-cip
+    #            port:
+    #              number: 80
+    #
+    #
+  rules:
+
+    - host: "mc.phonkd.net"
+      http:
+        paths:
+          - pathType: Prefix
+            path: "/"
+            backend:
+              service:
+                name: frontend-cip
+                port:
+                  number: 8080
+
+
+{{- end }}

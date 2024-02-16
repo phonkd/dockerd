@@ -1,0 +1,19 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  creationTimestamp: null
+  name: memsize
+spec:
+  template:
+    metadata:
+      namespace: namespace-frontend-1
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: redis
+        name: memsize
+        command: ["/bin/sh", "-c"]
+        args: ["redis-cli -h redis-master info memory | grep used_memory:"]
+        resources: {}
+      restartPolicy: Never
+status: {}

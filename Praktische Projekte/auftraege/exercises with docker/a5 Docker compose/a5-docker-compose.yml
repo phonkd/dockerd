@@ -1,0 +1,17 @@
+version: "3"
+services:
+  myimage:
+    image: localhost:5000/gb-frontendd
+    ports:
+      - 80:80
+    links:
+      - redis-master
+      - redis-follower
+    volumes:
+      - ./index.html:/var/www/html/index.html
+  redis-master:
+    image: redis:6.0.5
+    volumes:
+      - ./redis-persistent/:/data
+  redis-follower:
+    image: gcr.io/google_samples/gb-redis-follower:v2
